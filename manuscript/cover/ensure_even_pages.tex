@@ -1,0 +1,8 @@
+% Ensure an even total page count (duplex-friendly).
+% If the last page is odd, add a final blank page.
+\clearpage
+% After \clearpage we are positioned on a fresh page N+1.
+% If the previous page N was odd, emit this blank page so the PDF ends even.
+\ifodd\numexpr\value{page}-1\relax
+  \thispagestyle{empty}\null\clearpage
+\fi
