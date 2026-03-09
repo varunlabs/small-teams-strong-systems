@@ -37,6 +37,12 @@ Systems rarely move from coherence to breakdown in a single step. Deviation begi
 
 Drift becomes possible when feedback weakens. In tightly integrated systems, misalignment generates friction quickly. Decisions produce visible consequences. Tension between components signals that something is misconfigured. When feedback loops are strong, deviation is uncomfortable and therefore short-lived.
 
+> **Figure 13.2 — Drift Without Detection**
+>
+> ![](../figures/generated/ch13_leadership_fig_13_2.png)
+>
+> *Drift is not dramatic; it is diffuse. Without tight feedback, misalignment accumulates beneath visible performance. By the time it surfaces, correction is costly.*
+
 Over time, however, feedback can soften. Interfaces become more tolerant. Dependencies are abstracted behind layers of process. Communication compensates for unclear ownership. The system continues to function, but signals that once indicated misalignment lose intensity.
 
 This softening is often mistaken for improvement. Reduced tension appears as smoother coordination. Fewer explicit conflicts suggest alignment. Yet the absence of visible disagreement may reflect diminished clarity rather than strengthened structure. When boundaries blur, fewer collisions occur — not because parts fit better, but because expectations have become less precise.
@@ -68,6 +74,12 @@ This decay affects tempo. Work that once proceeded through defined pathways now 
 
 Structural entropy also changes how risk is absorbed. When responsibilities are diffuse, issues are discovered later. Corrective action requires broader consultation. Adjustments ripple unpredictably because dependencies are no longer fully visible.
 
+> **Figure 13.3 — Structural Entropy: Clarity Erosion Over Time**
+>
+> ![](../figures/generated/ch13_leadership_fig_13_3.png)
+>
+> *Clarity does not dissolve suddenly. It erodes incrementally as new roles, exceptions, and temporary solutions accumulate without reinforcing boundaries.*
+
 Importantly, entropy does not imply disorder in appearance. The system may look organized. Processes may exist. Meetings may occur regularly. Yet beneath visible activity, clarity may be eroding.
 
 Entropy accelerates when growth outpaces reinforcement. New responsibilities are added without revisiting boundaries. Integration expands without rearticulating ownership. The system becomes more complex, but its underlying definitions remain static or diffuse.
@@ -97,6 +109,12 @@ Fragmentation often arises from responsible action. Teams respond to pressure, s
 
 As divergence increases, the system's identity becomes diffuse. Participants interpret goals differently. Since all parties believe they are optimizing well, integration becomes a negotiation about which version of "right" to follow.
 
+> **Figure 13.4 — Local Optimization vs. System Coherence**
+>
+> ![](../figures/generated/ch13_leadership_fig_13_4.png)
+>
+> *Each unit optimizes within its domain with good intent. Collectively, local gains fragment global coherence. Alignment shifts from architecture to negotiation.*
+
 *If each part of the system becomes more efficient while the whole becomes harder to reason about, what has truly improved?*
 
 ---
@@ -120,6 +138,12 @@ Repair requires restraint. It involves revisiting calls that were allowed to rem
 Reinvention can provide temporary relief. It introduces novelty and resets expectations. Yet if the underlying coordination logic remains diffuse, drift resumes under new labels. The cycle repeats: optimization, fragmentation, restructuring.
 
 Structural repair interrupts this cycle by focusing on coherence rather than configuration. It asks where definitions have softened, where interfaces have become negotiable, and where ownership has diffused.
+
+> **Figure 13.5 — Repair vs. Reactive Reinvention**
+>
+> ![](../figures/generated/ch13_leadership_fig_13_5.png)
+>
+> *Repair restores definition without discarding working components. Reinvention replaces everything, risking the loss of embedded knowledge with the gain of visibility.*
 
 
 ---
@@ -163,7 +187,7 @@ These tests are not grading instruments. They are diagnostic signals—ways to d
 
 > **Figure 13.1 — Coherence Diagnostics for Layerless Teams**
 >
-> ![](manuscript/figures/generated/ch13_leadership_fig_13_1.png){ width=95% }
+> ![](../figures/generated/ch13_leadership_fig_13_1.png)
 >
 > *These diagnostics do not grade leadership quality. They surface the gap between intended design and actual practice—which is where coherence begins to erode.*
 

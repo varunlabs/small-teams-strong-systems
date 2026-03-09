@@ -23,7 +23,7 @@ What makes linear scaling particularly durable is that it does not present itsel
 > **Figure 2.1 — Linear Scaling as an Implicit Assumption**
 >
 >
-> ![](manuscript/figures/generated/ch02_end_of_linear_scaling_fig_2_1.png){ width=95% }
+> ![](../figures/generated/ch02_end_of_linear_scaling_fig_2_1.png)
 >
 >
 > *The assumption of proportional growth is rarely stated. It operates beneath planning language, shaping decisions without appearing in strategy documents. This invisibility is what makes it so persistent.*
@@ -51,7 +51,7 @@ At this stage, measurement becomes misleading. Traditional indicators — utiliz
 > **Figure 2.2 — The Operational Breakdown of Linear Scaling**
 >
 >
-> ![](manuscript/figures/generated/ch02_end_of_linear_scaling_fig_2_2.png){ width=95% }
+> ![](../figures/generated/ch02_end_of_linear_scaling_fig_2_2.png)
 >
 >
 > *Linear scaling fails in stages, not all at once. By the time the failure is visible, it has been compounding for years — and the response (more people, more process) typically deepens the original problem.*

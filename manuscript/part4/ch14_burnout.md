@@ -51,6 +51,12 @@ This pattern often arises when structural issues remain unaddressed. Energy is d
 
 Progress that compounds differs qualitatively. Clarified boundaries reduce future coordination. Defined interfaces prevent recurring ambiguity. Decisions reinforce structure. Even demanding periods feel constructive when they produce durable alignment.
 
+> **Figure 14.1 — Effort Without Progress: The Hidden Exhaustion**
+>
+> ![](../figures/generated/ch14_burnout_fig_14_1.png)
+>
+> *Effort restores rather than strengthens. Energy cycles through coordination, reconciliation, and compensation—without accumulating into clarity. Burnout emerges not from intensity, but from futility.*
+
 The distinction is subtle but decisive. High effort can coexist with resilience when work strengthens the system. Moderate effort can produce exhaustion when it maintains fragile equilibrium without improvement.
 
 Designing for resilience therefore requires attention to accumulation. Not every task advances structure. Not every output increases clarity. When work cycles fail to build upon prior decisions, strain accumulates invisibly.
@@ -77,6 +83,12 @@ Burnout emerges as effort shifts from execution to navigation. Instead of advanc
 Ambiguous ownership also distorts incentives. When responsibility is shared but accountability is diffuse, corrective action weakens. Issues persist because no single role feels authorized to resolve them definitively.
 
 Clarifying ownership does not reduce complexity, but it reduces duplication of effort. It ensures that energy is directed toward outcomes rather than toward continuous renegotiation.
+
+> **Figure 14.2 — Diffused vs. Defined Ownership**
+>
+> ![](../figures/generated/ch14_burnout_fig_14_2.png)
+>
+> *With diffused ownership, energy disperses across navigation and renegotiation. With defined ownership, energy concentrates on execution and improvement.*
 
 
 ---
@@ -118,6 +130,12 @@ Hidden exhaustion arises from correction cycles. Amplified systems surface issue
 As leverage grows, slack often diminishes. Teams operate closer to capacity because automation appears to absorb routine effort. Yet automation does not resolve ambiguity; it accelerates its exposure. Judgment remains necessary, but the margin for error narrows.
 
 The result is asymmetry between visible efficiency and invisible vigilance. Individuals monitor amplified processes continuously. They intervene to prevent cascading consequences. The system's scale demands sustained attentiveness even when manual workload declines.
+
+> **Figure 14.3 — Amplification and Hidden Vigilance**
+>
+> ![](../figures/generated/ch14_burnout_fig_14_3.png)
+>
+> *Amplified leverage compresses visible work but expands invisible monitoring. The paradox: automation increases attentional demand while reducing task volume.*
 
 Burnout in such environments is not driven by repetitive labor. It emerges from sustained responsibility over expansive impact. When correction, interpretation, and anticipation are constant, exhaustion accumulates beneath the appearance of leverage.
 

@@ -33,7 +33,7 @@ This interpretation obscures a architectural reality. Size determines the number
 > **Figure 5.1 — Size as Structural Variable**
 >
 >
-> ![](manuscript/figures/generated/ch05_why_six_fig_5_1.png){ width=95% }
+> ![](../figures/generated/ch05_why_six_fig_5_1.png)
 >
 >
 > *Each additional team member multiplies potential interface count combinatorially. At six members, coordination remains bounded and deliberate. Beyond eight, it typically requires dedicated infrastructure to manage — infrastructure that becomes a cost in itself.*
@@ -61,7 +61,7 @@ As team size increases, shared context becomes more fragile. Each additional par
 > **Figure 5.2 — Shared Context and Coordination Load**
 >
 >
-> ![](manuscript/figures/generated/ch05_why_six_fig_5_2.png){ width=95% }
+> ![](../figures/generated/ch05_why_six_fig_5_2.png)
 >
 >
 > *Coordination cost is not a function of headcount alone — it is a function of context fragmentation. As team size crosses thresholds, implicit coordination becomes impossible and explicit mechanisms consume increasing bandwidth.*
@@ -82,7 +82,7 @@ Size is often debated as if one direction were inherently superior. Smaller team
 > **Figure 5.3 — Fragility at the Extremes**
 >
 >
-> ![](manuscript/figures/generated/ch05_why_six_fig_5_3.png){ width=95% }
+> ![](../figures/generated/ch05_why_six_fig_5_3.png)
 >
 >
 > *Both extremes are fragile, but for opposite reasons. Too small lacks resilience. Too large lacks coherence. The structural sweet spot preserves both — but it requires deliberate configuration, not just headcount management.*
@@ -108,7 +108,7 @@ Ownership is often treated as a cultural aspiration. Organizations attempt to en
 > **Figure 5.4 — Constraint and Emergent Ownership**
 >
 >
-> ![](manuscript/figures/generated/ch05_why_six_fig_5_4.png){ width=95% }
+> ![](../figures/generated/ch05_why_six_fig_5_4.png)
 >
 >
 > *In constrained configurations, ownership is not assigned — it becomes inevitable. When there are only six people and one domain is clearly within someone’s scope, responsibility is visible and consequence is unambiguous.*
@@ -139,7 +139,7 @@ In the AI era, amplification becomes inexpensive. Execution can be extended rapi
 > **Figure 5.5 — Amplification and Structural Stability**
 >
 >
-> ![](manuscript/figures/generated/ch05_why_six_fig_5_5.png){ width=95% }
+> ![](../figures/generated/ch05_why_six_fig_5_5.png)
 >
 >
 > *Structural clarity is low-cost at low leverage. At high leverage, it is non-negotiable. The same loose boundaries that were a minor irritant at low amplification become destabilizing when decisions travel further and faster.*
@@ -165,7 +165,7 @@ The idea of a specific number — such as six — should be understood within th
 > **Figure 5.6 — Constraint as Structural Lens**
 >
 >
-> ![](manuscript/figures/generated/ch05_why_six_fig_5_6.png){ width=95% }
+> ![](../figures/generated/ch05_why_six_fig_5_6.png)
 >
 >
 > *A six-person constraint doesn’t just limit headcount — it forces structural honesty. Every ambiguity becomes immediately expensive. Every gap in role design becomes visible before it compounds. The constraint is not a limitation; it is a diagnostic instrument.*

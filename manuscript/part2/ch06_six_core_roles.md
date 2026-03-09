@@ -15,7 +15,7 @@ Highly talented teams are particularly vulnerable to this drift. Skill can compe
 > **Figure 6.1 — Roles as Structural Forces**
 >
 >
-> ![](manuscript/figures/generated/ch06_six_core_roles_fig_6_1.png){ width=95% }
+> ![](../figures/generated/ch06_six_core_roles_fig_6_1.png)
 >
 >
 > *Each role applies a distinct structural force. Roles are not interchangeable — removing any one creates a predictable failure mode, not just a capacity gap.*
@@ -41,7 +41,7 @@ Coherence operates as an ongoing corrective force. It monitors divergence and re
 > **Figure 6.2 — Designing for Leverage**
 >
 >
-> ![](manuscript/figures/generated/ch06_six_core_roles_fig_6_2.png){ width=95% }
+> ![](../figures/generated/ch06_six_core_roles_fig_6_2.png)
 >
 >
 > *Direction and coherence must work together. Direction without coherence produces well-intentioned fragmentation. Coherence without direction produces disciplined stagnation. Only the combination produces compound leverage.*
@@ -66,7 +66,7 @@ Filtered feedback produces a different pathology. Information moves upward selec
 > **Figure 6.3 — Grounding as Feedback Integrity**
 >
 >
-> ![](manuscript/figures/generated/ch06_six_core_roles_fig_6_3.png){ width=95% }
+> ![](../figures/generated/ch06_six_core_roles_fig_6_3.png)
 >
 >
 > *Grounding is not about gathering more data — it is about maintaining structural pathways through which evidence can contradict assumption. When those pathways are filtered or absent, decisions become progressively detached from reality.*
@@ -91,7 +91,7 @@ Time is the variable that exposes integrity. In the short term, degraded structu
 > **Figure 6.4 — Technical Integrity Over Time**
 >
 >
-> ![](manuscript/figures/generated/ch06_six_core_roles_fig_6_4.png){ width=95% }
+> ![](../figures/generated/ch06_six_core_roles_fig_6_4.png)
 >
 >
 > *Technical integrity is not perfectionism — it is structural memory. Every shortcut accepted early is borrowed time. The compounding nature of technical debt means that systems neglecting integrity lose velocity precisely when they need it most.*
@@ -136,7 +136,7 @@ Acceleration does not imply haste. It implies reduced latency between cause and 
 > **Figure 6.5 — Feedback Loop Compression**
 >
 >
-> ![](manuscript/figures/generated/ch06_six_core_roles_fig_6_5.png){ width=95% }
+> ![](../figures/generated/ch06_six_core_roles_fig_6_5.png)
 >
 >
 > *In leveraged systems, learning speed determines how long errors propagate before correction. Compressed feedback loops don’t just improve agility — they prevent small misalignments from becoming structural commitments.*
@@ -159,7 +159,7 @@ However, external signals cannot be absorbed indiscriminately. The environment g
 > **Figure 6.6 — System Boundary and Signal Curation**
 >
 >
-> ![](manuscript/figures/generated/ch06_six_core_roles_fig_6_6.png){ width=95% }
+> ![](../figures/generated/ch06_six_core_roles_fig_6_6.png)
 >
 >
 > *The external boundary role is not a gatekeeper — it is a signal curator. The goal is not to keep things out, but to let the right things in: signals that reveal structural misalignment, filtered from noise that only amplifies distraction.*
@@ -180,7 +180,7 @@ Tension between them is not a flaw; it is built-in necessity. Direction can drif
 > **Figure 6.7 — Interlocking Roles Under Tension**
 >
 >
-> ![](manuscript/figures/generated/ch06_six_core_roles_fig_6_7.png){ width=95% }
+> ![](../figures/generated/ch06_six_core_roles_fig_6_7.png)
 >
 >
 > *Stability in a six-role system does not come from any single dominant role — it emerges from the active interplay of competing functions. Each role both enables and constrains another. Remove the tension, and drift replaces discipline.*

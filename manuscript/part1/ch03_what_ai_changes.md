@@ -17,7 +17,7 @@ Leverage is easy to miss because it operates indirectly. When a single decision 
 > **Figure 3.1 — AI as Leverage, Not Replacement**
 >
 >
-> ![](manuscript/figures/generated/ch03_what_ai_changes_fig_3_1.png){ width=95% }
+> ![](../figures/generated/ch03_what_ai_changes_fig_3_1.png)
 >
 >
 > *The leverage frame is the only one that changes organizational design rather than just workflow. It asks: not what can the tool do, but how far does each decision now travel?*
@@ -43,7 +43,7 @@ Uncertainty persists for similar reasons. Many of the most consequential calls a
 > **Figure 3.2 — What Scales and What Does Not**
 >
 >
-> ![](manuscript/figures/generated/ch03_what_ai_changes_fig_3_2.png){ width=95% }
+> ![](../figures/generated/ch03_what_ai_changes_fig_3_2.png)
 >
 >
 > *AI scales execution reliably. It does not scale judgment. As execution becomes cheaper and faster, judgment becomes proportionally more consequential — not less necessary.*
@@ -69,7 +69,7 @@ As leverage grows, structural slack also changes character. In linear systems, s
 > **Figure 3.3 — Leverage and Structural Sensitivity**
 >
 >
-> ![](manuscript/figures/generated/ch03_what_ai_changes_fig_3_3.png){ width=95% }
+> ![](../figures/generated/ch03_what_ai_changes_fig_3_3.png)
 >
 >
 > *The same structural weaknesses that were tolerable at low leverage become acute at high leverage. Ambiguity that was a minor irritant becomes a system-wide risk.*
@@ -111,7 +111,7 @@ AI intensifies this dynamic by compressing the distance between decision and con
 > **Figure 3.4 — Leadership as Judgment Design**
 >
 >
-> ![](manuscript/figures/generated/ch03_what_ai_changes_fig_3_4.png){ width=95% }
+> ![](../figures/generated/ch03_what_ai_changes_fig_3_4.png)
 >
 >
 > *In leveraged environments, the most consequential leadership act is defining how decisions should be made — not making every decision. Judgment design creates conditions that compound, not just immediate decisions that expire.*

@@ -42,6 +42,12 @@ Under persistent uncertainty, this framing becomes fragile. When premises evolve
 
 Reframing decisions as hypotheses alters this dynamic. A hypothesis is not a guess. It is a structured claim about how the world is expected to respond. It links action to anticipated consequence while acknowledging that the link remains provisional.
 
+> **Figure 10.1 — Decisions as Hypotheses vs. Commitments**
+>
+> ![](../figures/generated/ch10_decision_making_fig_10_1.png)
+>
+> *Reframing converts a decision from a point of commitment to a structured claim about expected outcomes. This shift enables rapid iteration without treating adjustment as failure.*
+
 This shift changes how execution is organized. If a decision is a hypothesis, then action becomes a means of testing foundational assumptions. The objective is not simply to implement, but to observe. Signals that confirm or contradict the underlying claim become central rather than peripheral.
 
 Treating tradeoffs as hypotheses also recalibrates attachment. The organization's identity no longer fuses with a particular outcome. Instead, identity attaches to the quality of learning. Correction is not failure; it is refinement of understanding.
@@ -72,6 +78,12 @@ Importantly, ownership is not synonymous with hierarchy. It is a structural prop
 Under high uncertainty, hesitation often disguises itself as prudence. Yet much hesitation originates not from lack of data but from unclear authority. When no one is empowered to conclude, analysis extends beyond its usefulness.
 
 Clear ownership does not guarantee correctness. It guarantees motion. And in volatile environments, motion combined with feedback produces refinement. Stagnation produces drift.
+
+> **Figure 10.2 — Latency Cost Under Uncertainty**
+>
+> ![](../figures/generated/ch10_decision_making_fig_10_2.png)
+>
+> *As external change accelerates, the cost of internal delay compounds. Speed and clarity trade off against breadth of consultation.*
 
 
 ---

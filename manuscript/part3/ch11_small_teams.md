@@ -30,6 +30,12 @@ Error correction also behaves differently. In small teams, a flawed assumption c
 
 The difference lies in where complexity accumulates. Large systems often trade external complexity for internal structure. Small systems concentrate internal simplicity to preserve responsiveness.
 
+> **Figure 11.1 — Complexity Redistribution: Problem Space vs. Coordination**
+>
+> ![](../figures/generated/ch11_small_teams_fig_11_1.png)
+>
+> *As teams grow, complexity migrates from the problem domain into coordination overhead. The total complexity remains constant —  only its location shifts.*
+
 *If complexity cannot be removed but only relocated, where is it currently accumulating in your organization — in the problem space, or in the coordination structure itself?*
 
 ---
@@ -48,6 +54,12 @@ By contrast, larger systems can temporarily absorb architectural inefficiency. R
 
 Simplicity therefore functions as a foundational equilibrium. Under constraint, systems gravitate toward configurations that minimize coordination overhead relative to output. This does not eliminate complexity in the problem domain. It reallocates attention from internal reconciliation to external engagement.
 
+> **Figure 11.2 — Clarity Pressure: How Constraint Enforces Simplicity**
+>
+> ![](../figures/generated/ch11_small_teams_fig_11_2.png)
+>
+> *Constraint narrows optionality, forcing explicit trade-offs. Without capacity to absorb ambiguity, systems move toward sharper definitions.*
+
 Importantly, simplicity is not synonymous with ease. It may require difficult prioritization, sharper definitions of responsibility, and disciplined scope limitation.
 
 
@@ -64,6 +76,12 @@ In smaller configurations, shared models form more naturally. Exposure to the sa
 This alignment acts as a multiplier. Communication compresses. A brief statement carries dense meaning because background assumptions are mutual. Deliberation accelerates because less energy is spent clarifying intent. Process does not disappear; it becomes lighter because shared understanding absorbs part of its function.
 
 In larger systems, divergence is more likely. Specialization creates different vantage points. Information is filtered through roles. As shared models weaken, the organization compensates with explicit coordination structures. Documentation grows to preserve alignment that proximity no longer guarantees.
+
+> **Figure 11.3 — Shared Models vs. Process Compensation**
+>
+> ![](../figures/generated/ch11_small_teams_fig_11_3.png)
+>
+> *When shared understanding breaks down, the organization builds process infrastructure to compensate. Alignment becomes expensive instead of automatic.*
 
 High uncertainty intensifies the value of shared models. When external conditions shift rapidly, teams must reinterpret signals in near real time. If baseline assumptions differ, each shift triggers re-alignment. If assumptions are aligned, adaptation requires fewer cycles.
 
@@ -89,6 +107,12 @@ Under these conditions, the cost of structural ambiguity increases. A decision m
 Large teams can compensate through formal structure, but the coordination cost rises with scale. Amplification increases the stakes of maintaining shared models and clear ownership. Without them, the organization becomes reactive, investing energy in containment rather than progression.
 
 The implication is not that amplification favors smallness inherently. It favors coherence. Systems designed with built-in clarity convert amplification into leverage. Systems designed with latent ambiguity convert amplification into volatility.
+
+> **Figure 11.4 — Amplification: Coherence vs. Fragmentation**
+>
+> ![](../figures/generated/ch11_small_teams_fig_11_4.png)
+>
+> *Amplification multiplies outcomes linearly but propagates misalignment exponentially. Strong architecture scales capability; weak architecture scales instability.*
 
 *As output accelerates and consequences extend further, how robust is the structure through which your decisions currently propagate?*
 

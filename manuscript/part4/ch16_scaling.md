@@ -4,6 +4,12 @@ Scaling is often described as expansion: more people, broader reach, greater out
 
 When systems expand, geometry changes. Influence pathways lengthen. Interfaces multiply. Responsibilities differentiate. What was once held through proximity must now be held through explicit definition. Without reinforcement, clarity thins as surface area grows.
 
+> **Figure 16.1 — Geometry's Effect on Coherence**
+>
+> ![](../figures/generated/ch16_scaling_fig_16_1.png)
+>
+> *As teams scale, internal complexity expands quadratically while decision clarity tends to diffuse. The core logic must become more explicit to maintain coherence.*
+
 The core of a system is not its size, but its decision logic. It is the set of boundaries that define scope, the allocation of authority that resolves trade-offs, and the integration points that preserve coherence. Scaling tests whether this logic remains stable under added complexity.
 
 If expansion simply adds layers without protecting the core, weight accumulates faster than capability. Coordination absorbs energy that once went toward advancement. Alignment becomes negotiation rather than recognition.
@@ -51,6 +57,12 @@ Necessary structure is distinct from performative bureaucracy. Necessary structu
 Performative bureaucracy often arises as a response to fragmentation. When context is weak, documentation multiplies. When boundaries blur, approval steps increase. These additions create visible order, yet they may not restore structural clarity.
 
 The myth persists because formalization can stabilize surfaces. Meetings feel productive. Reports signal control. However, if underlying decision logic remains diffuse, added structure increases weight without increasing alignment.
+
+> **Figure 16.2 — Necessary Structure vs. Performative Bureaucracy**
+>
+> ![](../figures/generated/ch16_scaling_fig_16_2.png)
+>
+> *As complexity grows, both necessary structure and unnecessary bureaucracy tend to increase. The mature system optimizes for clarity, not density.*
 
 Maturity is not measured by density of process. It is measured by precision of boundaries and reliability of decision pathways. A mature system may appear lean because clarity is embedded rather than administratively enforced.
 
@@ -118,6 +130,12 @@ Replication differs from layering because it preserves geometry. Influence pathw
 When layering dominates, context stretches. Decisions require multiple approvals. Alignment depends on cross-layer negotiation. Weight accumulates because translation increases with each tier.
 
 Cell-based expansion limits this drift. Interfaces between cells are articulated rather than implied. Boundaries are preserved by design. Each unit holds a coherent portion of responsibility without diffusing authority upward excessively.
+
+> **Figure 16.3 — Layering vs. Cellular Expansion**
+>
+> ![](../figures/generated/ch16_scaling_fig_16_3.png)
+>
+> *Layering stretches decision pathways and fragments context. Cellular replication preserves internal coherence while expanding through multiplication of compact units.*
 
 This pattern does not eliminate hierarchy entirely. It constrains its depth. Authority may coordinate across cells, but it does not replace internal clarity within them.
 

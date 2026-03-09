@@ -43,7 +43,7 @@ The architectural advantage emerges when learning speed precedes delivery speed.
 > **Figure 9.1 — Learning vs. Delivery Speed**
 >
 >
-> ![](manuscript/figures/generated/ch09_rapid_prototyping_fig_9_1.png){ width=95% }
+> ![](../figures/generated/ch09_rapid_prototyping_fig_9_1.png)
 >
 >
 > *Delivery speed and learning speed are independent axes. A system can excel on one while stagnating on the other. Long-term structural advantage belongs to systems that protect learning tempo — because execution optimized around wrong assumptions only compounds error.*
@@ -69,7 +69,7 @@ The quality of a prototype is measured by its diagnostic power. Does it isolate 
 > **Figure 9.2 — Prototype as Judgment Filter**
 >
 >
-> ![](manuscript/figures/generated/ch09_rapid_prototyping_fig_9_2.png){ width=95% }
+> ![](../figures/generated/ch09_rapid_prototyping_fig_9_2.png)
 >
 >
 > *A prototype’s value is not fidelity to the final product. It is the quality of friction it generates. Friction is not failure — it is information about where interpretation and reality diverge.*
@@ -90,7 +90,7 @@ Prototyping interrupts this loop. It converts abstract reasoning into concrete e
 > **Figure 9.3 — Defense Against Overthinking**
 >
 >
-> ![](manuscript/figures/generated/ch09_rapid_prototyping_fig_9_3.png){ width=95% }
+> ![](../figures/generated/ch09_rapid_prototyping_fig_9_3.png)
 >
 >
 > *Each iteration replaces speculative reasoning with grounded signal. Cognitive load is not reduced by thinking harder — it is reduced by encountering reality. Overthinking is not a discipline failure; it is a structural one caused by insufficient contact with consequence.*
@@ -120,7 +120,7 @@ Non-disposable work produces the opposite effect. When early artifacts are treat
 > **Figure 9.4 — Disposable vs. Permanent Early Work**
 >
 >
-> ![](manuscript/figures/generated/ch09_rapid_prototyping_fig_9_4.png){ width=95% }
+> ![](../figures/generated/ch09_rapid_prototyping_fig_9_4.png)
 >
 >
 > *When early work is permanent, critique feels like an attack. When early work is disposable, critique is just information. Psychological safety is not an emotional property of a team — it is a structural property of how work is framed.*
@@ -145,7 +145,7 @@ The strategic difference lies in latency. When feedback cycles are short, interp
 > **Figure 9.5 — Feedback Latency Divergence**
 >
 >
-> ![](manuscript/figures/generated/ch09_rapid_prototyping_fig_9_5.png){ width=95% }
+> ![](../figures/generated/ch09_rapid_prototyping_fig_9_5.png)
 >
 >
 > *With identical starting assumptions, systems diverge based on feedback latency alone. Faster-learning systems don’t necessarily work harder — they encounter reality more frequently. Over time, this compounds into a structural advantage that has nothing to do with raw output.*

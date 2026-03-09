@@ -32,6 +32,12 @@ When AI models integrate into XR environments, complexity compounds. Generative 
 
 As a result, complexity distributes differently. In abstract systems, it accumulates in model architecture, data pipelines, and optimization routines. In embodied systems, it distributes across perception, hardware constraints, interaction patterns, and behavioral interpretation.
 
+> **Figure 12.1 — Abstract vs. Embodied System Boundaries**
+>
+> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_1.png)
+>
+> *Embodied systems participate in perception itself. Errors are no longer confined to outputs; they become experiential. The system's boundary encompasses the human sensorium.*
+
 *What shifts in system responsibility when intelligence is encountered as part of one's surroundings rather than through a screen?*
 
 ---
@@ -56,6 +62,12 @@ Prototypes are essential for revealing interaction dynamics and uncovering obvio
 
 Because early progress is perceptually steep and later progress structurally dense, expectations frequently misalign. Without recognizing this shift, teams may prematurely redirect strategy, over-index on new features, or mistake structural consolidation for stagnation.
 
+> **Figure 12.2 — Perceived Progress vs. Structural Maturation**
+>
+> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_2.png)
+>
+> *Early progress is perceptually steep. Later consolidation is volumetrically dense but visually flat. The perception of stagnation is highest precisely when structural work is most critical.*
+
 
 ---
 
@@ -78,6 +90,12 @@ In embodied contexts, coherence is central. Users rely on consistent spatial map
 This does not imply that probabilistic systems are unsuitable for embodied environments. It means that uncertainty must be managed at the experiential level. Designers cannot rely solely on internal confidence measures. They must consider how variability is encountered and interpreted by users who lack access to internal states.
 
 One consequence is that mitigation strategies shift from eliminating uncertainty to shaping its expression. The system may need to signal ambiguity, constrain responses within stable interaction patterns, or default to conservative behaviors when context becomes ambiguous.
+
+> **Figure 12.3 — Probabilistic Output in Embodied Contexts**
+>
+> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_3.png)
+>
+> *In embodied systems, outputs are encountered directly. Small variations become perceptually significant. The risk is not failure, but coherence erosion through accumulated variability.*
 
 
 ---
@@ -102,6 +120,12 @@ In larger organizations, signals diffuse. Observations are documented, routed, a
 
 The challenge is not scale itself. It is coupling. Embodied AI systems require tight coupling between perception, decision-making, and interaction. Without deliberate compression of feedback loops, coordination overhead grows faster than learning velocity.
 
+> **Figure 12.4 — Coordination Layers vs. Adaptive Speed**
+>
+> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_4.png)
+>
+> *Every interface between specialized teams introduces translation latency. In frontier domains where assumptions shift rapidly, latency is a more limiting constraint than raw capability.*
+
 
 ---
 
@@ -124,6 +148,12 @@ Under these conditions, exploration becomes iterative rather than programmatic. 
 However, coherence can degrade if the team grows without preserving tight coupling. As roles specialize and interfaces multiply, the learning loop stretches. The built-in property that enabled rapid adaptation dissipates. Scale reintroduces translation and diffuses responsibility.
 
 The significance of small teams at the frontier is therefore not cultural but structural. They function as coherent exploration systems when they maintain proximity between observation and change. Their advantage arises from reduced coordination drag and from the ability to integrate experiential feedback before it hardens into systemic instability.
+
+> **Figure 12.5 — Compressed Learning Loop in Small Frontier Teams**
+>
+> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_5.png)
+>
+> *In tightly coupled teams, sensing, interpretation, and modification compress into a single iterative loop. Scale elongates this loop; structural clarity preserves it.*
 
 *If learning speed depends on structural coherence, how deliberately should team boundaries be designed to preserve it?*
 
@@ -149,6 +179,12 @@ Weak structure often reveals itself gradually. Teams rely on informal coordinati
 
 Importantly, structure should not be conflated with bureaucracy. Excessive procedural layering can hinder adaptation as much as architectural absence. The requirement is coherence: defined responsibilities, visible interfaces, and disciplined feedback loops.
 
+> **Figure 12.6 — Volatility Propagation vs. Containment**
+>
+> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_6.png)
+>
+> *In loosely structured systems, instability propagates freely. Defined boundaries and clear ownership localize variability, allowing correction before it destabilizes the whole.*
+
 
 ---
 
@@ -172,6 +208,12 @@ Importantly, clarity is not minimalism. It does not require reducing ambition or
 
 At the frontier, long-term dominance rarely emerges from a single breakthrough. It emerges from sustained coherence under changing conditions. Systems that maintain structural clarity can incorporate advances without repeated reinvention.
 
+> **Figure 12.7 — Capability Expansion With and Without Structural Clarity**
+>
+> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_7.png)
+>
+> *Systems with clear foundational definitions expand capability without destabilizing adjacent layers. Systems with latent ambiguity propagate change in unpredictable ways.*
+
 
 ---
 
@@ -188,6 +230,12 @@ When volatility is persistent, informal coordination erodes. What once worked th
 Eventually, this gap forces a choice. Either structure is reinforced deliberately, or adaptation becomes episodic and costly. Reinforcement involves clarifying ownership, defining interfaces, and constraining expansion within articulated limits. It requires restraint as much as ambition.
 
 The enduring advantage may not belong to those who build the most advanced systems, but to those who design organizations capable of evolving without losing coherence.
+
+> **Figure 12.8 — Capability Growth vs. Structural Coherence Over Scaling**
+>
+> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_8.png)
+>
+> *Capability and coherence diverge as systems scale. The winner is not who moves fastest, but who preserves coherence while capability expands.*
 
 *When your system encounters sustained uncertainty, does your structure amplify it — or contain it?*
 

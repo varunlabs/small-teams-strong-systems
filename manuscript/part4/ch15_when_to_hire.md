@@ -43,6 +43,12 @@ One useful stress test is to separate throughput pain from decision-system pain:
 
 In practical terms, adding one person does not add one unit of progress. It adds new communication paths, handoff surfaces, and judgment interfaces. In small systems, those interface costs are often the hidden tax that erodes the expected gain.
 
+> **Figure 15.1 — Hiring as Geometric Expansion, Not Additive Growth**
+>
+> ![](../figures/generated/ch15_when_to_hire_fig_15_1.png)
+>
+> *Each hire adds not just output capacity, but new interfaces. The coordination cost compounds faster than capability grows. The expected gain is often erased by hidden integration overhead.*
+
 ---
 
 ### 15.3 Hiring Is a Commitment to Future Structure
@@ -81,6 +87,12 @@ When a team feels underpowered, run a short redesign sprint before committing to
 5. **Re-measure:** Track whether cycle time and defect rates improve after these changes.
 
 If constraints remain after this sprint, the hire case becomes stronger because the system has already paid down obvious design debt.
+
+> **Figure 15.2 — Redesign Priorities Before Hiring**
+>
+> ![](../figures/generated/ch15_when_to_hire_fig_15_2.png)
+>
+> *Most pressure signals are design problems, not capacity problems. Redesign first, measure the remaining gap, then hire only if structural constraints persist.*
 
 ---
 

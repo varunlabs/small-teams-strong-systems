@@ -23,7 +23,7 @@ This divergence occurs because comfort filters signals. Feedback that challenges
 > **Figure 8.1 — Comfort vs. Performance**
 >
 >
-> ![](manuscript/figures/generated/ch08_designing_speed_fig_8_1.png){ width=95% }
+> ![](../figures/generated/ch08_designing_speed_fig_8_1.png)
 >
 >
 > *“This feels fast” and “we are moving effectively” are different claims. The most dangerous quadrant is steady environment with misaligned structure: everything feels fine while the gap widens silently.*
@@ -47,7 +47,7 @@ Learning latency is the hidden variable. Every decision contains an assumption a
 > **Figure 8.2 — Feedback Distance Controls Adaptiveness**
 >
 >
-> ![](manuscript/figures/generated/ch08_designing_speed_fig_8_2.png){ width=95% }
+> ![](../figures/generated/ch08_designing_speed_fig_8_2.png)
 >
 >
 > *The organizational capacity to adapt is not a function of culture or intent — it is a function of how far decisions travel before they encounter disconfirming evidence. Structural agility is designed, not wished.*
@@ -79,7 +79,7 @@ The third condition is visible consequence. When the results of choices are abst
 > **Figure 8.3 — Mistake and Momentum**
 >
 >
-> ![](manuscript/figures/generated/ch08_designing_speed_fig_8_3.png){ width=95% }
+> ![](../figures/generated/ch08_designing_speed_fig_8_3.png)
 >
 >
 > *Sustained momentum is not the result of a push to move faster. It is the result of architectural conditions that make fast, correctable action the path of least resistance.*
@@ -106,7 +106,7 @@ Sustainable speed depends on protecting judgment. Execution can accelerate, but 
 > **Figure 8.4 — Structural Conditions for Speed**
 >
 >
-> ![](manuscript/figures/generated/ch08_designing_speed_fig_8_4.png){ width=95% }
+> ![](../figures/generated/ch08_designing_speed_fig_8_4.png)
 >
 >
 > *These four conditions are not aspirational — they are load-bearing. Remove any one, and velocity transforms from an asset into a structural liability. The question is not how fast the team is, but which conditions support the speed it claims.*
@@ -136,7 +136,7 @@ A third fracture emerges at the level of scope. Small teams are particularly vul
 > **Figure 8.5 — Sustainable Speed in Small Teams**
 >
 >
-> ![](manuscript/figures/generated/ch08_designing_speed_fig_8_5.png){ width=95% }
+> ![](../figures/generated/ch08_designing_speed_fig_8_5.png)
 >
 >
 > *The distinction between structurally supported speed and extracted speed is invisible in the short term. Both look like progress. Only the structural conditions beneath the surface predict which one will still be viable in six months.*
