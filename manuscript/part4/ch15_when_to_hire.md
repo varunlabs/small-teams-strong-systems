@@ -45,7 +45,7 @@ In practical terms, adding one person does not add one unit of progress. It adds
 
 > **Figure 15.1 — Hiring as Geometric Expansion, Not Additive Growth**
 >
-> ![](../figures/generated/ch15_when_to_hire_fig_15_1.png)
+> ![](figures/generated/ch15_when_to_hire_fig_15_1.png)
 >
 > *Each hire adds not just output capacity, but new interfaces. The coordination cost compounds faster than capability grows. The expected gain is often erased by hidden integration overhead.*
 
@@ -90,7 +90,7 @@ If constraints remain after this sprint, the hire case becomes stronger because 
 
 > **Figure 15.2 — Redesign Priorities Before Hiring**
 >
-> ![](../figures/generated/ch15_when_to_hire_fig_15_2.png)
+> ![](figures/generated/ch15_when_to_hire_fig_15_2.png)
 >
 > *Most pressure signals are design problems, not capacity problems. Redesign first, measure the remaining gap, then hire only if structural constraints persist.*
 
@@ -101,4 +101,5 @@ If constraints remain after this sprint, the hire case becomes stronger because 
 Basecamp has stayed relatively small for years while maintaining meaningful revenue because it treats hiring as a last structural move, not a default response to pressure. Their recurring question has been: can we redesign the product or process so this recurring load disappears? Only when the answer is consistently no does headcount expand. The lesson is not that every company should stay small; it is that the hiring threshold should be architectural, not emotional.
 
 The next chapter extends this principle: once you preserve hiring discipline, how do you scale capability without losing the decision logic that made the system effective?
+
 

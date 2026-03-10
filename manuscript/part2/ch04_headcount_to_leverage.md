@@ -40,7 +40,7 @@ Coherence allows small adjustments to cascade constructively. Without it, small 
 > **Figure 4.1 — Individual Leverage vs. Systemic Leverage**
 >
 >
-> ![](../figures/generated/ch04_headcount_to_leverage_fig_4_1.png)
+> ![](figures/generated/ch04_headcount_to_leverage_fig_4_1.png)
 >
 >
 > *Individual leverage produces visible heroics. Systemic leverage produces invisible reliability. The goal is the second kind — where influence compounds without requiring the same person in every decision.*
@@ -56,7 +56,7 @@ Leverage is often described in terms of what it enables: faster execution, broad
 > **Figure 4.2 — What Leverage Removes**
 >
 >
-> ![](../figures/generated/ch04_headcount_to_leverage_fig_4_2.png)
+> ![](figures/generated/ch04_headcount_to_leverage_fig_4_2.png)
 >
 >
 > *Leverage doesn’t add force. It subtracts waste. The visible result is speed and clarity; the structural reason is that the system no longer needs to compensate for its own inefficiencies.*
@@ -89,7 +89,7 @@ This shift also alters how specialization functions. Traditional specialization 
 > **Figure 4.3 — Roles as Decision Nodes**
 >
 >
-> ![](../figures/generated/ch04_headcount_to_leverage_fig_4_3.png)
+> ![](figures/generated/ch04_headcount_to_leverage_fig_4_3.png)
 >
 >
 > *In a high-leverage system, a role’s value is not its task volume but the quality and reach of its decisions. A role that touches few artifacts but shapes many downstream choices is more consequential than one that produces high volume with restricted effect.*
@@ -109,7 +109,7 @@ As leverage increases, the economics of failure change. The same property that a
 > **Figure 4.4 — Amplification and Failure Impact**
 >
 >
-> ![](../figures/generated/ch04_headcount_to_leverage_fig_4_4.png)
+> ![](figures/generated/ch04_headcount_to_leverage_fig_4_4.png)
 >
 >
 > *In leveraged systems, where an error originates matters less than how far it travels. Risk management must focus on containment architecture, not just error prevention.*
@@ -165,3 +165,4 @@ The next chapter addresses where that threshold most commonly lands — and why 
 - Risk and leverage scale together. Building leverage without structural clarity is not acceleration—it is deferred failure.
 - Minimum viable size is a structural threshold, not a headcount preference. Revisit it as leverage conditions change, not only when capacity pressure appears.
 :::
+

@@ -39,7 +39,7 @@ Drift becomes possible when feedback weakens. In tightly integrated systems, mis
 
 > **Figure 13.2 — Drift Without Detection**
 >
-> ![](../figures/generated/ch13_leadership_fig_13_2.png)
+> ![](figures/generated/ch13_leadership_fig_13_2.png)
 >
 > *Drift is not dramatic; it is diffuse. Without tight feedback, misalignment accumulates beneath visible performance. By the time it surfaces, correction is costly.*
 
@@ -76,7 +76,7 @@ Structural entropy also changes how risk is absorbed. When responsibilities are 
 
 > **Figure 13.3 — Structural Entropy: Clarity Erosion Over Time**
 >
-> ![](../figures/generated/ch13_leadership_fig_13_3.png)
+> ![](figures/generated/ch13_leadership_fig_13_3.png)
 >
 > *Clarity does not dissolve suddenly. It erodes incrementally as new roles, exceptions, and temporary solutions accumulate without reinforcing boundaries.*
 
@@ -111,7 +111,7 @@ As divergence increases, the system's identity becomes diffuse. Participants int
 
 > **Figure 13.4 — Local Optimization vs. System Coherence**
 >
-> ![](../figures/generated/ch13_leadership_fig_13_4.png)
+> ![](figures/generated/ch13_leadership_fig_13_4.png)
 >
 > *Each unit optimizes within its domain with good intent. Collectively, local gains fragment global coherence. Alignment shifts from architecture to negotiation.*
 
@@ -141,7 +141,7 @@ Structural repair interrupts this cycle by focusing on coherence rather than con
 
 > **Figure 13.5 — Repair vs. Reactive Reinvention**
 >
-> ![](../figures/generated/ch13_leadership_fig_13_5.png)
+> ![](figures/generated/ch13_leadership_fig_13_5.png)
 >
 > *Repair restores definition without discarding working components. Reinvention replaces everything, risking the loss of embedded knowledge with the gain of visibility.*
 
@@ -187,7 +187,7 @@ These tests are not grading instruments. They are diagnostic signals—ways to d
 
 > **Figure 13.1 — Coherence Diagnostics for Layerless Teams**
 >
-> ![](../figures/generated/ch13_leadership_fig_13_1.png)
+> ![](figures/generated/ch13_leadership_fig_13_1.png)
 >
 > *These diagnostics do not grade leadership quality. They surface the gap between intended design and actual practice—which is where coherence begins to erode.*
 
@@ -224,3 +224,4 @@ Valve Corporation — makers of Steam and Half-Life — famously operates withou
 - When systems break, repair—fixing the specific structural failure—is almost always preferable to reinvention. Rebuilding from scratch discards working components along with the broken ones.
 - Leadership’s persistent obligation is coherence over time: ensuring that independently made decisions remain consistent with shared intent, even as conditions shift and team memory fades.
 :::
+

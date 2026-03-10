@@ -34,7 +34,7 @@ As a result, complexity distributes differently. In abstract systems, it accumul
 
 > **Figure 12.1 — Abstract vs. Embodied System Boundaries**
 >
-> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_1.png)
+> ![](figures/generated/ch12_ai_xr_frontier_fig_12_1.png)
 >
 > *Embodied systems participate in perception itself. Errors are no longer confined to outputs; they become experiential. The system's boundary encompasses the human sensorium.*
 
@@ -64,7 +64,7 @@ Because early progress is perceptually steep and later progress structurally den
 
 > **Figure 12.2 — Perceived Progress vs. Structural Maturation**
 >
-> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_2.png)
+> ![](figures/generated/ch12_ai_xr_frontier_fig_12_2.png)
 >
 > *Early progress is perceptually steep. Later consolidation is volumetrically dense but visually flat. The perception of stagnation is highest precisely when structural work is most critical.*
 
@@ -93,7 +93,7 @@ One consequence is that mitigation strategies shift from eliminating uncertainty
 
 > **Figure 12.3 — Probabilistic Output in Embodied Contexts**
 >
-> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_3.png)
+> ![](figures/generated/ch12_ai_xr_frontier_fig_12_3.png)
 >
 > *In embodied systems, outputs are encountered directly. Small variations become perceptually significant. The risk is not failure, but coherence erosion through accumulated variability.*
 
@@ -122,7 +122,7 @@ The challenge is not scale itself. It is coupling. Embodied AI systems require t
 
 > **Figure 12.4 — Coordination Layers vs. Adaptive Speed**
 >
-> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_4.png)
+> ![](figures/generated/ch12_ai_xr_frontier_fig_12_4.png)
 >
 > *Every interface between specialized teams introduces translation latency. In frontier domains where assumptions shift rapidly, latency is a more limiting constraint than raw capability.*
 
@@ -151,7 +151,7 @@ The significance of small teams at the frontier is therefore not cultural but st
 
 > **Figure 12.5 — Compressed Learning Loop in Small Frontier Teams**
 >
-> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_5.png)
+> ![](figures/generated/ch12_ai_xr_frontier_fig_12_5.png)
 >
 > *In tightly coupled teams, sensing, interpretation, and modification compress into a single iterative loop. Scale elongates this loop; structural clarity preserves it.*
 
@@ -181,7 +181,7 @@ Importantly, structure should not be conflated with bureaucracy. Excessive proce
 
 > **Figure 12.6 — Volatility Propagation vs. Containment**
 >
-> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_6.png)
+> ![](figures/generated/ch12_ai_xr_frontier_fig_12_6.png)
 >
 > *In loosely structured systems, instability propagates freely. Defined boundaries and clear ownership localize variability, allowing correction before it destabilizes the whole.*
 
@@ -210,7 +210,7 @@ At the frontier, long-term dominance rarely emerges from a single breakthrough. 
 
 > **Figure 12.7 — Capability Expansion With and Without Structural Clarity**
 >
-> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_7.png)
+> ![](figures/generated/ch12_ai_xr_frontier_fig_12_7.png)
 >
 > *Systems with clear foundational definitions expand capability without destabilizing adjacent layers. Systems with latent ambiguity propagate change in unpredictable ways.*
 
@@ -233,7 +233,7 @@ The enduring advantage may not belong to those who build the most advanced syste
 
 > **Figure 12.8 — Capability Growth vs. Structural Coherence Over Scaling**
 >
-> ![](../figures/generated/ch12_ai_xr_frontier_fig_12_8.png)
+> ![](figures/generated/ch12_ai_xr_frontier_fig_12_8.png)
 >
 > *Capability and coherence diverge as systems scale. The winner is not who moves fastest, but who preserves coherence while capability expands.*
 
@@ -256,3 +256,4 @@ Beat Saber was built by a Czech studio, Beat Games, with roughly ten people when
 - Small teams maintain frontier coherence because shared context eliminates translation layers. Misalignment surfaces faster, and course corrections are cheaper when the team is small enough to hold the problem simultaneously.
 - At the frontier, organizational design is not just a productivity tool. It is a survival requirement. When mistakes compound in embodied systems, poor structure eventually produces irreversible outcomes.
 :::
+

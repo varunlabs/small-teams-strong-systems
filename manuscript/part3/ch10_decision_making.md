@@ -44,7 +44,7 @@ Reframing decisions as hypotheses alters this dynamic. A hypothesis is not a gue
 
 > **Figure 10.1 — Decisions as Hypotheses vs. Commitments**
 >
-> ![](../figures/generated/ch10_decision_making_fig_10_1.png)
+> ![](figures/generated/ch10_decision_making_fig_10_1.png)
 >
 > *Reframing converts a decision from a point of commitment to a structured claim about expected outcomes. This shift enables rapid iteration without treating adjustment as failure.*
 
@@ -81,7 +81,7 @@ Clear ownership does not guarantee correctness. It guarantees motion. And in vol
 
 > **Figure 10.2 — Latency Cost Under Uncertainty**
 >
-> ![](../figures/generated/ch10_decision_making_fig_10_2.png)
+> ![](figures/generated/ch10_decision_making_fig_10_2.png)
 >
 > *As external change accelerates, the cost of internal delay compounds. Speed and clarity trade off against breadth of consultation.*
 
@@ -200,4 +200,5 @@ Netflix's approach to decision-making under uncertainty centers on what CEO Reed
 - Decision weight should match uncertainty: high-certainty decisions can be large and sticky; low-certainty decisions should be kept small, reversible, and cheap to revisit.
 - Decision quality is a system property. It comes from structure — clear ownership, appropriate reversibility thresholds, and explicit uncertainty acknowledgment — not from individual judgment under pressure.
 :::
+
 

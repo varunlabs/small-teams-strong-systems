@@ -32,7 +32,7 @@ The difference lies in where complexity accumulates. Large systems often trade e
 
 > **Figure 11.1 — Complexity Redistribution: Problem Space vs. Coordination**
 >
-> ![](../figures/generated/ch11_small_teams_fig_11_1.png)
+> ![](figures/generated/ch11_small_teams_fig_11_1.png)
 >
 > *As teams grow, complexity migrates from the problem domain into coordination overhead. The total complexity remains constant —  only its location shifts.*
 
@@ -56,7 +56,7 @@ Simplicity therefore functions as a foundational equilibrium. Under constraint, 
 
 > **Figure 11.2 — Clarity Pressure: How Constraint Enforces Simplicity**
 >
-> ![](../figures/generated/ch11_small_teams_fig_11_2.png)
+> ![](figures/generated/ch11_small_teams_fig_11_2.png)
 >
 > *Constraint narrows optionality, forcing explicit trade-offs. Without capacity to absorb ambiguity, systems move toward sharper definitions.*
 
@@ -79,7 +79,7 @@ In larger systems, divergence is more likely. Specialization creates different v
 
 > **Figure 11.3 — Shared Models vs. Process Compensation**
 >
-> ![](../figures/generated/ch11_small_teams_fig_11_3.png)
+> ![](figures/generated/ch11_small_teams_fig_11_3.png)
 >
 > *When shared understanding breaks down, the organization builds process infrastructure to compensate. Alignment becomes expensive instead of automatic.*
 
@@ -110,7 +110,7 @@ The implication is not that amplification favors smallness inherently. It favors
 
 > **Figure 11.4 — Amplification: Coherence vs. Fragmentation**
 >
-> ![](../figures/generated/ch11_small_teams_fig_11_4.png)
+> ![](figures/generated/ch11_small_teams_fig_11_4.png)
 >
 > *Amplification multiplies outcomes linearly but propagates misalignment exponentially. Strong architecture scales capability; weak architecture scales instability.*
 
@@ -188,3 +188,4 @@ In April 2012, Facebook acquired Instagram for approximately $1 billion. Instagr
 - AI amplifies architectural decisions in both directions. Good structural design at small scale remains manageable as work grows. Poor design at small scale becomes a critical failure at scale.
 - Constraint is generative. It forces conscious decisions about what matters before growth obscures the answer. Use it deliberately rather than working around it.
 :::
+

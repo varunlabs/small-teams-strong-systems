@@ -22,7 +22,7 @@ geometry:
   - left=22mm
   - right=22mm
 mainfont: "Georgia"
-sansfont: "Helvetica Neue"
+sansfont: "Arial"
 monofont: "Courier New"
 header-includes:
   - |

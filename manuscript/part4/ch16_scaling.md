@@ -6,7 +6,7 @@ When systems expand, geometry changes. Influence pathways lengthen. Interfaces m
 
 > **Figure 16.1 — Geometry's Effect on Coherence**
 >
-> ![](../figures/generated/ch16_scaling_fig_16_1.png)
+> ![](figures/generated/ch16_scaling_fig_16_1.png)
 >
 > *As teams scale, internal complexity expands quadratically while decision clarity tends to diffuse. The core logic must become more explicit to maintain coherence.*
 
@@ -60,7 +60,7 @@ The myth persists because formalization can stabilize surfaces. Meetings feel pr
 
 > **Figure 16.2 — Necessary Structure vs. Performative Bureaucracy**
 >
-> ![](../figures/generated/ch16_scaling_fig_16_2.png)
+> ![](figures/generated/ch16_scaling_fig_16_2.png)
 >
 > *As complexity grows, both necessary structure and unnecessary bureaucracy tend to increase. The mature system optimizes for clarity, not density.*
 
@@ -133,7 +133,7 @@ Cell-based expansion limits this drift. Interfaces between cells are articulated
 
 > **Figure 16.3 — Layering vs. Cellular Expansion**
 >
-> ![](../figures/generated/ch16_scaling_fig_16_3.png)
+> ![](figures/generated/ch16_scaling_fig_16_3.png)
 >
 > *Layering stretches decision pathways and fragments context. Cellular replication preserves internal coherence while expanding through multiplication of compact units.*
 
@@ -305,3 +305,4 @@ Spotify's "Squad, Tribe, Chapter, Guild" model — documented in a 2012 engineer
 - The cell model preserves small-team properties at scale: replicate the structure laterally rather than expanding individual teams vertically. Keep the cognitive unit intact, multiply it only once it is proven.
 - Architectural decisions made when teams are large become nearly irreversible. Coordination structures that entrench are difficult to remove without disrupting the people who have learned to depend on them. Design before you scale.
 :::
+

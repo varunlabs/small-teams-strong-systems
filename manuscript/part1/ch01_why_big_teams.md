@@ -38,7 +38,7 @@ Seen in this light, the dominance of large teams was not a historical mistake. I
 > **Figure 1.1 — Constraint-Driven Team Growth Model**
 >
 >
-> ![](../figures/generated/ch01_why_big_teams_fig_1_1.png)
+> ![](figures/generated/ch01_why_big_teams_fig_1_1.png)
 >
 >
 > *Each constraint independently justified adding people. Together, they made large teams appear not just useful, but necessary. The problem was not poor judgment — it was rational adaptation to a specific environment.*
@@ -74,7 +74,7 @@ None of this implied that scale was misguided or that growth was inherently harm
 > **Figure 1.2 — From Constraint to Doctrine**
 >
 >
-> ![](../figures/generated/ch01_why_big_teams_fig_1_2.png)
+> ![](figures/generated/ch01_why_big_teams_fig_1_2.png)
 >
 >
 > *What began as situational logic — adding people when execution was scarce — became systemic belief. By stage 4, size was no longer chosen; it was assumed.*
@@ -96,7 +96,7 @@ As teams expand, this changes subtly at first. Additional people introduce addit
 > **Figure 1.3 — Coordination Cost vs. Team Size**
 >
 >
-> ![](../figures/generated/ch01_why_big_teams_fig_1_3.png)
+> ![](figures/generated/ch01_why_big_teams_fig_1_3.png)
 >
 >
 > *Connections grow as n(n–1)/2 — combinatorially, not linearly. At 50 people, there are 1,225 potential connection points to manage. Linear intuition never accounts for this.*
@@ -138,7 +138,7 @@ The result was not immediate failure, but growing tension. Organizations built f
 > **Figure 1.4 — Stability of Large-Team Effectiveness Over Time**
 >
 >
-> ![](../figures/generated/ch01_why_big_teams_fig_1_4.png)
+> ![](figures/generated/ch01_why_big_teams_fig_1_4.png)
 >
 >
 > *The large-team model did not fail suddenly. It gradually stopped fitting as execution became cheaper while coordination costs remained stubbornly structural.*
@@ -160,7 +160,7 @@ What has shifted is not the desire to build complex, meaningful systems. That de
 > **Figure 1.5 — Shift in the Leverage Model**
 >
 >
-> ![](../figures/generated/ch01_why_big_teams_fig_1_5.png)
+> ![](figures/generated/ch01_why_big_teams_fig_1_5.png)
 >
 >
 > *The constraint shifted from execution to judgment — but organizational models largely continued optimizing for the old constraint. That gap is where most modern inefficiency lives.*
@@ -196,7 +196,7 @@ When the underlying challenge is unclear ownership, adding people diffuses respo
 > **Figure 1.6 — Misdiagnosing Friction in System Dynamics**
 >
 >
-> ![](../figures/generated/ch01_why_big_teams_fig_1_6.png)
+> ![](figures/generated/ch01_why_big_teams_fig_1_6.png)
 >
 >
 > *The capacity interpretation treats every symptom as a resource deficit. The coherence interpretation treats every symptom as a structural signal. The two responses lead to opposite outcomes.*
@@ -240,3 +240,4 @@ The chapters that follow build a different operating model—one where constrain
 - When systems strain, the instinct to hire is often misdirected. The real constraint is structural clarity, not headcount shortage.
 - Progress is now limited less by how much a team can do, and more by how cleanly effort translates into resolved decisions.
 :::
+

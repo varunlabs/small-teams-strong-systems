@@ -31,7 +31,7 @@ Judgment and execution also differ in their relationship to consequence. Executi
 > **Figure 7.1 — Interpretation vs. Procedure**
 >
 >
-> ![](../figures/generated/ch07_human_judgment_fig_7_1.png)
+> ![](figures/generated/ch07_human_judgment_fig_7_1.png)
 >
 >
 > *The line between interpretation and procedure is not about task difficulty — it is about frame-setting versus frame-operating. Blurring the boundary either rigidifies judgment into outdated rules or floods decision-makers with routine questions.*
@@ -51,7 +51,7 @@ The opposite failure is proceduralizing unstable domains. Decisions that require
 > **Figure 7.2 — Misallocated Judgment**
 >
 >
-> ![](../figures/generated/ch07_human_judgment_fig_7_2.png)
+> ![](figures/generated/ch07_human_judgment_fig_7_2.png)
 >
 >
 > *Each misallocation produces a predictable failure pattern. Diagnosis requires identifying not just that judgment is failing, but which structural misplacement is causing it.*
@@ -83,7 +83,7 @@ Feedback loops also depend on this boundary. Signals generated through execution
 > **Figure 7.3 — Small System Sensitivity**
 >
 >
-> ![](../figures/generated/ch07_human_judgment_fig_7_3.png)
+> ![](figures/generated/ch07_human_judgment_fig_7_3.png)
 >
 >
 > *Small teams have no structural buffering between design and consequence. A misplaced judgment boundary that might take months to surface in a large organization will appear in days in a six-person team. This is a feature, not a liability — it forces structural clarity early.*
@@ -131,7 +131,7 @@ Importantly, leadership does not monopolize judgment. It designs where judgment 
 > **Figure 7.4 — Leadership in a Judgment-Heavy System**
 >
 >
-> ![](../figures/generated/ch07_human_judgment_fig_7_4.png)
+> ![](figures/generated/ch07_human_judgment_fig_7_4.png)
 >
 >
 > *In a judgment-heavy system, leadership effectiveness is measured not by decision speed but by whether judgment allocation remains deliberately designed and maintained. Leadership that only decides is a bottleneck. Leadership that designs how decisions are made is a multiplier.*
@@ -171,4 +171,5 @@ The Boeing 737 MAX crashes of 2018 and 2019 are a case study in judgment-executi
 - Highly capable execution systems make poor judgment placement more consequential, not less. Speed amplifies direction.
 - Leaders are accountable for where judgment resides in the team — not just for the quality of their own decisions, but for the conditions under which all decisions are made.
 :::
+
 

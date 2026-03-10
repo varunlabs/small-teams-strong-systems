@@ -1,7 +1,7 @@
 #!/bin/bash
-cd /Users/varunsiddaraju/Documents/GitHub/Book
+cd "$(dirname "$0")"
 
-/opt/homebrew/bin/pandoc \
+pandoc \
   manuscript/cover_pages.md \
   manuscript/00_front_matter.md \
   manuscript/part1/ch01_why_big_teams.md \
@@ -45,7 +45,7 @@ cd /Users/varunsiddaraju/Documents/GitHub/Book
 
 echo "EPUB exit code: $?"
 
-/opt/homebrew/bin/pandoc \
+pandoc \
   manuscript/cover_pages.md \
   manuscript/00_front_matter.md \
   manuscript/part1/ch01_why_big_teams.md \

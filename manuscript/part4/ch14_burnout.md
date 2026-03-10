@@ -53,7 +53,7 @@ Progress that compounds differs qualitatively. Clarified boundaries reduce futur
 
 > **Figure 14.1 — Effort Without Progress: The Hidden Exhaustion**
 >
-> ![](../figures/generated/ch14_burnout_fig_14_1.png)
+> ![](figures/generated/ch14_burnout_fig_14_1.png)
 >
 > *Effort restores rather than strengthens. Energy cycles through coordination, reconciliation, and compensation—without accumulating into clarity. Burnout emerges not from intensity, but from futility.*
 
@@ -86,7 +86,7 @@ Clarifying ownership does not reduce complexity, but it reduces duplication of e
 
 > **Figure 14.2 — Diffused vs. Defined Ownership**
 >
-> ![](../figures/generated/ch14_burnout_fig_14_2.png)
+> ![](figures/generated/ch14_burnout_fig_14_2.png)
 >
 > *With diffused ownership, energy disperses across navigation and renegotiation. With defined ownership, energy concentrates on execution and improvement.*
 
@@ -133,7 +133,7 @@ The result is asymmetry between visible efficiency and invisible vigilance. Indi
 
 > **Figure 14.3 — Amplification and Hidden Vigilance**
 >
-> ![](../figures/generated/ch14_burnout_fig_14_3.png)
+> ![](figures/generated/ch14_burnout_fig_14_3.png)
 >
 > *Amplified leverage compresses visible work but expands invisible monitoring. The paradox: automation increases attentional demand while reducing task volume.*
 
@@ -196,3 +196,4 @@ Atari’s collapse in 1983 is usually told as a quality-control story. It was al
 - Decision fatigue is a structural cost. Teams making too many small decisions daily degrade their judgment quality before the consequential calls arrive.
 - Constant urgency is a structural failure signal, not evidence of ambition. It indicates the team is chronically reacting to its own system’s disorder rather than directing its own trajectory.
 :::
+

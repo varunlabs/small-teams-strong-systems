@@ -2,10 +2,10 @@
 # Build PDF for "Small Teams, Strong Systems"
 set -e
 
-export PATH="/Library/TeX/texbin:$PATH"
+cd "$(dirname "$0")"
 
-BASE="$(cd "$(dirname "$0")/manuscript" && pwd)"
-OUT="$(cd "$(dirname "$0")/output" && pwd)"
+BASE="manuscript"
+OUT="output"
 
 echo "Building PDF..."
 
