@@ -48,6 +48,7 @@ $epubArgs = @(
   "$PSScriptRoot\manuscript\back_cover_page.md",
   "--metadata-file=$PSScriptRoot\manuscript\metadata.yaml",
   "--css=$PSScriptRoot\manuscript\epub.css",
+  "--resource-path=$PSScriptRoot\manuscript",
   "--split-level=2",
   "-o", "$OUT/SmallTeamsStrongSystems.epub"
 )

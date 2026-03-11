@@ -40,6 +40,7 @@ pandoc \
   manuscript/back_cover_page.md \
   --metadata-file=manuscript/metadata.yaml \
   --css=manuscript/epub.css \
+  --resource-path=manuscript \
   --split-level=2 \
   -o output/SmallTeamsStrongSystems.epub
 
@@ -83,6 +84,7 @@ pandoc \
   manuscript/back_matter.md \
   manuscript/back_cover_page.md \
   --metadata-file=manuscript/metadata.yaml \
+  --resource-path=manuscript \
   -o output/SmallTeamsStrongSystems.docx
 
 echo "DOCX exit code: $?"
