@@ -2068,6 +2068,94 @@ Over years, these differences widen. Contributors either operate within coherent
 There is no final state of structural perfection. Geometry will change. Capabilities will expand. Context will shift. What persists is the responsibility to reinforce clarity as complexity increases.
 
 
+Figure Inventory
+
+- Chapter 1 — ch01_why_big_teams.md
+  - `manuscript/figures/generated/ch01_why_big_teams_fig_1_1.png`
+  - `manuscript/figures/generated/ch01_why_big_teams_fig_1_2.png`
+  - `manuscript/figures/generated/ch01_why_big_teams_fig_1_3.png`
+  - `manuscript/figures/generated/ch01_why_big_teams_fig_1_4.png`
+  - `manuscript/figures/generated/ch01_why_big_teams_fig_1_5.png`
+  - `manuscript/figures/generated/ch01_why_big_teams_fig_1_6.png`
+- Chapter 2 — ch02_end_of_linear_scaling.md
+  - `manuscript/figures/generated/ch02_end_of_linear_scaling_fig_2_1.png`
+  - `manuscript/figures/generated/ch02_end_of_linear_scaling_fig_2_2.png`
+- Chapter 3 — ch03_what_ai_changes.md
+  - `manuscript/figures/generated/ch03_what_ai_changes_fig_3_1.png`
+  - `manuscript/figures/generated/ch03_what_ai_changes_fig_3_2.png`
+  - `manuscript/figures/generated/ch03_what_ai_changes_fig_3_3.png`
+  - `manuscript/figures/generated/ch03_what_ai_changes_fig_3_4.png`
+- Chapter 4 — ch04_headcount_to_leverage.md
+  - `manuscript/figures/generated/ch04_headcount_to_leverage_fig_4_1.png`
+  - `manuscript/figures/generated/ch04_headcount_to_leverage_fig_4_2.png`
+  - `manuscript/figures/generated/ch04_headcount_to_leverage_fig_4_3.png`
+  - `manuscript/figures/generated/ch04_headcount_to_leverage_fig_4_4.png`
+- Chapter 5 — ch05_why_six.md
+  - `manuscript/figures/generated/ch05_why_six_fig_5_1.png`
+  - `manuscript/figures/generated/ch05_why_six_fig_5_2.png`
+  - `manuscript/figures/generated/ch05_why_six_fig_5_3.png`
+  - `manuscript/figures/generated/ch05_why_six_fig_5_4.png`
+  - `manuscript/figures/generated/ch05_why_six_fig_5_5.png`
+  - `manuscript/figures/generated/ch05_why_six_fig_5_6.png`
+- Chapter 6 — ch06_six_core_roles.md
+  - `manuscript/figures/generated/ch06_six_core_roles_fig_6_1.png`
+  - `manuscript/figures/generated/ch06_six_core_roles_fig_6_2.png`
+  - `manuscript/figures/generated/ch06_six_core_roles_fig_6_3.png`
+  - `manuscript/figures/generated/ch06_six_core_roles_fig_6_4.png`
+  - `manuscript/figures/generated/ch06_six_core_roles_fig_6_5.png`
+  - `manuscript/figures/generated/ch06_six_core_roles_fig_6_6.png`
+  - `manuscript/figures/generated/ch06_six_core_roles_fig_6_7.png`
+- Chapter 7 — ch07_human_judgment.md
+  - `manuscript/figures/generated/ch07_human_judgment_fig_7_1.png`
+  - `manuscript/figures/generated/ch07_human_judgment_fig_7_2.png`
+  - `manuscript/figures/generated/ch07_human_judgment_fig_7_3.png`
+  - `manuscript/figures/generated/ch07_human_judgment_fig_7_4.png`
+- Chapter 8 — ch08_designing_speed.md
+  - `manuscript/figures/generated/ch08_designing_speed_fig_8_1.png`
+  - `manuscript/figures/generated/ch08_designing_speed_fig_8_2.png`
+  - `manuscript/figures/generated/ch08_designing_speed_fig_8_3.png`
+  - `manuscript/figures/generated/ch08_designing_speed_fig_8_4.png`
+  - `manuscript/figures/generated/ch08_designing_speed_fig_8_5.png`
+- Chapter 9 — ch09_rapid_prototyping.md
+  - `manuscript/figures/generated/ch09_rapid_prototyping_fig_9_1.png`
+  - `manuscript/figures/generated/ch09_rapid_prototyping_fig_9_2.png`
+  - `manuscript/figures/generated/ch09_rapid_prototyping_fig_9_3.png`
+  - `manuscript/figures/generated/ch09_rapid_prototyping_fig_9_4.png`
+  - `manuscript/figures/generated/ch09_rapid_prototyping_fig_9_5.png`
+- Chapter 10 — ch10_decision_making.md
+  - `manuscript/figures/generated/ch10_decision_making_fig_10_1.png`
+  - `manuscript/figures/generated/ch10_decision_making_fig_10_2.png`
+- Chapter 11 — ch11_small_teams.md
+  - `manuscript/figures/generated/ch11_small_teams_fig_11_1.png`
+  - `manuscript/figures/generated/ch11_small_teams_fig_11_2.png`
+  - `manuscript/figures/generated/ch11_small_teams_fig_11_3.png`
+  - `manuscript/figures/generated/ch11_small_teams_fig_11_4.png`
+- Chapter 12 — ch12_ai_xr_frontier.md
+  - `manuscript/figures/generated/ch12_ai_xr_frontier_fig_12_1.png`
+  - `manuscript/figures/generated/ch12_ai_xr_frontier_fig_12_2.png`
+  - `manuscript/figures/generated/ch12_ai_xr_frontier_fig_12_3.png`
+  - `manuscript/figures/generated/ch12_ai_xr_frontier_fig_12_4.png`
+  - `manuscript/figures/generated/ch12_ai_xr_frontier_fig_12_5.png`
+  - `manuscript/figures/generated/ch12_ai_xr_frontier_fig_12_6.png`
+  - `manuscript/figures/generated/ch12_ai_xr_frontier_fig_12_7.png`
+  - `manuscript/figures/generated/ch12_ai_xr_frontier_fig_12_8.png`
+- Chapter 13 — ch13_leadership.md
+  - `manuscript/figures/generated/ch13_leadership_fig_13_1.png`
+  - `manuscript/figures/generated/ch13_leadership_fig_13_2.png`
+  - `manuscript/figures/generated/ch13_leadership_fig_13_3.png`
+  - `manuscript/figures/generated/ch13_leadership_fig_13_4.png`
+  - `manuscript/figures/generated/ch13_leadership_fig_13_5.png`
+- Chapter 14 — ch14_burnout.md
+  - `manuscript/figures/generated/ch14_burnout_fig_14_1.png`
+  - `manuscript/figures/generated/ch14_burnout_fig_14_2.png`
+  - `manuscript/figures/generated/ch14_burnout_fig_14_3.png`
+- Chapter 15 — ch15_when_to_hire.md
+  - `manuscript/figures/generated/ch15_when_to_hire_fig_15_1.png`
+  - `manuscript/figures/generated/ch15_when_to_hire_fig_15_2.png`
+- Chapter 16 — ch16_scaling.md
+  - `manuscript/figures/generated/ch16_scaling_fig_16_1.png`
+  - `manuscript/figures/generated/ch16_scaling_fig_16_2.png`
+  - `manuscript/figures/generated/ch16_scaling_fig_16_3.png`
 
 
 
