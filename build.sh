@@ -2,7 +2,6 @@
 cd "$(dirname "$0")"
 
 pandoc \
-  manuscript/cover_pages.md \
   manuscript/00_front_matter.md \
   manuscript/part1/ch01_why_big_teams.md \
   manuscript/chapter_gap_all_formats.md \
@@ -47,7 +46,6 @@ pandoc \
 echo "EPUB exit code: $?"
 
 pandoc \
-  manuscript/cover_pages.md \
   manuscript/00_front_matter.md \
   manuscript/part1/ch01_why_big_teams.md \
   manuscript/chapter_gap_all_formats.md \

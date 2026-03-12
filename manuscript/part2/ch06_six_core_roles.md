@@ -12,13 +12,6 @@ Unclear roles generate friction long before visible failure appears. Decisions a
 
 Highly talented teams are particularly vulnerable to this drift. Skill can compensate temporarily for structural weakness. Strong individuals step into gaps, absorb ambiguity, and reconcile conflicts informally. Performance may appear resilient, yet it depends on constant correction. When pressure increases, these informal adjustments fail to scale.
 
-> **Figure 6.1 — Roles as Structural Forces**
->
->
-> ![](figures/generated/ch06_six_core_roles_fig_6_1.png)
->
->
-
 Roles matter because they shape the flow of influence. Each role occupies a point where decisions affect downstream outcomes. If that point is undefined, influence disperses unpredictably. If it is well-defined, influence compounds. The distinction is architectural, not personal.
 
 As leverage increases, the cost of unclear roles rises. Decisions travel further. Misalignment spreads faster. The stability of the system depends less on individual excellence and more on whether design-level positions are designed to absorb and balance competing demands.
@@ -37,10 +30,10 @@ Tradeoffs reveal whether direction is real. When speed conflicts with quality, o
 
 Coherence operates as an ongoing corrective force. It monitors divergence and reconciles inconsistencies before they compound. As new information emerges and constraints shift, coherence reinterprets direction without abandoning it. Without coherence, even well-defined intent fragments. Different parts of the system optimize locally. Assumptions diverge. Terminology drifts.
 
-> **Figure 6.2 — Designing for Leverage**
+> **Figure 6.1 — Roles as Structural Forces**
 >
 >
-> ![](figures/generated/ch06_six_core_roles_fig_6_2.png)
+> ![](figures/generated/ch06_six_core_roles_fig_6_1.png)
 >
 >
 
@@ -61,10 +54,10 @@ Systems fail gradually under delayed feedback. Early inconsistencies appear smal
 
 Filtered feedback produces a different pathology. Information moves upward selectively, emphasizing coherence over contradiction. Over time, internal models grow increasingly confident while becoming less accurate. The system mistakes agreement for validation.
 
-> **Figure 6.3 — Grounding as Feedback Integrity**
+> **Figure 6.2 — Designing for Leverage**
 >
 >
-> ![](figures/generated/ch06_six_core_roles_fig_6_3.png)
+> ![](figures/generated/ch06_six_core_roles_fig_6_2.png)
 >
 >
 
@@ -85,12 +78,14 @@ Technical integrity does not mean perfection. It means preserving internal consi
 
 Time is the variable that exposes integrity. In the short term, degraded structure can appear efficient. Delivery accelerates because constraints are relaxed. In the long term, the cost reappears as rigidity, instability, or unexpected interactions.
 
-> **Figure 6.4 — Technical Integrity Over Time**
+> **Figure 6.3 — Grounding as Feedback Integrity**
 >
 >
-> ![](figures/generated/ch06_six_core_roles_fig_6_4.png)
+> ![](figures/generated/ch06_six_core_roles_fig_6_3.png)
 >
 >
+
+<div class="pagebreak"></div>
 
 Technical integrity is not a moral category. It is not about writing "clean" systems for their own sake. It is about preserving optionality. A structurally sound system can evolve without collapse. A degraded one narrows its future with each shortcut.
 
@@ -108,6 +103,13 @@ Efficiency improves the performance of existing pathways. Leverage alters the pa
 Automation is frequently conflated with leverage. Automation executes predefined actions reliably and at scale. Leverage determines which actions are worth amplifying in the first place. Without foundational clarity about where influence should reside, automation multiplies activity rather than effect. Designing for leverage therefore precedes any decision about mechanization.
 
 Designing for leverage begins with identifying points of influence. Not every task warrants amplification. Some actions are inherently contextual and should remain bounded. Others, if clarified once, can shape many outcomes consistently. The role responsible for leverage distinguishes between these categories and designs accordingly.
+
+> **Figure 6.4 — Technical Integrity Over Time**
+>
+>
+> ![](figures/generated/ch06_six_core_roles_fig_6_4.png)
+>
+>
 
 This distinction requires restraint. In the absence of structural intent, systems default to amplifying visible work rather than consequential work. Activity increases, yet the underlying architecture remains unchanged.
 

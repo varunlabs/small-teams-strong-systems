@@ -152,13 +152,3 @@ The next chapter addresses where that threshold most commonly lands — and why 
 - Minimum viable size is a structural threshold — the smallest configuration that sustains amplification without collapsing under overload or fragmenting under complexity.
 :::
 
-::: {.takeaways}
-**Key Takeaways**
-
-- Leverage is a system property, not an individual trait. It multiplies what already exists—including weaknesses. A poorly structured high-leverage team fails faster and further.
-- High-leverage configurations require fewer people because each decision carries greater downstream reach. Role density matters more than headcount density.
-- As leverage increases, roles must shift from execution-density toward judgment-density. Structure should reflect where decisions are made, not only where work is done.
-- Risk and leverage scale together. Building leverage without structural clarity is not acceleration—it is deferred failure.
-- Minimum viable size is a structural threshold, not a headcount preference. Revisit it as leverage conditions change, not only when capacity pressure appears.
-:::
-

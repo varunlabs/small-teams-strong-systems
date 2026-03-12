@@ -243,3 +243,9 @@ nav#toc ol li a {
   color: #999;
   margin-bottom: 0.5em;
 }
+
+/* Explicit page break utility */
+.pagebreak {
+  page-break-before: always;
+  break-before: page;
+}

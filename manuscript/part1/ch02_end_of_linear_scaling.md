@@ -70,6 +70,13 @@ Another consequence is the overconfidence in control. Linear thinking implies th
 
 Language reinforces the problem. Planning discussions rely on terms like "adding," "scaling," or "optimizing," all of which suggest continuity and smoothness. These terms shape expectations, encouraging the belief that complexity can be managed through accumulation rather than reconfiguration. When outcomes diverge from expectations, the divergence is often attributed to execution gaps rather than to the limitations of the underlying assumptions.
 
+> **Figure 2.3 — When Linear Intuition Meets Nonlinear Effects**
+>
+>
+> ![](figures/generated/ch02_end_of_linear_scaling_fig_2_3.png)
+>
+>
+
 The purpose of naming this mismatch is not to replace one theory with another. It is to clarify why well-intentioned choices can systematically underperform expectations even when executed competently. When reasoning tools are calibrated for a different class of problems, increasing effort does not restore alignment. It merely amplifies the strain between expectation and outcome.
 
 Recognizing that the world does not respond linearly to linear plans is a prerequisite for clearer judgment. It allows teams and leaders to separate execution failures from model failures, and to notice when surprise is not an anomaly but a signal. Until that distinction is made, planning remains an exercise in extending assumptions beyond the conditions that once made them reliable.

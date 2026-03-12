@@ -1,13 +1,3 @@
-**Small Teams, Strong Systems**
-
-*Designing High-Leverage Work in the AI Era*
-
-*A practical guide for founders, builders, researchers, and managers navigating AI-native and frontier technologies.*
-
-**Varun Kumar Siddaraju**
-
----
-
 ```{=latex}
 \clearpage
 \csname thispagestyle\endcsname{empty}

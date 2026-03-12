@@ -6,7 +6,6 @@ $OUT = "output"
 Write-Host "Building DOCX..."
 
 $docxArgs = @(
-  "$PSScriptRoot\manuscript\cover_pages.md",
   "$PSScriptRoot\manuscript\00_front_matter.md",
   "$PSScriptRoot\manuscript\part1\ch01_why_big_teams.md",
   "$PSScriptRoot\manuscript\chapter_gap_all_formats.md",

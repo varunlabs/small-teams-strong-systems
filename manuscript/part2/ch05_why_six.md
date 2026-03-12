@@ -180,13 +180,4 @@ Viewed this way, constraint disciplines thinking. It prevents growth from becomi
 - The Six Forces Framework begins with this constraint. Each of the six roles applies a distinct force to keep the team compounding rather than fragmenting.
 :::
 
-::: {.takeaways}
-**Key Takeaways**
-
-- Team size is a design decision, not a default. Left unexamined, it drifts toward whatever hiring pressure and convenience suggest.
-- Groups of one or two lack coverage and resilience. Groups beyond eight lose shared context and require active coordination infrastructure to remain aligned.
-- Accountability and ownership emerge naturally at six. Above that threshold, they require active enforcement—and enforcement has its own overhead.
-- Six is not a commandment. It is a constraint that forces structural honesty before scale adds complexity that obscures it.
-- In AI-era work, the threshold for adding headcount is meaningfully higher. Many tasks previously requiring a person are now addressable with tools—check that assumption before hiring.
-:::
 
