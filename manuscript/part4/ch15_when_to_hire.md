@@ -47,7 +47,6 @@ In practical terms, adding one person does not add one unit of progress. It adds
 >
 > ![](figures/generated/ch15_when_to_hire_fig_15_1.png)
 >
-> *Each hire adds not just output capacity, but new interfaces. The coordination cost compounds faster than capability grows. The expected gain is often erased by hidden integration overhead.*
 
 ---
 
@@ -92,7 +91,6 @@ If constraints remain after this sprint, the hire case becomes stronger because 
 >
 > ![](figures/generated/ch15_when_to_hire_fig_15_2.png)
 >
-> *Most pressure signals are design problems, not capacity problems. Redesign first, measure the remaining gap, then hire only if structural constraints persist.*
 
 ---
 

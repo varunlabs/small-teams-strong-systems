@@ -43,7 +43,6 @@ Coherence allows small adjustments to cascade constructively. Without it, small 
 > ![](figures/generated/ch04_headcount_to_leverage_fig_4_1.png)
 >
 >
-> *Individual leverage produces visible heroics. Systemic leverage produces invisible reliability. The goal is the second kind — where influence compounds without requiring the same person in every decision.*
 
 *If influence within a system can either compound or fragment, what structural conditions determine which pattern prevails?*
 
@@ -59,7 +58,6 @@ Leverage is often described in terms of what it enables: faster execution, broad
 > ![](figures/generated/ch04_headcount_to_leverage_fig_4_2.png)
 >
 >
-> *Leverage doesn’t add force. It subtracts waste. The visible result is speed and clarity; the structural reason is that the system no longer needs to compensate for its own inefficiencies.*
 
 The first category removed is repetition without learning. In low-leverage systems, similar decisions are made repeatedly at different points in the organization, often with slight variations and inconsistent outcomes. When leverage is embedded structurally, tradeoffs are encoded once and applied consistently, reducing redundant deliberation.
 
@@ -92,7 +90,6 @@ This shift also alters how specialization functions. Traditional specialization 
 > ![](figures/generated/ch04_headcount_to_leverage_fig_4_3.png)
 >
 >
-> *In a high-leverage system, a role’s value is not its task volume but the quality and reach of its decisions. A role that touches few artifacts but shapes many downstream choices is more consequential than one that produces high volume with restricted effect.*
 
 Another change concerns reversibility. Some roles operate in domains where errors can be corrected quickly with limited ripple effects. Others operate at points where decisions are difficult to reverse once amplified. Under high leverage, distinguishing between these domains becomes critical.
 
@@ -112,7 +109,6 @@ As leverage increases, the economics of failure change. The same property that a
 > ![](figures/generated/ch04_headcount_to_leverage_fig_4_4.png)
 >
 >
-> *In leveraged systems, where an error originates matters less than how far it travels. Risk management must focus on containment architecture, not just error prevention.*
 
 In low-leverage systems, failure is often localized. Errors consume time and resources, but their impact remains bounded. Under high leverage, the boundary expands. A flawed assumption embedded upstream can propagate widely before it is detected, affecting multiple domains simultaneously. The cost of correction grows not because the mistake is larger, but because its reach is broader.
 

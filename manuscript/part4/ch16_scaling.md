@@ -8,7 +8,6 @@ When systems expand, geometry changes. Influence pathways lengthen. Interfaces m
 >
 > ![](figures/generated/ch16_scaling_fig_16_1.png)
 >
-> *As teams scale, internal complexity expands quadratically while decision clarity tends to diffuse. The core logic must become more explicit to maintain coherence.*
 
 The core of a system is not its size, but its decision logic. It is the set of boundaries that define scope, the allocation of authority that resolves trade-offs, and the integration points that preserve coherence. Scaling tests whether this logic remains stable under added complexity.
 
@@ -62,7 +61,6 @@ The myth persists because formalization can stabilize surfaces. Meetings feel pr
 >
 > ![](figures/generated/ch16_scaling_fig_16_2.png)
 >
-> *As complexity grows, both necessary structure and unnecessary bureaucracy tend to increase. The mature system optimizes for clarity, not density.*
 
 Maturity is not measured by density of process. It is measured by precision of boundaries and reliability of decision pathways. A mature system may appear lean because clarity is embedded rather than administratively enforced.
 
@@ -135,7 +133,6 @@ Cell-based expansion limits this drift. Interfaces between cells are articulated
 >
 > ![](figures/generated/ch16_scaling_fig_16_3.png)
 >
-> *Layering stretches decision pathways and fragments context. Cellular replication preserves internal coherence while expanding through multiplication of compact units.*
 
 This pattern does not eliminate hierarchy entirely. It constrains its depth. Authority may coordinate across cells, but it does not replace internal clarity within them.
 

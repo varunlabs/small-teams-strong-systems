@@ -18,7 +18,6 @@ Highly talented teams are particularly vulnerable to this drift. Skill can compe
 > ![](figures/generated/ch06_six_core_roles_fig_6_1.png)
 >
 >
-> *Each role applies a distinct structural force. Roles are not interchangeable — removing any one creates a predictable failure mode, not just a capacity gap.*
 
 Roles matter because they shape the flow of influence. Each role occupies a point where decisions affect downstream outcomes. If that point is undefined, influence disperses unpredictably. If it is well-defined, influence compounds. The distinction is architectural, not personal.
 
@@ -44,7 +43,6 @@ Coherence operates as an ongoing corrective force. It monitors divergence and re
 > ![](figures/generated/ch06_six_core_roles_fig_6_2.png)
 >
 >
-> *Direction and coherence must work together. Direction without coherence produces well-intentioned fragmentation. Coherence without direction produces disciplined stagnation. Only the combination produces compound leverage.*
 
 Importantly, direction is not equivalent to centralized control. Strong direction reduces the need for intervention because it shapes decisions upstream. When boundaries are clear and intent is understood, individuals act autonomously without undermining alignment.
 
@@ -69,7 +67,6 @@ Filtered feedback produces a different pathology. Information moves upward selec
 > ![](figures/generated/ch06_six_core_roles_fig_6_3.png)
 >
 >
-> *Grounding is not about gathering more data — it is about maintaining structural pathways through which evidence can contradict assumption. When those pathways are filtered or absent, decisions become progressively detached from reality.*
 
 Grounding interrupts this pattern by shortening the distance between decision and consequence. It is not a periodic review or corrective intervention. It is an embedded mechanism that enforces contact with reality as work unfolds. When direction defines long-term intent, grounding tests whether current movement aligns with actual constraints.
 
@@ -94,7 +91,6 @@ Time is the variable that exposes integrity. In the short term, degraded structu
 > ![](figures/generated/ch06_six_core_roles_fig_6_4.png)
 >
 >
-> *Technical integrity is not perfectionism — it is structural memory. Every shortcut accepted early is borrowed time. The compounding nature of technical debt means that systems neglecting integrity lose velocity precisely when they need it most.*
 
 Technical integrity is not a moral category. It is not about writing "clean" systems for their own sake. It is about preserving optionality. A structurally sound system can evolve without collapse. A degraded one narrows its future with each shortcut.
 
@@ -139,7 +135,6 @@ Acceleration does not imply haste. It implies reduced latency between cause and 
 > ![](figures/generated/ch06_six_core_roles_fig_6_5.png)
 >
 >
-> *In leveraged systems, learning speed determines how long errors propagate before correction. Compressed feedback loops don’t just improve agility — they prevent small misalignments from becoming structural commitments.*
 
 Leverage without learning produces brittleness. Amplified calls amplify mistakes. Over time, confidence may increase even as accuracy declines. Learning prevents this inward spiral by continuously testing assumptions against outcomes.
 
@@ -162,7 +157,6 @@ However, external signals cannot be absorbed indiscriminately. The environment g
 > ![](figures/generated/ch06_six_core_roles_fig_6_6.png)
 >
 >
-> *The external boundary role is not a gatekeeper — it is a signal curator. The goal is not to keep things out, but to let the right things in: signals that reveal structural misalignment, filtered from noise that only amplifies distraction.*
 
 The role at the boundary therefore curates, not accumulates. It distinguishes between signals that indicate structural misalignment and those that reflect transient variation. Isolation produces overconfidence. Saturation produces paralysis. Stability lies between these extremes.
 
@@ -183,7 +177,6 @@ Tension between them is not a flaw; it is built-in necessity. Direction can drif
 > ![](figures/generated/ch06_six_core_roles_fig_6_7.png)
 >
 >
-> *Stability in a six-role system does not come from any single dominant role — it emerges from the active interplay of competing functions. Each role both enables and constrains another. Remove the tension, and drift replaces discipline.*
 
 Importantly, these roles do not require distinct individuals to exist. In small configurations, one person may embody several simultaneously. What matters is not embodiment but presence. When a function is unrepresented, the system does not compensate automatically. It distorts.
 

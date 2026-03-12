@@ -20,7 +20,6 @@ Leverage is easy to miss because it operates indirectly. When a single decision 
 > ![](figures/generated/ch03_what_ai_changes_fig_3_1.png)
 >
 >
-> *The leverage frame is the only one that changes organizational design rather than just workflow. It asks: not what can the tool do, but how far does each decision now travel?*
 
 Seen this way, AI's significance lies in its ability to concentrate influence. Actions that once required repeated human intervention can now be set once and executed many times. Judgments that previously degraded with scale can be applied consistently. Exploration that once demanded extensive manual effort can be compressed into shorter cycles. None of this eliminates human judgment; it changes the radius within which that judgment operates.
 
@@ -46,7 +45,6 @@ Uncertainty persists for similar reasons. Many of the most consequential calls a
 > ![](figures/generated/ch03_what_ai_changes_fig_3_2.png)
 >
 >
-> *AI scales execution reliably. It does not scale judgment. As execution becomes cheaper and faster, judgment becomes proportionally more consequential — not less necessary.*
 
 Responsibility therefore does not dissipate; it concentrates. When outcomes are shaped by fewer upstream choices with wider downstream impact, accountability cannot be deferred to the tool or the process. Decisions still originate somewhere, and their consequences still accrue to the systems and people that authorize them. Delegation of execution does not imply delegation of responsibility.
 
@@ -72,7 +70,6 @@ As leverage grows, structural slack also changes character. In linear systems, s
 > ![](figures/generated/ch03_what_ai_changes_fig_3_3.png)
 >
 >
-> *The same structural weaknesses that were tolerable at low leverage become acute at high leverage. Ambiguity that was a minor irritant becomes a system-wide risk.*
 
 Structures optimized for throughput may prioritize speed of execution. Under leverage, speed without clarity can be destructive. When judgments reverberate quickly, errors propagate just as fast. Structural mechanisms that slow decisions slightly in order to improve their placement can outperform faster systems that lack containment.
 
@@ -114,7 +111,6 @@ AI intensifies this dynamic by compressing the distance between decision and con
 > ![](figures/generated/ch03_what_ai_changes_fig_3_4.png)
 >
 >
-> *In leveraged environments, the most consequential leadership act is defining how decisions should be made — not making every decision. Judgment design creates conditions that compound, not just immediate decisions that expire.*
 
 Responsibility moves upstream. Leaders are increasingly accountable not for individual outcomes, but for the structure of decision-making itself. This includes how uncertainty is acknowledged, how disagreement is surfaced, and how irreversible choices are treated differently from reversible ones.
 

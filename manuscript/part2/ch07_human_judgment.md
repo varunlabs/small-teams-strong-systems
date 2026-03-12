@@ -34,7 +34,6 @@ Judgment and execution also differ in their relationship to consequence. Executi
 > ![](figures/generated/ch07_human_judgment_fig_7_1.png)
 >
 >
-> *The line between interpretation and procedure is not about task difficulty — it is about frame-setting versus frame-operating. Blurring the boundary either rigidifies judgment into outdated rules or floods decision-makers with routine questions.*
 
 The stability of a modern system depends less on how efficiently it executes and more on how precisely it distinguishes between deciding and doing. When that boundary is preserved, execution reinforces intent. When it is blurred, scale magnifies error.
 
@@ -54,7 +53,6 @@ The opposite failure is proceduralizing unstable domains. Decisions that require
 > ![](figures/generated/ch07_human_judgment_fig_7_2.png)
 >
 >
-> *Each misallocation produces a predictable failure pattern. Diagnosis requires identifying not just that judgment is failing, but which structural misplacement is causing it.*
 
 A subtler misallocation occurs when judgment is distributed without clarity. Multiple actors reinterpret the same signals without a defined locus of consequence. In such systems, disagreement is not resolved structurally but diffused socially. Execution receives inconsistent inputs. Actions oscillate.
 
@@ -86,7 +84,6 @@ Feedback loops also depend on this boundary. Signals generated through execution
 > ![](figures/generated/ch07_human_judgment_fig_7_3.png)
 >
 >
-> *Small teams have no structural buffering between design and consequence. A misplaced judgment boundary that might take months to surface in a large organization will appear in days in a six-person team. This is a feature, not a liability — it forces structural clarity early.*
 
 Over time, the boundary itself must remain visible. Systems that do not articulate it tend to blur it gradually. Without periodic clarity about which layer owns which calls, the distinction erodes.
 
@@ -134,7 +131,6 @@ Importantly, leadership does not monopolize judgment. It designs where judgment 
 > ![](figures/generated/ch07_human_judgment_fig_7_4.png)
 >
 >
-> *In a judgment-heavy system, leadership effectiveness is measured not by decision speed but by whether judgment allocation remains deliberately designed and maintained. Leadership that only decides is a bottleneck. Leadership that designs how decisions are made is a multiplier.*
 
 As systems become more capable of automated execution, the relative weight of judgment increases. Errors at the interpretive layer propagate farther and faster. Leadership therefore becomes less about directing motion and more about ensuring that the system knows when to reconsider its premises.
 

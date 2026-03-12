@@ -55,7 +55,6 @@ Progress that compounds differs qualitatively. Clarified boundaries reduce futur
 >
 > ![](figures/generated/ch14_burnout_fig_14_1.png)
 >
-> *Effort restores rather than strengthens. Energy cycles through coordination, reconciliation, and compensation—without accumulating into clarity. Burnout emerges not from intensity, but from futility.*
 
 The distinction is subtle but decisive. High effort can coexist with resilience when work strengthens the system. Moderate effort can produce exhaustion when it maintains fragile equilibrium without improvement.
 
@@ -88,7 +87,6 @@ Clarifying ownership does not reduce complexity, but it reduces duplication of e
 >
 > ![](figures/generated/ch14_burnout_fig_14_2.png)
 >
-> *With diffused ownership, energy disperses across navigation and renegotiation. With defined ownership, energy concentrates on execution and improvement.*
 
 
 ---
@@ -135,7 +133,6 @@ The result is asymmetry between visible efficiency and invisible vigilance. Indi
 >
 > ![](figures/generated/ch14_burnout_fig_14_3.png)
 >
-> *Amplified leverage compresses visible work but expands invisible monitoring. The paradox: automation increases attentional demand while reducing task volume.*
 
 Burnout in such environments is not driven by repetitive labor. It emerges from sustained responsibility over expansive impact. When correction, interpretation, and anticipation are constant, exhaustion accumulates beneath the appearance of leverage.
 

@@ -46,7 +46,6 @@ The architectural advantage emerges when learning speed precedes delivery speed.
 > ![](figures/generated/ch09_rapid_prototyping_fig_9_1.png)
 >
 >
-> *Delivery speed and learning speed are independent axes. A system can excel on one while stagnating on the other. Long-term structural advantage belongs to systems that protect learning tempo — because execution optimized around wrong assumptions only compounds error.*
 
 *If speed is divided between learning and delivery, which of these currently governs the tempo of your system?*
 
@@ -72,7 +71,6 @@ The quality of a prototype is measured by its diagnostic power. Does it isolate 
 > ![](figures/generated/ch09_rapid_prototyping_fig_9_2.png)
 >
 >
-> *A prototype’s value is not fidelity to the final product. It is the quality of friction it generates. Friction is not failure — it is information about where interpretation and reality diverge.*
 
 Using prototypes as decision instruments also redistributes authority. Rather than relying solely on argument or hierarchical judgment, the system anchors deliberation in consequence. Disagreements can be reframed around observed friction rather than speculative preference.
 
@@ -93,7 +91,6 @@ Prototyping interrupts this loop. It converts abstract reasoning into concrete e
 > ![](figures/generated/ch09_rapid_prototyping_fig_9_3.png)
 >
 >
-> *Each iteration replaces speculative reasoning with grounded signal. Cognitive load is not reduced by thinking harder — it is reduced by encountering reality. Overthinking is not a discipline failure; it is a structural one caused by insufficient contact with consequence.*
 
 Iteration reduces cognitive drag by replacing speculation with signal. Disagreements that might persist in abstract discussion resolve more quickly when anchored in shared evidence.
 
@@ -123,7 +120,6 @@ Non-disposable work produces the opposite effect. When early artifacts are treat
 > ![](figures/generated/ch09_rapid_prototyping_fig_9_4.png)
 >
 >
-> *When early work is permanent, critique feels like an attack. When early work is disposable, critique is just information. Psychological safety is not an emotional property of a team — it is a structural property of how work is framed.*
 
 The quality of experimentation increases when revision is normalized. If discarding an iteration is routine, the system reallocates attention from preservation to learning. Each cycle becomes a controlled exposure rather than a reputational event.
 
@@ -148,7 +144,6 @@ The strategic difference lies in latency. When feedback cycles are short, interp
 > ![](figures/generated/ch09_rapid_prototyping_fig_9_5.png)
 >
 >
-> *With identical starting assumptions, systems diverge based on feedback latency alone. Faster-learning systems don’t necessarily work harder — they encounter reality more frequently. Over time, this compounds into a structural advantage that has nothing to do with raw output.*
 
 Rapid feedback does more than reduce downside. Asymmetry deepens when competitors operate with longer feedback loops. If one system can revise direction multiple times while another is still validating its first assumption, divergence widens.
 

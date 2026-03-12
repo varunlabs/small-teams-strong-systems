@@ -34,7 +34,6 @@ The difference lies in where complexity accumulates. Large systems often trade e
 >
 > ![](figures/generated/ch11_small_teams_fig_11_1.png)
 >
-> *As teams grow, complexity migrates from the problem domain into coordination overhead. The total complexity remains constant —  only its location shifts.*
 
 *If complexity cannot be removed but only relocated, where is it currently accumulating in your organization — in the problem space, or in the coordination structure itself?*
 
@@ -58,7 +57,6 @@ Simplicity therefore functions as a foundational equilibrium. Under constraint, 
 >
 > ![](figures/generated/ch11_small_teams_fig_11_2.png)
 >
-> *Constraint narrows optionality, forcing explicit trade-offs. Without capacity to absorb ambiguity, systems move toward sharper definitions.*
 
 Importantly, simplicity is not synonymous with ease. It may require difficult prioritization, sharper definitions of responsibility, and disciplined scope limitation.
 
@@ -81,7 +79,6 @@ In larger systems, divergence is more likely. Specialization creates different v
 >
 > ![](figures/generated/ch11_small_teams_fig_11_3.png)
 >
-> *When shared understanding breaks down, the organization builds process infrastructure to compensate. Alignment becomes expensive instead of automatic.*
 
 High uncertainty intensifies the value of shared models. When external conditions shift rapidly, teams must reinterpret signals in near real time. If baseline assumptions differ, each shift triggers re-alignment. If assumptions are aligned, adaptation requires fewer cycles.
 
@@ -112,7 +109,6 @@ The implication is not that amplification favors smallness inherently. It favors
 >
 > ![](figures/generated/ch11_small_teams_fig_11_4.png)
 >
-> *Amplification multiplies outcomes linearly but propagates misalignment exponentially. Strong architecture scales capability; weak architecture scales instability.*
 
 *As output accelerates and consequences extend further, how robust is the structure through which your decisions currently propagate?*
 

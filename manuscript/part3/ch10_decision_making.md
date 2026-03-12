@@ -46,7 +46,6 @@ Reframing decisions as hypotheses alters this dynamic. A hypothesis is not a gue
 >
 > ![](figures/generated/ch10_decision_making_fig_10_1.png)
 >
-> *Reframing converts a decision from a point of commitment to a structured claim about expected outcomes. This shift enables rapid iteration without treating adjustment as failure.*
 
 This shift changes how execution is organized. If a decision is a hypothesis, then action becomes a means of testing foundational assumptions. The objective is not simply to implement, but to observe. Signals that confirm or contradict the underlying claim become central rather than peripheral.
 
@@ -83,7 +82,6 @@ Clear ownership does not guarantee correctness. It guarantees motion. And in vol
 >
 > ![](figures/generated/ch10_decision_making_fig_10_2.png)
 >
-> *As external change accelerates, the cost of internal delay compounds. Speed and clarity trade off against breadth of consultation.*
 
 
 ---

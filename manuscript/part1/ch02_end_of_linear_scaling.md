@@ -26,7 +26,6 @@ What makes linear scaling particularly durable is that it does not present itsel
 > ![](figures/generated/ch02_end_of_linear_scaling_fig_2_1.png)
 >
 >
-> *The assumption of proportional growth is rarely stated. It operates beneath planning language, shaping decisions without appearing in strategy documents. This invisibility is what makes it so persistent.*
 
 Once named, the question shifts from how to execute linear growth more efficiently to whether proportional expansion is the only — or even the primary — way capacity can increase.
 
@@ -54,7 +53,6 @@ At this stage, measurement becomes misleading. Traditional indicators — utiliz
 > ![](figures/generated/ch02_end_of_linear_scaling_fig_2_2.png)
 >
 >
-> *Linear scaling fails in stages, not all at once. By the time the failure is visible, it has been compounding for years — and the response (more people, more process) typically deepens the original problem.*
 
 The most persistent misconception is that these issues are signs of imperfect execution rather than architectural limits. Linear scaling encourages the belief that better discipline, clearer communication, or more capable people will restore proportional returns. While such improvements may offer temporary relief, they do not address the underlying mismatch between how capacity grows and how complexity accumulates.
 

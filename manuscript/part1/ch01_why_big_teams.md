@@ -41,7 +41,6 @@ Seen in this light, the dominance of large teams was not a historical mistake. I
 > ![](figures/generated/ch01_why_big_teams_fig_1_1.png)
 >
 >
-> *Each constraint independently justified adding people. Together, they made large teams appear not just useful, but necessary. The problem was not poor judgment — it was rational adaptation to a specific environment.*
 
 Understanding these original constraints is essential, because it clarifies what large teams were actually doing. They were compensating for limits in tools, communication, and individual capacity. They were a solution to real problems, not an expression of excess. Only by recognizing this can we begin to see why those forms became so deeply embedded — and why questioning them now requires more than preference or taste.
 
@@ -77,7 +76,6 @@ None of this implied that scale was misguided or that growth was inherently harm
 > ![](figures/generated/ch01_why_big_teams_fig_1_2.png)
 >
 >
-> *What began as situational logic — adding people when execution was scarce — became systemic belief. By stage 4, size was no longer chosen; it was assumed.*
 
 Understanding this transition matters because it explains why conversations about team size often feel defensive or emotionally charged. When size functions as belief rather than response, questioning it can feel like questioning ambition itself. What was once a tool becomes a value. What was once contingent becomes normative.
 
@@ -99,7 +97,6 @@ As teams expand, this changes subtly at first. Additional people introduce addit
 > ![](figures/generated/ch01_why_big_teams_fig_1_3.png)
 >
 >
-> *Connections grow as n(n–1)/2 — combinatorially, not linearly. At 50 people, there are 1,225 potential connection points to manage. Linear intuition never accounts for this.*
 
 The critical shift is that coordination does not scale proportionally with team size. It scales combinatorially. Each additional role increases the number of possible interactions, dependencies, and potential points of misalignment. Even when communication quality remains high, the sheer volume of coordination required begins to dominate the system. More time is spent synchronizing work than doing it.
 
@@ -141,7 +138,6 @@ The result was not immediate failure, but growing tension. Organizations built f
 > ![](figures/generated/ch01_why_big_teams_fig_1_4.png)
 >
 >
-> *The large-team model did not fail suddenly. It gradually stopped fitting as execution became cheaper while coordination costs remained stubbornly structural.*
 
 Importantly, this transition was easy to miss. From the outside, many organizations still appeared successful. The headcount grew. Activity increased. Output continued. Yet beneath the surface, the relationship between size and effectiveness was weakening. Adding people no longer produced the same proportional gains. Decision-making slowed relative to execution. The system's weight increased even as the cost of action decreased.
 
@@ -163,7 +159,6 @@ What has shifted is not the desire to build complex, meaningful systems. That de
 > ![](figures/generated/ch01_why_big_teams_fig_1_5.png)
 >
 >
-> *The constraint shifted from execution to judgment — but organizational models largely continued optimizing for the old constraint. That gap is where most modern inefficiency lives.*
 
 Capabilities that were once rare, expensive, or slow have become commonplace. Activities that previously required extended coordination now compress into shorter cycles. Iteration that once took weeks can occur in days. Feedback that was delayed by organizational distance now arrives closer to the moment of action. These changes alter the economics of progress even when the surface-level work appears familiar.
 
@@ -199,7 +194,6 @@ When the underlying challenge is unclear ownership, adding people diffuses respo
 > ![](figures/generated/ch01_why_big_teams_fig_1_6.png)
 >
 >
-> *The capacity interpretation treats every symptom as a resource deficit. The coherence interpretation treats every symptom as a structural signal. The two responses lead to opposite outcomes.*
 
 This is why teams often experience a paradoxical slowdown precisely when they are investing more heavily. Energy increases, but direction does not. Meetings multiply, but decisions do not converge. Work expands horizontally while progress stalls vertically. The organization grows thicker without growing sharper.
 

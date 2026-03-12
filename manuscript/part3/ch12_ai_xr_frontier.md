@@ -36,7 +36,6 @@ As a result, complexity distributes differently. In abstract systems, it accumul
 >
 > ![](figures/generated/ch12_ai_xr_frontier_fig_12_1.png)
 >
-> *Embodied systems participate in perception itself. Errors are no longer confined to outputs; they become experiential. The system's boundary encompasses the human sensorium.*
 
 *What shifts in system responsibility when intelligence is encountered as part of one's surroundings rather than through a screen?*
 
@@ -66,7 +65,6 @@ Because early progress is perceptually steep and later progress structurally den
 >
 > ![](figures/generated/ch12_ai_xr_frontier_fig_12_2.png)
 >
-> *Early progress is perceptually steep. Later consolidation is volumetrically dense but visually flat. The perception of stagnation is highest precisely when structural work is most critical.*
 
 
 ---
@@ -95,7 +93,6 @@ One consequence is that mitigation strategies shift from eliminating uncertainty
 >
 > ![](figures/generated/ch12_ai_xr_frontier_fig_12_3.png)
 >
-> *In embodied systems, outputs are encountered directly. Small variations become perceptually significant. The risk is not failure, but coherence erosion through accumulated variability.*
 
 
 ---
@@ -124,7 +121,6 @@ The challenge is not scale itself. It is coupling. Embodied AI systems require t
 >
 > ![](figures/generated/ch12_ai_xr_frontier_fig_12_4.png)
 >
-> *Every interface between specialized teams introduces translation latency. In frontier domains where assumptions shift rapidly, latency is a more limiting constraint than raw capability.*
 
 
 ---
@@ -153,7 +149,6 @@ The significance of small teams at the frontier is therefore not cultural but st
 >
 > ![](figures/generated/ch12_ai_xr_frontier_fig_12_5.png)
 >
-> *In tightly coupled teams, sensing, interpretation, and modification compress into a single iterative loop. Scale elongates this loop; structural clarity preserves it.*
 
 *If learning speed depends on structural coherence, how deliberately should team boundaries be designed to preserve it?*
 
@@ -183,7 +178,6 @@ Importantly, structure should not be conflated with bureaucracy. Excessive proce
 >
 > ![](figures/generated/ch12_ai_xr_frontier_fig_12_6.png)
 >
-> *In loosely structured systems, instability propagates freely. Defined boundaries and clear ownership localize variability, allowing correction before it destabilizes the whole.*
 
 
 ---
@@ -212,7 +206,6 @@ At the frontier, long-term dominance rarely emerges from a single breakthrough. 
 >
 > ![](figures/generated/ch12_ai_xr_frontier_fig_12_7.png)
 >
-> *Systems with clear foundational definitions expand capability without destabilizing adjacent layers. Systems with latent ambiguity propagate change in unpredictable ways.*
 
 
 ---
@@ -235,7 +228,6 @@ The enduring advantage may not belong to those who build the most advanced syste
 >
 > ![](figures/generated/ch12_ai_xr_frontier_fig_12_8.png)
 >
-> *Capability and coherence diverge as systems scale. The winner is not who moves fastest, but who preserves coherence while capability expands.*
 
 *When your system encounters sustained uncertainty, does your structure amplify it — or contain it?*
 

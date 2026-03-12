@@ -26,7 +26,6 @@ This divergence occurs because comfort filters signals. Feedback that challenges
 > ![](figures/generated/ch08_designing_speed_fig_8_1.png)
 >
 >
-> *“This feels fast” and “we are moving effectively” are different claims. The most dangerous quadrant is steady environment with misaligned structure: everything feels fine while the gap widens silently.*
 
 In high-leverage environments, this misalignment compounds quickly. Execution can scale rapidly, amplifying whatever assumptions govern it. If those assumptions are no longer accurate, comfort becomes a liability. The system moves efficiently in the wrong direction.
 
@@ -50,7 +49,6 @@ Learning latency is the hidden variable. Every decision contains an assumption a
 > ![](figures/generated/ch08_designing_speed_fig_8_2.png)
 >
 >
-> *The organizational capacity to adapt is not a function of culture or intent — it is a function of how far decisions travel before they encounter disconfirming evidence. Structural agility is designed, not wished.*
 
 Reducing learning latency requires tight coupling between action and interpretation. Outcomes must travel back to the layer where framing occurs. If signals are absorbed at the operational level without reaching interpretive authority, the system improves execution while leaving its assumptions intact.
 
@@ -82,7 +80,6 @@ The third condition is visible consequence. When the results of choices are abst
 > ![](figures/generated/ch08_designing_speed_fig_8_3.png)
 >
 >
-> *Sustained momentum is not the result of a push to move faster. It is the result of architectural conditions that make fast, correctable action the path of least resistance.*
 
 Another prerequisite is reversible movement. Systems that treat every decision as irreversible tend to over-deliberate. When architecture allows for controlled reversibility, decisions can be tested earlier. This does not eliminate risk, but it limits the cost of correction and encourages shorter feedback loops.
 
@@ -109,7 +106,6 @@ Sustainable speed depends on protecting judgment. Execution can accelerate, but 
 > ![](figures/generated/ch08_designing_speed_fig_8_4.png)
 >
 >
-> *These four conditions are not aspirational — they are load-bearing. Remove any one, and velocity transforms from an asset into a structural liability. The question is not how fast the team is, but which conditions support the speed it claims.*
 
 Constraint plays a stabilizing role. Clear boundaries around scope prevent velocity from diffusing into too many parallel efforts. When focus is narrow, feedback is easier to interpret.
 
@@ -139,7 +135,6 @@ A third fracture emerges at the level of scope. Small teams are particularly vul
 > ![](figures/generated/ch08_designing_speed_fig_8_5.png)
 >
 >
-> *The distinction between structurally supported speed and extracted speed is invisible in the short term. Both look like progress. Only the structural conditions beneath the surface predict which one will still be viable in six months.*
 
 Decision quality declines under false speed. Interpretation is replaced by procedure. Communication narrows to operational exchange. Judgment — the very capability that differentiates a small, adaptive system — is slowly displaced by survival behavior.
 

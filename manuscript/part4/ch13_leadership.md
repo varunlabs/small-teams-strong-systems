@@ -41,7 +41,6 @@ Drift becomes possible when feedback weakens. In tightly integrated systems, mis
 >
 > ![](figures/generated/ch13_leadership_fig_13_2.png)
 >
-> *Drift is not dramatic; it is diffuse. Without tight feedback, misalignment accumulates beneath visible performance. By the time it surfaces, correction is costly.*
 
 Over time, however, feedback can soften. Interfaces become more tolerant. Dependencies are abstracted behind layers of process. Communication compensates for unclear ownership. The system continues to function, but signals that once indicated misalignment lose intensity.
 
@@ -78,7 +77,6 @@ Structural entropy also changes how risk is absorbed. When responsibilities are 
 >
 > ![](figures/generated/ch13_leadership_fig_13_3.png)
 >
-> *Clarity does not dissolve suddenly. It erodes incrementally as new roles, exceptions, and temporary solutions accumulate without reinforcing boundaries.*
 
 Importantly, entropy does not imply disorder in appearance. The system may look organized. Processes may exist. Meetings may occur regularly. Yet beneath visible activity, clarity may be eroding.
 
@@ -113,7 +111,6 @@ As divergence increases, the system's identity becomes diffuse. Participants int
 >
 > ![](figures/generated/ch13_leadership_fig_13_4.png)
 >
-> *Each unit optimizes within its domain with good intent. Collectively, local gains fragment global coherence. Alignment shifts from architecture to negotiation.*
 
 *If each part of the system becomes more efficient while the whole becomes harder to reason about, what has truly improved?*
 
@@ -143,7 +140,6 @@ Structural repair interrupts this cycle by focusing on coherence rather than con
 >
 > ![](figures/generated/ch13_leadership_fig_13_5.png)
 >
-> *Repair restores definition without discarding working components. Reinvention replaces everything, risking the loss of embedded knowledge with the gain of visibility.*
 
 
 ---
@@ -189,7 +185,6 @@ These tests are not grading instruments. They are diagnostic signals—ways to d
 >
 > ![](figures/generated/ch13_leadership_fig_13_1.png)
 >
-> *These diagnostics do not grade leadership quality. They surface the gap between intended design and actual practice—which is where coherence begins to erode.*
 
 ---
 
