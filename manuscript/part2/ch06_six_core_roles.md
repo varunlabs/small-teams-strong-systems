@@ -85,8 +85,6 @@ Time is the variable that exposes integrity. In the short term, degraded structu
 >
 >
 
-<div class="pagebreak"></div>
-
 Technical integrity is not a moral category. It is not about writing "clean" systems for their own sake. It is about preserving optionality. A structurally sound system can evolve without collapse. A degraded one narrows its future with each shortcut.
 
 As leverage increases, so does the cost of structural decay. Amplified systems magnify hidden weaknesses. Integrity therefore anchors the system across time.
