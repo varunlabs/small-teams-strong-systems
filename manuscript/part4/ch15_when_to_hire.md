@@ -98,6 +98,18 @@ If constraints remain after this sprint, the hire case becomes stronger because 
 
 Basecamp has stayed relatively small for years while maintaining meaningful revenue because it treats hiring as a last structural move, not a default response to pressure. Their recurring question has been: can we redesign the product or process so this recurring load disappears? Only when the answer is consistently no does headcount expand. The lesson is not that every company should stay small; it is that the hiring threshold should be architectural, not emotional.
 
+---
+
+### 15.6 The Question This Chapter Leaves You With
+
+Hiring feels like the answer because pressure is immediate and structural diagnosis is slow. The discomfort of an overloaded team is visceral. The cost of a premature hire is diffuse — distributed across onboarding friction, coordination overhead, and the quiet erosion of decision speed that no single metric captures.
+
+The discipline this chapter describes is not anti-growth. It is anti-default. It asks whether the system has earned the right to expand — whether the current architecture can absorb another node without degrading the coherence that makes the team effective in the first place.
+
+*What would change in your team if you treated hiring as the last structural option rather than the first?*
+
+---
+
 The next chapter extends this principle: once you preserve hiring discipline, how do you scale capability without losing the decision logic that made the system effective?
 
 

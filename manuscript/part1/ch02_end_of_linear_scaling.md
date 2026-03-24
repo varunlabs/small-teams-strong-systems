@@ -1,5 +1,7 @@
 ## Chapter 2 — The End of Linear Scaling
 
+In 1964, IBM assigned hundreds of programmers to build OS/360, one of the most ambitious software systems ever attempted. When the project fell behind schedule, management did what seemed obvious: they added more people. The project fell further behind. Fred Brooks, who led the effort, later distilled the lesson in a sentence that became an industry proverb: "Adding manpower to a late software project makes it later." Sixty years on, most organizations behave as though they never heard it.
+
 > *"Linear scaling was not just an operational strategy. It became a mindset."*
 
 Linear scaling assumes proportionality. More input yields more output. More contributors produce more throughput. This assumption has governed how organizations conceive of growth for generations, and it did so for understandable reasons: in many historical contexts, the relationship between investment and return was genuinely proportional. Adding people worked because execution was the bottleneck.
@@ -103,15 +105,9 @@ The end of linear scaling, properly understood, is not a universal endpoint. It 
 
 ### 2.5 The Question This Chapter Leaves You With
 
-This chapter has traced a single thread: how assumptions about growth shape outcomes long before those outcomes are visible. Linear scaling appears reasonable because it aligns with intuition, habit, and historical precedent. It becomes embedded not through argument, but through repetition. Over time, it stops being examined and starts being relied upon.
+Linear scaling appears reasonable because it aligns with intuition and historical precedent. It becomes embedded not through argument, but through repetition. When results disappoint, attention turns inward — toward execution quality or resourcing — rather than toward the assumptions governing growth itself.
 
-What emerges across the chapter is not a failure of effort or intent, but a growing mismatch between how capacity is imagined and how systems actually behave. As scope, interdependence, and consequence increase, proportional reasoning loses its explanatory power. Yet it often remains the dominant lens through which decisions are made.
-
-This creates a subtle trap. When results disappoint, attention turns inward — toward execution quality, discipline, or resourcing — rather than outward toward the assumptions governing growth. Capacity becomes the primary variable under consideration, even when adding more of it produces diminishing or distorted returns. The question of how capacity translates into outcomes is deferred, sometimes indefinitely.
-
-Continuing to reason in linear terms is not a neutral stance; it actively constrains what can be seen, measured, and questioned. Certain forms of improvement remain imaginable, while others remain invisible.
-
-*Before deciding how much capacity to add, there may be a more important question: what actually produces disproportionate effects within a system, and what merely accumulates effort?*
+*What in your system produces disproportionate effects, and what merely accumulates effort?*
 
 ---
 

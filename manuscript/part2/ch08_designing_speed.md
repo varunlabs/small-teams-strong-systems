@@ -1,5 +1,7 @@
 ## Chapter 8 — Designing for Speed, Not Comfort
 
+In 2007, Spotify's founding team shipped a working music streaming prototype in two weeks. Not because they worked around the clock — but because their system was designed so that every decision resolved quickly and every error surfaced within hours. A decade later, when the company employed thousands, former engineers recalled that the early team's speed came not from intensity but from architecture: short feedback loops, clear ownership, and the deliberate absence of comfort-preserving process.
+
 Speed is often mistaken for acceleration. Output increases, cycles shorten, and activity intensifies. Yet acceleration alone does not produce structural advantage. A system can move quickly while learning slowly. It can generate volume without improving its frame of interpretation.
 
 In high-leverage environments, speed matters because it compresses the distance between action and understanding. When feedback returns rapidly to the point of decision, assumptions are tested sooner. Errors surface before they compound. The system adjusts before misalignment becomes architectural.
@@ -17,7 +19,15 @@ Comfort and effectiveness are often conflated because both can produce stability
 Comfort reduces immediate friction. It favors predictability over exposure and continuity over disruption. In stable environments, this may coincide with performance. In volatile or uncertain conditions, however, comfort can conceal drift. The absence of tension may reflect insulation rather than coherence.
 
 Effectiveness is measured differently. It depends on whether decisions converge toward accurate interpretations of reality. A system can be comfortable while gradually diverging from its environment. It can execute confidently within an outdated frame.
+**Diagnostic: Speed vs. Comfort Audit**
 
+Answer each question for your current team or system:
+
+1. When was the last time a team decision was reversed based on new information — not a mistake, but a genuine change in understanding? (If you cannot recall: learning speed may be too slow.)
+2. How many days pass between shipping a change and receiving signal about whether it was the right change? (Longer than one cycle: feedback distance is too large.)
+3. Does your review process catch real problems, or does it primarily produce comfort that someone looked? (If the latter: process is substituting for judgment.)
+4. When was the last time the team deliberately killed a workstream that was progressing smoothly but no longer aligned with updated assumptions? (If never: comfort may be overriding learning.)
+5. Are retrospectives producing structural changes, or are they producing observations that feel cathartic but leave the system unchanged? (If the latter: the learning loop is broken at the action layer.) 
 This divergence occurs because comfort filters signals. Feedback that challenges assumptions is softened, delayed, or reinterpreted to preserve stability. Interpretive tension is absorbed rather than examined. Over time, the system becomes optimized for internal agreement rather than external validity.
 
 > **Figure 8.1 — Comfort vs. Performance**
@@ -114,6 +124,20 @@ Another pressure arises from role compression. In small teams, individuals often
 Importantly, sustainable speed does not mean continuous intensity. It means maintaining a consistent rhythm of decision and correction without degrading interpretive quality. When velocity depends solely on urgency, it decays as attention fragments.
 
 *If sustained velocity depends on protecting judgment under constraint, what distinguishes durable speed from temporary acceleration?*
+
+---
+
+**In Practice: Designing for Speed on a Spatial Computing Product**
+
+Early in my work on a spatial computing product, our team of six operated in what felt like peak velocity. We were shipping features weekly, responding to user signals within days, and iterating faster than any team in the organization. By every visible measure, we were moving quickly.
+
+Underneath, the structure was eroding. Three forces were missing. No one owned grounding — user feedback arrived through informal channels and was interpreted inconsistently. Technical integrity was deferred in favor of speed — architectural shortcuts accumulated silently. And learning operated as a side effect rather than a designed function; we corrected individual mistakes without examining the patterns underneath.
+
+Within two months, the system began to resist. Changes that once took a day began taking a week. Debugging consumed more hours than building. Feature requests from users contradicted each other because we had no structural mechanism for curating external signals. The team was still six people, still talented, still motivated. But the architecture of forces had degraded.
+
+The recovery was not about working harder or adding people. It was about reinstating the missing forces deliberately. We assigned explicit ownership of technical debt review — a weekly integrity check that slowed us for exactly one afternoon but eliminated three days of downstream correction. We formalized user signal curation so that feedback reached decision-makers in structured form rather than through casual conversation. And we introduced a fortnightly retrospective focused on pattern detection, not incident review.
+
+Within six weeks, sustainable speed returned. Output per cycle actually increased, not because we worked faster, but because we stopped rebuilding what we had already built. The lesson was precise: speed without structural forces compounds fragility; speed within structural forces compounds capability.
 
 ---
 

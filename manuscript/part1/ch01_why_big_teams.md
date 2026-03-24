@@ -23,7 +23,7 @@ Work itself imposed limits. Much of it was manual, repetitive, and tightly coupl
 
 Tools reinforced these constraints. Systems for communication, coordination, and record-keeping were fragmented or absent. Information moved slowly and degraded as it traveled. Decisions relied on meetings, memos, and personal interpretation rather than shared artifacts. Errors were costly because they took time to surface and longer to correct. Under these conditions, reliability came not from precision, but from coverage. Multiple people performing similar work reduced the risk that progress would halt entirely.
 
-As complexity increased, coordination became unavoidable. Large projects required sequencing tasks, managing dependencies, and synchronizing effort across domains. Each additional layer of complexity expanded the surface area where things could break. Without reliable ways to automate or abstract this coordination, organizations compensated by adding people whose primary role was to connect, supervise, or translate between others. The growth of teams reflected the growth of coordination work as much as the growth of production work.
+As complexity increased, coordination became unavoidable. Large projects required sequencing tasks, managing dependencies, and synchronizing effort across domains. As complexity grew, more things could fail in more places. Without reliable ways to automate or abstract this coordination, organizations compensated by adding people whose primary role was to connect, supervise, or translate between others. The growth of teams reflected the growth of coordination work as much as the growth of production work.
 
 Decision-making followed a similar pattern. When information was incomplete and slow to aggregate, distributing judgment across roles and layers reduced individual burden. Authority structures emerged to manage risk, arbitrate disagreement, and provide continuity. These layers were not inefficiencies introduced by poor leadership. They were mechanisms for coping with uncertainty when feedback was delayed and reversibility was limited. Concentrating decision-making too narrowly would have been reckless under those conditions.
 
@@ -211,19 +211,11 @@ The question is no longer how much effort a team can generate, but how cleanly t
 
 ### 1.7 The Question This Chapter Leaves You With
 
-For much of modern organizational history, growth has been interpreted through a single lens. When progress slowed, teams assumed capacity was the problem. When complexity increased, they responded by dividing work further. When uncertainty rose, they added people, roles, and layers to absorb it. These responses were not naïve. They reflected real constraints, and for a long time they worked.
+The assumptions that made big teams effective were conditional — tied to an era when execution was slow, coordination was expensive, and individual output had clear limits. Many teams continue to operate as if those conditions still apply, reading every friction signal as a shortage of people rather than questioning whether the structure itself is the constraint.
 
-What this chapter has surfaced is that those assumptions were conditional, not universal. They emerged in an environment where execution was slow, coordination was expensive, and individual output had clear limits. Under those conditions, size was stabilizing. Growth and headcount moved together because there were few other ways to increase what a system could do.
+The chapters that follow build a different operating model — one where constraint is generative, leverage replaces labor, and design precedes scale.
 
-Many teams continue to operate as if those conditions still apply.
-
-When friction appears, it is read as a shortage of people. When progress feels uneven, it is interpreted as insufficient scale. When systems strain, the instinct is to expand them rather than question whether expansion addresses the right constraint. Over time, effort increases while clarity declines. Activity grows while effectiveness does not.
-
-The mismatch is subtle because it feels familiar. Teams are doing what once made sense, even as the environment has changed around them. The result is not failure, but stagnation masked as motion.
-
-This chapter does not claim that growth is unnecessary or that size is inherently problematic. It establishes something more specific: the assumptions that made big teams effective were conditional responses to conditions that no longer apply at the same scale.
-
-The chapters that follow build a different operating model—one where constraint is generative, leverage replaces labor, and design precedes scale. What changes is not ambition. What changes is the structure through which ambition is converted into outcomes.
+*If the environment has changed but the instinct to expand has not, what is the real source of drag in your system — capacity or architecture?*
 
 ::: {.takeaways}
 **Key Takeaways**

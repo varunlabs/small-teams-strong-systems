@@ -19,7 +19,7 @@ The views and opinions expressed in this book are solely those of the author and
 
 Nothing in this book constitutes professional, legal, financial, or technical advice. Readers are encouraged to exercise independent judgment and consult appropriate professionals where necessary.
 
-ISBN: Assigned by Amazon KDP at publication
+ISBN: Pending — To be assigned at publication via Amazon KDP
 First Edition
 Printed and distributed via Amazon Kindle Direct Publishing.
 
@@ -65,6 +65,52 @@ If this book succeeds, it will not be because it persuades readers to adopt a pa
 
 ---
 
+# How to Read This Book {-}
+
+This book rewards reflection more than agreement.
+
+It is organized in four parts, each building on the previous but designed so that a reader can enter at different points depending on their situation:
+
+- **Part I — The Shift** (Chapters 1–3) establishes the diagnosis: why large teams were a rational adaptation to older constraints, where linear scaling breaks, and what AI changes about the economics of work. Read this first if you want to understand the structural argument from first principles.
+
+- **Part II — The 6-Person Operating Model** (Chapters 4–8) presents the book's central framework: the Six Forces model, where six distinct roles apply structural forces that keep a team coherent and compounding. Read this first if you lead a team now and want the operating model immediately.
+
+- **Part III — Building Complex Products with Small Teams** (Chapters 9–12) applies the model to real conditions: prototyping under uncertainty, decision-making at speed, and operating at the frontier where complexity converges. Read this if you are building something and want to see the principles under pressure.
+
+- **Part IV — Leadership, Sustainability, and Scale** (Chapters 13–16) addresses what happens over time: leading without hierarchy, recognizing burnout as a structural failure, knowing when to hire, and scaling without losing the core. Read this if you are responsible for keeping a system healthy as it grows.
+
+**Three reader paths:**
+
+- *The linear reader:* Start at Chapter 1 and read straight through. The argument builds cumulatively and the payoff deepens with each part.
+- *The practitioner in a hurry:* Start with Chapter 5 (Why Six) and Chapter 6 (The Six Core Roles), then read Chapters 13–15 for leadership and hiring. Return to Parts I and III when you want the deeper reasoning.
+- *The diagnostic reader:* Start with Chapter 4 (From Headcount to Leverage) and the reflection questions at the end of each chapter. Use them to identify which structural issues are most active in your own system, then read the relevant chapters.
+
+Each chapter isolates one design question — clarity, ownership, leverage, or decision integrity — then reconnects it to real operating conditions. Some sections may feel abstract. That is intentional: the goal is to expose structural assumptions before jumping to tactics. Repetition appears at the level of principle, not wording, because the same core ideas behave differently across contexts.
+
+The most useful reading posture is to ask: *which current structures are shaping my team's decisions, and do they still fit the environment we are in?*
+
+---
+
+# Who This Book Is For {-}
+
+This book is for people responsible for outcomes in high-uncertainty, high-leverage work.
+
+**You are the intended reader if:**
+
+- You are a **founder or technical co-founder** building a product with a small team, and you sense that your biggest constraint is not talent or funding but how work is structured — who decides what, who owns which boundary, and how decisions flow when things move fast.
+
+- You are a **product or engineering leader** managing a team of three to fifteen people, and you have noticed that adding people or process has not produced proportional improvement. You suspect the problem is architectural, not motivational.
+
+- You are a **researcher, designer, or senior individual contributor** who has experienced the frustration of working inside a system that rewards activity over judgment, and you want a structural vocabulary for diagnosing what is actually going wrong.
+
+- You are a **manager or director** inside a larger organization who is trying to protect a small team's effectiveness while operating within constraints you did not design. You want frameworks for making the case — to yourself and to others — for structural clarity over headcount expansion.
+
+**This book is probably not for you if:**
+
+You are looking for step-by-step playbooks, productivity hacks, or universal formulas that can be applied without interpretation. This book provides frameworks and diagnostic lenses, not templates. It asks the reader to do the work of applying principles to their own context. If that feels like a burden rather than an opportunity, a more prescriptive resource will serve you better.
+
+---
+
 # Introduction — Why Growth No Longer Requires Headcount {-}
 
 For most of modern economic history, building anything meaningful required scale. Products were difficult to construct, coordination was expensive, and progress depended on assembling large groups of people into tightly managed organizations. Growth followed a familiar pattern: as ambition increased, teams expanded. Hiring was not simply a response to success; it was the mechanism through which success was achieved. More people meant more capacity, more redundancy, and more resilience against uncertainty.
@@ -93,22 +139,27 @@ This is not an argument against growth, nor a celebration of minimalism. It is a
 
 ---
 
-# How to Read This Book {-}
+### How This Book Differs From Existing Work
 
-Read this book slowly and structurally.
+Several books address adjacent terrain. *Team of Teams* (McChrystal, 2015) examines how military small-unit coherence can be replicated across large organizations. *Team Topologies* (Skelton and Pais, 2019) provides a practical architecture for structuring software engineering teams. The Basecamp books (*Rework*, *It Doesn't Have to Be Crazy at Work*) make a practitioner case for staying deliberately small. Each offers genuine insight.
 
-It is not a playbook, checklist, or linear operating manual. Each chapter isolates one design question — clarity, ownership, leverage, or decision integrity — then reconnects it to real operating conditions. You can read cover to cover, but each chapter is also designed to stand on its own.
-
-Some sections may feel abstract. That is intentional: the goal is to expose structural assumptions before jumping to tactics. Repetition appears at the level of principle, not wording, because the same core ideas behave differently across contexts.
-
-This book rewards reflection more than agreement. The most useful reading posture is to ask: *which current structures are shaping my team's decisions, and do they still fit the environment we are in?*
+*Small Teams, Strong Systems* differs in two specific ways. First, it begins from the AI-leverage premise and builds upward: not "small teams are better" but "AI has permanently altered the economics of execution, which changes what team structure should optimize for." Second, it provides a structural framework — the Six Forces — for diagnosing *why* a small team succeeds or fails, rather than describing what high-performing small teams look like from the outside. The framework is predictive, not merely descriptive.
 
 ---
 
-# Who This Book Is For {-}
+### The Six Forces — A Preview
 
-This book is for people responsible for outcomes in high-uncertainty, high-leverage work: founders, product and engineering leaders, researchers, and managers of small technical teams.
+The organizing model of this book is the **Six Forces Framework**, developed fully in Part II. It identifies six distinct structural forces that every AI-native team must maintain to remain coherent and compounding. The number is not symbolic — each force maps to a category of failure that reliably emerges when it goes unrepresented.
 
-It is written for readers who suspect their biggest problems are structural, not motivational — and who want frameworks for diagnosing clarity, ownership, and decision quality under pressure.
+| Force | Function | Failure Mode if Absent |
+|---|---|---|
+| **Direction & Coherence** | Aligns decisions toward long-term purpose; corrects drift | Activity without alignment; tradeoffs resolved inconsistently |
+| **Grounding in Reality** | Enforces contact with actual conditions; shortens feedback distance | Internal models grow confident but inaccurate |
+| **Technical Integrity** | Preserves structural correctness over time | Hidden debt compounds; each addition introduces disproportionate friction |
+| **Leverage Design** | Redesigns where influence resides; determines what is worth amplifying | Effort optimized locally while architecture remains unchanged |
+| **Learning & Feedback Acceleration** | Compresses the loop between decision and consequence | Errors embed; assumptions harden beyond their validity |
+| **External Connection** | Regulates the boundary between system and environment | Isolation distorts judgment; internal models become self-reinforcing |
 
-It is not a tactical handbook. If you want step-by-step playbooks, productivity hacks, or universal formulas, this will feel misaligned. If you want sharper thinking about when to grow, how to preserve coherence, and how to design systems where judgment compounds, this book is for you.
+These forces do not each require a dedicated person. In small configurations, one individual may hold several. What the framework demands is that every force is actively present — not every seat filled. Remove any one, and a predictable failure mode emerges. Keep all six in balance, and the team functions as a self-amplifying unit.
+
+Part II explores each force in depth. The rest of the book applies them.

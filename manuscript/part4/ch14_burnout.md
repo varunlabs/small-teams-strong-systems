@@ -1,5 +1,7 @@
 ## Chapter 14 — Burnout as a Systems Failure
 
+A product team at a mid-stage startup shipped consistently for eighteen months. Reviews were strong. Velocity was high. Then, within a single quarter, three of the six core members requested transfers or resigned. The departures surprised leadership because performance indicators had never flagged a problem. What the metrics missed was that the team had been compensating for structural ambiguity — unclear ownership boundaries, unresolved priority conflicts, and feedback loops that required constant human mediation — through sustained personal overextension. The system looked healthy because the people inside it were absorbing its design failures.
+
 Burnout is often interpreted as an individual condition. It is described in terms of motivation, resilience, or personal capacity. Yet in complex systems, persistent exhaustion is rarely isolated. Burnout is a signal. It points to a broken design, not a tired person. When it appears repeatedly across roles or teams, it reflects structural strain rather than personal limitation.
 
 Systems generate predictable pressures. Deadlines compress decision cycles. Ambiguous ownership increases cognitive load. Constant context switching fragments attention. When these pressures are embedded in the design of work, individual effort compensates temporarily but cannot stabilize the system indefinitely.

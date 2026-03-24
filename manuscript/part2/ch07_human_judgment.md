@@ -10,8 +10,6 @@ The central tension, then, is not between humans and machines, nor between intui
 
 One scales. The other does not. Mixing them is where most AI-native teams break.
 
-One scales. The other does not. Mixing them is where most AI-native teams break.
-
 ---
 
 ### 7.1 Judgment and Execution Are Not the Same
@@ -140,15 +138,28 @@ As systems become more capable of automated execution, the relative weight of ju
 
 ### 7.6 The Question This Chapter Leaves You With
 
-Execution is becoming easier to scale. Procedures can be replicated with precision. Output can increase without proportional increases in effort. In such an environment, the scarcity shifts quietly toward interpretation. What cannot be replicated as easily is the act of defining intent under uncertainty.
+As execution becomes easier to scale, scarcity shifts toward interpretation — the act of defining intent under uncertainty. The stability of the system depends on knowing where judgment ends and execution begins, yet those boundaries are rarely explicit.
 
-The distinction between judgment and execution is structural rather than philosophical. One defines the frame; the other operates within it. One absorbs consequence; the other applies logic. The stability of the system depends on knowing where one ends and the other begins.
+*Where does judgment currently reside in your system, and is that placement deliberate?*
 
-The difficulty is that boundaries are rarely explicit. Interpretive judgments hide inside procedures. Routine matters escalate into discretionary debate. Feedback circulates without reaching the layer that can adjust assumptions.
+---
 
-If execution in your system is highly capable, what is it amplifying? If interpretive authority is concentrated, is it protected from procedural noise? If it is distributed, is it coherent or fragmented?
+**Diagnostic: The Judgment Placement Audit**
 
-*Before considering tools, structures, or adjustments, a more basic inquiry remains: where does judgment currently reside in your system, and is that placement deliberate?*
+For each question, answer Yes or No. A "No" indicates a boundary that may need redesign.
+
+1. Can every team member name the three most consequential decisions made in the last cycle — and who owned them?
+2. Are there recurring decisions that get escalated to leadership even though they follow a predictable pattern?
+3. Are there automated or proceduralized processes that occasionally produce outcomes no one reviews?
+4. When an AI-generated output is used in a deliverable, is there an explicit human checkpoint before it ships?
+5. Do team members know which decisions they can make without approval and which require consultation?
+6. When a decision turns out poorly, can you trace it to a specific judgment call — or does responsibility diffuse?
+7. Are there areas where the team defers to process when the situation actually requires contextual interpretation?
+8. Is interpretive authority distributed across the team, or concentrated in one or two people?
+9. When new information contradicts a prior assumption, does the system have a defined mechanism for revisiting the frame?
+10. Are your most experienced people spending their time on interpretation — or on routine execution that could be delegated?
+
+**Scoring:** Count your "No" answers. 0–2: boundaries are well-maintained. 3–5: boundary drift is likely — examine where judgment has quietly migrated to execution or vice versa. 6+: the judgment-execution boundary needs deliberate redesign before execution scales further.
 
 ---
 

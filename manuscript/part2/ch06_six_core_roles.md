@@ -20,6 +20,36 @@ As leverage increases, the cost of unclear roles rises. Decisions travel further
 
 ---
 
+### The Six Roles at a Glance
+
+Before examining each role in detail, the complete framework is presented here. These six roles are the structural forces that keep a small, AI-amplified team coherent and compounding. Each role applies a distinct force. When any one is absent, a predictable failure mode emerges.
+
+| # | Role | Force Applied | Failure Mode if Absent | Archetype |
+|---|------|---------------|----------------------|-----------|
+| 1 | **Direction and Coherence** | Aligns decisions toward long-term purpose; corrects drift | Activity without alignment; tradeoffs resolved inconsistently | The Compass |
+| 2 | **Grounding in Reality** | Enforces contact with actual conditions; shortens feedback distance | Internal models grow confident but inaccurate; assumptions go untested | The Truth-Teller |
+| 3 | **Technical Integrity** | Preserves structural correctness over time; maintains internal consistency | Hidden debt compounds; each addition introduces disproportionate friction | The Architect |
+| 4 | **Leverage Design** | Redesigns where influence resides; determines what is worth amplifying | Effort is optimized locally but architecture remains unchanged; activity substitutes for effect | The Multiplier |
+| 5 | **Learning and Feedback Acceleration** | Compresses the loop between decision and consequence; detects misalignment early | Errors embed themselves; assumptions harden beyond their validity | The Sensor |
+| 6 | **External Connection** | Regulates the boundary between system and environment; curates outside signals | Isolation distorts judgment; internal models become self-reinforcing | The Bridge |
+
+**Health Check — Observable Signals That a Force Is Weak:**
+
+| Role | Signs of Weakness |
+|------|-------------------|
+| Direction and Coherence | Tradeoffs are resolved differently depending on who is in the room. Teams revisit the same strategic questions repeatedly without convergence. |
+| Grounding in Reality | Surprises arrive late. Internal confidence is high but customer feedback contradicts it. Post-mortems reveal assumptions that were never tested. |
+| Technical Integrity | Simple changes require unexpectedly large effort. New features introduce regressions in unrelated areas. Engineers avoid certain parts of the system. |
+| Leverage Design | The team is busy but impact feels flat. The same manual work recurs without anyone redesigning it away. Automation exists but does not reduce decision load. |
+| Learning and Feedback | The team ships frequently but rarely changes course. Retrospectives produce observations but not structural adjustments. Mistakes repeat across cycles. |
+| External Connection | The product roadmap has not changed in response to external signals in the last quarter. Competitive moves or user behavior shifts are noticed late. |
+
+These roles do not require six distinct individuals. In small configurations, one person may hold several. What matters is not who fills them, but that every force is actively present. When a force goes unrepresented, the system does not compensate automatically — it distorts.
+
+The sections that follow examine each role in depth: the force it applies, the failure mode it prevents, and the tensions it must hold.
+
+---
+
 ### 6.1 Direction and Coherence
 
 Every system requires a function that defines where it is heading and corrects when it drifts. This function is not symbolic. It is structural. Without it, calls accumulate without alignment, and activity substitutes for progress.
@@ -54,7 +84,7 @@ Systems fail gradually under delayed feedback. Early inconsistencies appear smal
 
 Filtered feedback produces a different pathology. Information moves upward selectively, emphasizing coherence over contradiction. Over time, internal models grow increasingly confident while becoming less accurate. The system mistakes agreement for validation.
 
-> **Figure 6.2 — Designing for Leverage**
+> **Figure 6.2 — Grounding and Feedback Integrity**
 >
 >
 > ![](figures/generated/ch06_six_core_roles_fig_6_2.png)
@@ -78,7 +108,7 @@ Technical integrity does not mean perfection. It means preserving internal consi
 
 Time is the variable that exposes integrity. In the short term, degraded structure can appear efficient. Delivery accelerates because constraints are relaxed. In the long term, the cost reappears as rigidity, instability, or unexpected interactions.
 
-> **Figure 6.3 — Grounding as Feedback Integrity**
+> **Figure 6.3 — Technical Integrity Over Time**
 >
 >
 > ![](figures/generated/ch06_six_core_roles_fig_6_3.png)
@@ -102,7 +132,7 @@ Automation is frequently conflated with leverage. Automation executes predefined
 
 Designing for leverage begins with identifying points of influence. Not every task warrants amplification. Some actions are inherently contextual and should remain bounded. Others, if clarified once, can shape many outcomes consistently. The role responsible for leverage distinguishes between these categories and designs accordingly.
 
-> **Figure 6.4 — Technical Integrity Over Time**
+> **Figure 6.4 — Designing for Leverage**
 >
 >
 > ![](figures/generated/ch06_six_core_roles_fig_6_4.png)

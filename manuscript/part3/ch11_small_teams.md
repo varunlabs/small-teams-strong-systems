@@ -1,5 +1,7 @@
 ## Chapter 11 — Why Small Teams Build Better Systems
 
+When Instagram was acquired by Facebook in 2012 for $1 billion, it had thirteen employees and thirty million users. The engineers who built and scaled the product could fit around a single conference table. They had no dedicated program managers, no separate QA department, and no coordination layer between design and deployment. What they had was a system that made every decision visible and every feedback loop short. The architecture of the team was the architecture of the product.
+
 Size is often treated as a measure of capability. More people imply more capacity, broader expertise, and greater coverage of complexity. Under stable conditions, this assumption appears reasonable. Scale absorbs workload and distributes specialization.
 
 Yet structural performance does not increase linearly with headcount. As teams grow, coordination cost expands. Interpretive alignment becomes less automatic. Each additional participant introduces not only skill, but perspective. The system must now reconcile more viewpoints before action stabilizes.
@@ -172,6 +174,14 @@ The design-level advantage available to small teams is not inherent to their siz
 **In Practice: Instagram vs. the World in 2012**
 
 In April 2012, Facebook acquired Instagram for approximately $1 billion. Instagram had 13 employees and 30 million users. Facebook had roughly 3,500 engineers — 270 times as many people. Instagram did not out-engineer Facebook. It outperformed on structural clarity per capita. The 13-person team shared context implicitly; product direction, infrastructure, and experience judgments were made in the same room. Complexity lived in the product itself — image processing, filtering, sharing — not in coordination overhead. When Instagram integrated into Facebook, the founders' first major challenge wasn't technical. It was preserving the simplicity of their decision loops inside a much larger machine.
+
+---
+
+**In Practice: Toyota Georgetown and the Architecture of Small Cells**
+
+When Toyota opened its Georgetown, Kentucky plant in 1988, American automotive manufacturers were organized around large functional departments: stamping, welding, assembly, quality control. Workers in each zone performed narrow repetitive tasks with little cross-domain understanding or decision authority. Toyota did something structurally different. It organized the factory floor into small, stable work cells — typically four to eight people — each responsible for an end-to-end slice of production quality. Every worker was cross-trained across the cell's tasks. More consequentially, any worker could pull the "andon cord" to stop the entire production line the moment a defect was detected. The decision right did not belong to a supervisor or a quality manager. It belonged to whoever was closest to the problem.
+
+The structural result: defects were caught in seconds rather than hours, while they were still cheap to fix rather than after they had been built into hundreds of subsequent units. Georgetown's defect rates were consistently among the lowest of any North American automotive plant. The advantage was not automation — Toyota's Georgetown plant used roughly the same machinery as its American competitors. The advantage was ownership architecture. Small cells with clear scope, explicit decision rights, and compressed feedback loops outperformed large departments with diffuse accountability — in a sector with no software, no algorithms, and no AI. The principles transferred without the technology.
 
 ---
 

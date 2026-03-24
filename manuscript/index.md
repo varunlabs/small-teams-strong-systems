@@ -26,7 +26,7 @@
 | [Chapter 9](part3/ch09_rapid_prototyping.md) | Rapid Prototyping as a Competitive Advantage |
 | [Chapter 10](part3/ch10_decision_making.md) | Decision-Making in High-Uncertainty Environments |
 | [Chapter 11](part3/ch11_small_teams.md) | Why Small Teams Build Better Systems |
-| [Chapter 12](part3/ch12_ai_xr_frontier.md) | AI, XR, and the Rise of Frontier Complexity |
+| [Chapter 12](part3/ch12_ai_xr_frontier.md) | Frontier Complexity |
 | **Part IV — Leadership, Sustainability, and Scale** | |
 | [Chapter 13](part4/ch13_leadership.md) | Leadership Without Layers |
 | [Chapter 14](part4/ch14_burnout.md) | Burnout as a Systems Failure |

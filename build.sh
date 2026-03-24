@@ -41,6 +41,8 @@ pandoc \
   --css=manuscript/epub.css \
   --resource-path=manuscript \
   --split-level=2 \
+  --toc \
+  --toc-depth=2 \
   -o output/SmallTeamsStrongSystems.epub
 
 echo "EPUB exit code: $?"

@@ -1,4 +1,4 @@
-# Part II — The 6-Person Operating Model {-}
+# Part II — The Six Forces Operating Model {-}
 *Rethinking how capability is structured, not just staffed*
 
 ---
@@ -23,7 +23,7 @@ When Facebook acquired WhatsApp in 2014 for $19 billion, WhatsApp had 55 enginee
 
 ### 4.1 Leverage as a System Property
 
-Leverage is often misattributed to individuals. Certain people appear unusually effective. Their choices shape outcomes disproportionately. Their output seems to exceed visible input. While individual capability matters, this interpretation obscures a more important truth: sustained leverage is rarely a personal trait. It is a property of the system in which decisions are embedded.
+Leverage is often misattributed to individuals. Certain people appear unusually effective. Their choices shape outcomes disproportionately. Their output seems to exceed visible input. While individual capability matters, leverage looks like a personal trait. It is not. It lives in the system — in how decisions are structured, not who makes them.
 
 When leverage is treated as individual brilliance, organizations attempt to scale it by hiring exceptional contributors or concentrating authority. This approach can produce temporary gains, but it does not make leverage durable. As complexity increases, personal capacity becomes a bottleneck. Influence depends on proximity, presence, or constant intervention. The system remains dependent on the individual rather than structured to amplify judgment consistently.
 
@@ -141,6 +141,28 @@ This makes periodic design-level reassessment a practical necessity, not a theor
 The path forward is not a formula but a discipline: regularly asking whether the current configuration can sustain the level of leverage available, whether structural clarity is sufficient for the amplification now in play, and whether coherence is being maintained as a first-order property — not assumed as a byproduct of effort.
 
 The next chapter addresses where that threshold most commonly lands — and why six is not a preference but a built-in answer to a structural question.
+
+---
+
+### 4.6 The Question This Chapter Leaves You With
+
+When leverage is high, each addition to the team alters the geometry of the system — its coordination paths, decision latency, and coherence under pressure. Most teams never pause to ask whether they are in a regime where more people compounds effect or dilutes it.
+
+*If leverage is a system property rather than an individual trait, is the most important investment your next hire — or your next redesign?*
+
+---
+
+**Diagnostic: The Leverage Health Check**
+
+Before your next hiring conversation or capacity review, answer these five questions honestly:
+
+1. **Repetition:** Are the same types of decisions being made repeatedly at different points in the system, with inconsistent outcomes? (If yes: this is a leverage design problem, not a headcount problem.)
+2. **Translation overhead:** How much time does your team spend converting intent into formats that other parts of the system can interpret? (If substantial: alignment architecture needs work.)
+3. **Corrective coordination:** What fraction of meetings exist to resolve conflicts created by misaligned actions? (If high: upstream clarity is missing.)
+4. **Dependency chains:** Where do actions stall waiting for sequential approvals or clarifications across layers? (If frequently: decision pathways need shortening.)
+5. **Compounding vs. canceling:** When two team members work independently for a week, does their output reinforce each other or require reconciliation? (If reconciliation: the system is not compounding.)
+
+---
 
 ::: {.takeaways}
 **Key Takeaways**

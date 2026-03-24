@@ -11,10 +11,6 @@
 ---
 
 
-*A note from the author: the most effective leader I have worked with never made the final call in a meeting I attended. He spent most of his time making sure the people around him could make better decisions when he wasn't in the room. At first this looked like absence. Over time it looked like architecture. Teams that depended on his presence slowed when he traveled. Teams he had designed to decide for themselves kept moving. The difference wasn't personality. It was structure.*
-
----
-
 In complex systems, leadership is often conflated with position. Titles signal authority. Reporting lines signal accountability. Decisions appear to flow downward through formal channels. Yet in frontier environments defined by uncertainty, positional authority alone does not determine whether a system remains coherent.
 
 Leadership, in this context, operates as structural influence. It shapes how decisions are made, how ambiguity is processed, and how trade-offs are resolved under constraint. The central question is not who has authority, but whether the system's choices reinforce coherence over time.
