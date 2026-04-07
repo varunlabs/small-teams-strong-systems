@@ -33,9 +33,9 @@ Systems rarely move from coherence to breakdown in a single step. Deviation begi
 
 Drift becomes possible when feedback weakens. In tightly integrated systems, misalignment generates friction quickly. Decisions produce visible consequences. Tension between components signals that something is misconfigured. When feedback loops are strong, deviation is uncomfortable and therefore short-lived.
 
-> **Figure 13.2 — Drift Without Detection**
+> **Figure 13.1 — Coherence Diagnostics for Layerless Teams**
 >
-> ![](figures/generated/ch13_leadership_fig_13_2.png)
+> ![](figures/generated/ch13_leadership_fig_13_1.png)
 >
 
 Over time, however, feedback can soften. Interfaces become more tolerant. Dependencies are abstracted behind layers of process. Communication compensates for unclear ownership. The system continues to function, but signals that once indicated misalignment lose intensity.
@@ -51,7 +51,6 @@ Gradual misalignment also alters perception of responsibility. When ownership is
 When tension softens, adaptability may appear to improve. Teams feel less constrained by formal boundaries. Yet without disciplined feedback, experiments do not converge toward coherence. They accumulate as parallel interpretations of the system's purpose.
 
 Drift without detection is therefore not a matter of negligence. It is a structural outcome when feedback loops are diluted and tension is treated as inefficiency rather than signal.
-
 
 ---
 
@@ -69,9 +68,9 @@ This decay affects tempo. Work that once proceeded through defined pathways now 
 
 Structural entropy also changes how risk is absorbed. When responsibilities are diffuse, issues are discovered later. Corrective action requires broader consultation. Adjustments ripple unpredictably because dependencies are no longer fully visible.
 
-> **Figure 13.3 — Structural Entropy: Clarity Erosion Over Time**
+> **Figure 13.2 — Drift Without Detection**
 >
-> ![](figures/generated/ch13_leadership_fig_13_3.png)
+> ![](figures/generated/ch13_leadership_fig_13_2.png)
 >
 
 Importantly, entropy does not imply disorder in appearance. The system may look organized. Processes may exist. Meetings may occur regularly. Yet beneath visible activity, clarity may be eroding.
@@ -103,9 +102,9 @@ Fragmentation often arises from responsible action. Teams respond to pressure, s
 
 As divergence increases, the system's identity becomes diffuse. Participants interpret goals differently. Since all parties believe they are optimizing well, integration becomes a negotiation about which version of "right" to follow.
 
-> **Figure 13.4 — Local Optimization vs. System Coherence**
+> **Figure 13.3 — Structural Entropy: Clarity Erosion Over Time**
 >
-> ![](figures/generated/ch13_leadership_fig_13_4.png)
+> ![](figures/generated/ch13_leadership_fig_13_3.png)
 >
 
 *If each part of the system becomes more efficient while the whole becomes harder to reason about, what has truly improved?*
@@ -132,9 +131,9 @@ Reinvention can provide temporary relief. It introduces novelty and resets expec
 
 Structural repair interrupts this cycle by focusing on coherence rather than configuration. It asks where definitions have softened, where interfaces have become negotiable, and where ownership has diffused.
 
-> **Figure 13.5 — Repair vs. Reactive Reinvention**
+> **Figure 13.4 — Local Optimization vs. System Coherence**
 >
-> ![](figures/generated/ch13_leadership_fig_13_5.png)
+> ![](figures/generated/ch13_leadership_fig_13_4.png)
 >
 
 
@@ -155,6 +154,11 @@ When structure is weak, pressure amplifies ambiguity. Minor disruptions require 
 Resilience, therefore, is not a matter of persistence or optimism. It is a design choice. It asks whether feedback loops are tight enough to detect deviation early, whether responsibilities are clear enough to enable decisive correction, and whether integration points are explicit enough to localize variability.
 
 A system that absorbs volatility without eroding clarity does more than survive. It preserves its ability to adapt deliberately rather than reactively. Over time, this distinction compounds.
+
+> **Figure 13.5 — Repair vs. Reactive Reinvention**
+>
+> ![](figures/generated/ch13_leadership_fig_13_5.png)
+>
 
 
 ---
@@ -177,10 +181,6 @@ Four tests are particularly useful in layerless environments.
 
 These tests are not grading instruments. They are diagnostic signals—ways to detect whether leadership is producing structural coherence or design-level dependence. A team that navigates all four is building something that will outlast its current configuration. A team that struggles with one or more has identified a gap worth examining before pressure makes it larger.
 
-> **Figure 13.1 — Coherence Diagnostics for Layerless Teams**
->
-> ![](figures/generated/ch13_leadership_fig_13_1.png)
->
 
 ---
 
