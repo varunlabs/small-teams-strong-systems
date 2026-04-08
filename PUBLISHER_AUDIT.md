@@ -1,5 +1,5 @@
 # Publisher Acquisition Audit — Final Review
-## *Small Teams, Strong Systems: Designing High-Leverage Work in the AI Era*
+## *Small Teams, Strong Systems: Designing High-Leverage Work for Strong Systems*
 **Author:** Varun Kumar Siddaraju
 **Reviewed by:** Acquisitions Editorial — Business Strategy Division
 **Review Date:** June 2025

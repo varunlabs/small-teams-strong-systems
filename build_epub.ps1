@@ -44,7 +44,6 @@ $epubArgs = @(
   "$PSScriptRoot\manuscript\part4\ch16_scaling.md",
   "$PSScriptRoot\manuscript\chapter_gap_all_formats.md",
   "$PSScriptRoot\manuscript\back_matter.md",
-  "$PSScriptRoot\manuscript\back_cover_page.md",
   "--metadata-file=$PSScriptRoot\manuscript\metadata.yaml",
   "--css=$PSScriptRoot\manuscript\epub.css",
   "--resource-path=$PSScriptRoot\manuscript",

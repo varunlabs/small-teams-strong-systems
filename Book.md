@@ -2,7 +2,7 @@
 
 SMALL TEAMS, 
 STRONG SYSTEMS
-Designing High-Leverage Work in the AI Era
+Designing High-Leverage Work for Strong Systems
 A practical guide for founders, builders, researchers and managers navigating AI-native and frontier technologies.
 Varun Kumar Siddaraju
 

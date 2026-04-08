@@ -161,7 +161,7 @@ def front_cover() -> Image.Image:
 
     draw_text_with_shadow(d, (left, top), "SMALL TEAMS", title_font, (245, 250, 255), offset=(3, 3), shadow_alpha=150)
     draw_text_with_shadow(d, (left, top + 136), "STRONG SYSTEMS", title_font, (245, 250, 255), offset=(3, 3), shadow_alpha=150)
-    d.text((left, top + 292), "Designing High-Leverage Work in the AI Era", font=subtitle_font, fill=(214, 236, 255))
+    d.text((left, top + 292), "Designing High-Leverage Work for Strong Systems", font=subtitle_font, fill=(214, 236, 255))
     d.line([(left, top + 412), (W_BLEED - left, top + 412)], fill=(150, 221, 255), width=3)
 
     d.text((left, top + 500), "A practical guide for founders, builders, researchers,", font=small_font, fill=(226, 239, 255))
@@ -260,7 +260,7 @@ def front_cover_option2() -> Image.Image:
 
     d.text((left, top), "SMALL TEAMS", font=title_font, fill=(246, 247, 255))
     d.text((left, top + 126), "STRONG SYSTEMS", font=title_font, fill=(246, 247, 255))
-    d.text((left, top + 276), "Designing High-Leverage Work in the AI Era", font=subtitle_font, fill=(230, 236, 255))
+    d.text((left, top + 276), "Designing High-Leverage Work for Strong Systems", font=subtitle_font, fill=(230, 236, 255))
 
     d.line([(left, top + 364), (W_BLEED - left, top + 364)], fill=(255, 196, 126), width=4)
     d.text((left, top + 430), "A clear operating model for building more with fewer people.", font=body_font, fill=(234, 238, 255))

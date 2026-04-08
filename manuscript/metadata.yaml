@@ -1,6 +1,6 @@
 ---
 title: "Small Teams, Strong Systems"
-subtitle: "Designing High-Leverage Work in the AI Era"
+subtitle: "Designing High-Leverage Work for Strong Systems"
 author: "Varun Kumar Siddaraju"
 date: "2026"
 lang: en
@@ -9,7 +9,7 @@ rights: "Copyright © 2026 Varun Kumar Siddaraju. All rights reserved."
 publisher: "Amazon Kindle Direct Publishing"
 
 # EPUB styling
-cover-image: manuscript/cover/cover_front.png
+# Cover is added externally; do not embed front cover in generated EPUB/DOCX outputs.
 
 # Pandoc settings
 documentclass: book

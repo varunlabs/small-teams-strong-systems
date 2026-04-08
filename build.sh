@@ -36,7 +36,6 @@ pandoc \
   manuscript/part4/ch16_scaling.md \
   manuscript/chapter_gap_all_formats.md \
   manuscript/back_matter.md \
-  manuscript/back_cover_page.md \
   --metadata-file=manuscript/metadata.yaml \
   --css=manuscript/epub.css \
   --resource-path=manuscript \
@@ -82,7 +81,6 @@ pandoc \
   manuscript/part4/ch16_scaling.md \
   manuscript/chapter_gap_all_formats.md \
   manuscript/back_matter.md \
-  manuscript/back_cover_page.md \
   --metadata-file=manuscript/metadata.yaml \
   --resource-path=manuscript \
   -o output/SmallTeamsStrongSystems.docx
