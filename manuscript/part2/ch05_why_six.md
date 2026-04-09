@@ -16,16 +16,6 @@ This chapter grounds what the rest of the book builds on: the **Six Forces Frame
 
 > *"Most teams fail not because they lack talent, but because they lack clear boundaries."*
 
----
-
-**In Practice: Amazon's Two-Pizza Rule and WhatsApp's 55 Engineers**
-
-Jeff Bezos introduced Amazon's "two-pizza rule" in the early 2000s: if a team can't be fed by two pizzas, it's too large. His target was roughly six to eight people per team. The resulting structure — hundreds of small, autonomous teams — underpinned Amazon's speed advantages for two decades.
-
-WhatsApp took this further. At acquisition by Facebook in 2014, WhatsApp had 55 engineers serving 450 million active users. That's roughly eight million users per engineer. The small-team architecture didn't limit scale. It enabled it. When Facebook paid $19 billion, it was partly paying for a structural insight: fewer people, designed well, produce leverage that headcount alone cannot replicate.
-
----
-
 **When Small Is Not Enough: The Color Labs Counterexample**
 
 Size alone does not guarantee leverage. Color Labs launched in 2012 with a team of roughly 40 engineers — not excessively large — and $41 million in funding before shipping a product. The team included experienced engineers from Apple and LinkedIn. By conventional measures, it was well-resourced and well-staffed.
@@ -219,6 +209,15 @@ But expansion has its own costs, and they are structural rather than financial. 
 
 ---
 
+**In Practice: Amazon's Two-Pizza Rule and WhatsApp's 55 Engineers**
+
+Jeff Bezos introduced Amazon's "two-pizza rule" in the early 2000s: if a team can't be fed by two pizzas, it's too large. His target was roughly six to eight people per team. The resulting structure — hundreds of small, autonomous teams — underpinned Amazon's speed advantages for two decades.
+
+WhatsApp took this further. At acquisition by Facebook in 2014, WhatsApp had 55 engineers serving 450 million active users. That's roughly eight million users per engineer. The small-team architecture didn't limit scale. It enabled it. When Facebook paid $19 billion, it was partly paying for a structural insight: fewer people, designed well, produce leverage that headcount alone cannot replicate.
+
+
+---
+
 ::: {.takeaways}
 **Key Takeaways**
 
@@ -228,5 +227,3 @@ But expansion has its own costs, and they are structural rather than financial. 
 - One or two people carry single-point failure risk. Twelve or more produce diffuse accountability. Six is the structural sweet spot where ownership, coverage, and coherence coexist.
 - The Six Forces Framework begins with this constraint. Each of the six roles applies a distinct force to keep the team compounding rather than fragmenting.
 :::
-
-

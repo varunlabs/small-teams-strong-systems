@@ -184,7 +184,7 @@ The question is therefore not whether your system feels fast. It is whether its 
 
 ---
 
-**In Practice: Amazon's "Working Backwards" Mechanism**
+**Amazon's "Working Backwards" Mechanism**
 
 Amazon's product development process reverses the usual sequence. Teams write the press release and FAQ for a product *before* building it. The press release is addressed to customers. The FAQ answers their hardest questions. If neither document can be written clearly, the product doesn't move forward. This seems slow. It is fast. Writing the document forces the team to encounter the hardest interpretive problems — what exactly is this, who is it for, why will people care — before a single line of code is written. Assumptions that would have consumed months of engineering surfaced in days of writing. Amazon didn't design for more output. It designed for earlier learning. The same principle applies at every scale: compress the distance between assumption and friction, and the whole system speeds up.
 

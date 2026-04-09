@@ -4,11 +4,6 @@ Scaling is often described as expansion: more people, broader reach, greater out
 
 When systems expand, geometry changes. Influence pathways lengthen. Interfaces multiply. Responsibilities differentiate. What was once held through proximity must now be held through explicit definition. Without reinforcement, clarity thins as surface area grows.
 
-> **Figure 16.1 — Geometry's Effect on Coherence**
->
-> ![](figures/generated/ch16_scaling_fig_16_1.png)
->
-
 The core of a system is not its size, but its decision logic. It is the set of boundaries that define scope, the allocation of authority that resolves trade-offs, and the integration points that preserve coherence. Scaling tests whether this logic remains stable under added complexity.
 
 If expansion simply adds layers without protecting the core, weight accumulates faster than capability. Coordination absorbs energy that once went toward advancement. Alignment becomes negotiation rather than recognition.
@@ -24,6 +19,11 @@ Scaling without losing the core therefore requires discipline. Capability must e
 ### 16.1 What Actually Breaks When Teams Scale
 
 When teams scale, failure rarely begins with visible collapse. Instead, architectural breakpoints appear gradually. Context fragments. Boundaries soften. Drift accelerates. The system continues to operate, yet coherence weakens beneath the surface.
+
+> **Figure 16.1 — Geometry's Effect on Coherence**
+>
+> ![](figures/generated/ch16_scaling_fig_16_1.png)
+>
 
 Context fragmentation is often the first shift. In small configurations, shared understanding is dense. Contributors participate in overlapping decisions. Assumptions are implicitly aligned. As the system grows, no single individual holds complete context. Knowledge distributes unevenly.
 
@@ -291,6 +291,7 @@ Scaling without becoming heavier depends on recognizing coordination as an archi
 
 Spotify's "Squad, Tribe, Chapter, Guild" model — documented in a 2012 engineering culture paper — remains one of the most cited attempts at cellular scaling in tech. Squads (~six to eight people) owned end-to-end product features. Tribes were clusters of squads. Chapters maintained technical standards across squads. Guilds connected interested people across tribes. The model worked best when squads preserved small-team properties: tight feedback loops, clear ownership, and shared context. It degraded when squads grew past eight, when tribe layers added translation overhead, and when chapter ownership competed with squad ownership. By 2021, Spotify had quietly reassessed the model. The cellular structure was sound. The failure came from allowing cells to grow without preserving internal geometry. The lesson is simple. You can scale by replicating small-team architecture. You cannot scale by slowly turning small teams into large ones.
 
+
 ---
 
 ::: {.takeaways}
@@ -302,4 +303,3 @@ Spotify's "Squad, Tribe, Chapter, Guild" model — documented in a 2012 engineer
 - The cell model preserves small-team properties at scale: replicate the structure laterally rather than expanding individual teams vertically. Keep the cognitive unit intact, multiply it only once it is proven.
 - Architectural decisions made when teams are large become nearly irreversible. Coordination structures that entrench are difficult to remove without disrupting the people who have learned to depend on them. Design before you scale.
 :::
-

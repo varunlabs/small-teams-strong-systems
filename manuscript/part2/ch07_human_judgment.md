@@ -167,6 +167,7 @@ For each question, answer Yes or No. A "No" indicates a boundary that may need r
 
 The Boeing 737 MAX crashes of 2018 and 2019 are a case study in judgment-execution boundary failure. The MCAS safety system — designed to correct for aerodynamic instability — was treated as an execution problem (automated control) when it required judgment (pilot-visible, pilot-overridable decision authority). Certification processes, designed for earlier aircraft generations, proceduralized an assumption that stall scenarios would be rare edge cases. They were not. When MCAS activated incorrectly, pilots lacked the contextual information to override it — not because they weren't capable, but because the boundary between automated execution and human judgment had been deliberately obscured to avoid costly retraining. 346 people died. The planes were grounded for 20 months. The cost exceeded $20 billion. The engineering was sophisticated. The frame around it was not.
 
+
 ---
 
 ::: {.takeaways}
@@ -178,5 +179,3 @@ The Boeing 737 MAX crashes of 2018 and 2019 are a case study in judgment-executi
 - Highly capable execution systems make poor judgment placement more consequential, not less. Speed amplifies direction.
 - Leaders are accountable for where judgment resides in the team — not just for the quality of their own decisions, but for the conditions under which all decisions are made.
 :::
-
-

@@ -173,6 +173,7 @@ The implication is direct: invest less in being right the first time, and more i
 
 When Facebook acquired Instagram in April 2012 for approximately $1 billion, Instagram had 13 employees and 30 million users. Its founders, Burbn team members who had pivoted aggressively from a location check-in app to a photo-sharing tool, had made the decision to discard 18 months of prior work within weeks of recognizing that photo-sharing was what users actually wanted. Disposal was the product decision. The final product was not Instagram 2.0. It was the parts of Burbn that survived rapid invalidation. Teams that can't discard are teams that can't prototype. They accumulate instead of learn.
 
+
 ---
 
 ::: {.takeaways}
@@ -184,5 +185,3 @@ When Facebook acquired Instagram in April 2012 for approximately $1 billion, Ins
 - The competitive unit is learning cycle speed, not output volume. Teams that iterate faster improve faster — and over time, that difference compounds.
 - AI lowers the cost of building prototypes dramatically. Teams that benefit most use that cost reduction to increase learning velocity, not just to produce more artifacts.
 :::
-
-

@@ -177,7 +177,7 @@ In April 2012, Facebook acquired Instagram for approximately $1 billion. Instagr
 
 ---
 
-**In Practice: Toyota Georgetown and the Architecture of Small Cells**
+**Toyota Georgetown and the Architecture of Small Cells**
 
 When Toyota opened its Georgetown, Kentucky plant in 1988, American automotive manufacturers were organized around large functional departments: stamping, welding, assembly, quality control. Workers in each zone performed narrow repetitive tasks with little cross-domain understanding or decision authority. Toyota did something structurally different. It organized the factory floor into small, stable work cells — typically four to eight people — each responsible for an end-to-end slice of production quality. Every worker was cross-trained across the cell's tasks. More consequentially, any worker could pull the "andon cord" to stop the entire production line the moment a defect was detected. The decision right did not belong to a supervisor or a quality manager. It belonged to whoever was closest to the problem.
 

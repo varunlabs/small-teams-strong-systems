@@ -13,14 +13,6 @@ But when leverage increases, proportionality weakens. One assumption quietly bre
 
 *A note from the author: running a small team taught me something that years of studying large organizations had obscured — the team's structure mattered more than its size. The most productive period I observed wasn't when we had the most people. It was when each person's decisions had the clearest reach. That observation is what this part of the book is about.*
 
----
-
-**In Practice: WhatsApp's Systemic Leverage**
-
-When Facebook acquired WhatsApp in 2014 for $19 billion, WhatsApp had 55 engineers. At the time, Facebook itself had over 6,000 engineers. WhatsApp served 450 million users — roughly 8.2 million users per engineer. This wasn't individual heroics. It was systemic design: each role had a narrow, explicit scope; decisions multiplied through automated infrastructure; feedback loops were tight. The team didn't have leverage despite being small. It had leverage because it was structured for it. Every choice about what not to build — and what not to own — was as important as what it built.
-
----
-
 ### 4.1 Leverage as a System Property
 
 Leverage is often misattributed to individuals. Certain people appear unusually effective. Their choices shape outcomes disproportionately. Their output seems to exceed visible input. While individual capability matters, leverage looks like a personal trait. It is not. It lives in the system — in how decisions are structured, not who makes them.
@@ -164,6 +156,13 @@ Before your next hiring conversation or capacity review, answer these five quest
 
 ---
 
+**In Practice: WhatsApp's Systemic Leverage**
+
+When Facebook acquired WhatsApp in 2014 for $19 billion, WhatsApp had 55 engineers. At the time, Facebook itself had over 6,000 engineers. WhatsApp served 450 million users — roughly 8.2 million users per engineer. This wasn't individual heroics. It was systemic design: each role had a narrow, explicit scope; decisions multiplied through automated infrastructure; feedback loops were tight. The team didn't have leverage despite being small. It had leverage because it was structured for it. Every choice about what not to build — and what not to own — was as important as what it built.
+
+
+---
+
 ::: {.takeaways}
 **Key Takeaways**
 
@@ -173,4 +172,3 @@ Before your next hiring conversation or capacity review, answer these five quest
 - Risk scales with amplification. Small errors at high leverage travel farther and cost more than large errors at low leverage.
 - Minimum viable size is a structural threshold — the smallest configuration that sustains amplification without collapsing under overload or fragmenting under complexity.
 :::
-

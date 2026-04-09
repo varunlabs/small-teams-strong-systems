@@ -195,4 +195,3 @@ Atari’s collapse in 1983 is usually told as a quality-control story. It was al
 - Decision fatigue is a structural cost. Teams making too many small decisions daily degrade their judgment quality before the consequential calls arrive.
 - Constant urgency is a structural failure signal, not evidence of ambition. It indicates the team is chronically reacting to its own system’s disorder rather than directing its own trajectory.
 :::
-

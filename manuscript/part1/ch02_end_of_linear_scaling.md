@@ -115,6 +115,7 @@ Linear scaling appears reasonable because it aligns with intuition and historica
 
 In 2007, Nokia employed roughly 112,000 people as the world's leading handset maker. Apple had around 21,000 employees when it launched the iPhone. By 2012, Apple's per-employee revenue was nearly ten times Nokia's. Nokia kept adding people to address each coordination and execution gap. Apple kept sharpening structure and amplifying calls. Within five years, Nokia's linear model had collapsed. Linear scaling didn't fail because of incompetence. Nokia's engineers were excellent. The model failed because the environment had changed: execution became cheap, and judgment became the constraint. More people optimizing a fading model accelerated the decline.
 
+
 ---
 
 ::: {.takeaways}
@@ -126,4 +127,3 @@ In 2007, Nokia employed roughly 112,000 people as the world's leading handset ma
 - Nonlinear value often comes from structural redesign, not incremental capacity addition. More of the same produces more of the same.
 - Continuing to reason in linear terms makes entire categories of leverage permanently invisible.
 :::
-

@@ -233,6 +233,7 @@ The question is not whether the roles exist. It is whether each one has a clear 
 
 Spotify's renowned "squad" structure — introduced around 2012 — functioned as an early, intuitive approximation of the Six Forces Framework. Each squad (~six to eight people) was self-sufficient: a product owner held direction, an engineer maintained technical integrity, designers grounded choices in user evidence, and data roles accelerated feedback loops. Squads owned full delivery of their domain. Spotify called this "autonomy with alignment." It worked because each squad contained most of the structural forces. When squads later grew or merged without preserving role clarity, the model lost its compounding quality. The size hadn't changed the outcome. The role architecture had.
 
+
 ---
 
 ::: {.takeaways}
@@ -244,5 +245,3 @@ Spotify's renowned "squad" structure — introduced around 2012 — functioned a
 - Clear role boundaries reduce decision latency and prevent accountability from becoming diffuse. Ambiguous ownership is a design problem, not a personnel problem.
 - AI amplifies the quality differential between strong and weak role-holders. The consequence of a judgment gap scales with the leverage available to that role.
 :::
-
-

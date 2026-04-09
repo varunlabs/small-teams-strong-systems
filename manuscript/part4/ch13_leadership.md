@@ -165,9 +165,9 @@ A system that absorbs volatility without eroding clarity does more than survive.
 
 ### 13.6 Practical Tests of Coherent Leadership
 
-The qualities discussed in this chapter—decision clarity, accountability, psychological safety, architectural repair, coherence over time—are difficult to assess from the outside and easy to narrate from the inside. Every leadership team believes it makes good decisions. Most believe their culture is psychologically safe. Fewer check whether those beliefs are testable.
+The qualities discussed in this chapter— decision clarity, accountability, psychological safety, architectural repair, coherence over time— are difficult to assess from the outside and easy to narrate from the inside. Every leadership team believes it makes good decisions. Most believe their culture is psychologically safe. Fewer check whether those beliefs are testable.
 
-Abstract self-assessment can be replaced with observable diagnostics. Concrete tests do not resolve all ambiguity, but they surface discrepancies between stated design and actual behavior—the gap where foundational decay typically begins.
+Abstract self-assessment can be replaced with observable diagnostics. Concrete tests do not resolve all ambiguity, but they surface discrepancies between stated design and actual behavior— the gap where foundational decay typically begins.
 
 Four tests are particularly useful in layerless environments.
 
@@ -175,11 +175,11 @@ Four tests are particularly useful in layerless environments.
 
 **Reversibility calibration.** Observe whether the team adjusts scrutiny based on reversibility or applies equal deliberation to all decisions. If a reversible decision takes as long to reach as an irreversible one, the system is failing to calibrate. If an irreversible decision receives less scrutiny because it feels comfortable, the system is optimizing for speed over consequence.
 
-**Disagreement pathways.** Ask when someone last changed a decision in response to internal pushback. If this is rare—or if examples exist but required significant effort to surface—the system may be producing alignment through pressure rather than persuasion. Psychologically safe systems produce frequent, low-cost corrections. Unsafe ones produce infrequent, high-cost ones.
+**Disagreement pathways.** Ask when someone last changed a decision in response to internal pushback. If this is rare— or if examples exist but required significant effort to surface— the system may be producing alignment through pressure rather than persuasion. Psychologically safe systems produce frequent, low-cost corrections. Unsafe ones produce infrequent, high-cost ones.
 
 **Explanation ratio.** Track whether team communication conveys reasoning alongside conclusions. A system where “we decided X” is consistently separate from “we decided X because Y, and we weighed it against Z” produces brittle alignment. When reasoning travels with the decision, it remains valid as context shifts. When only conclusions travel, decisions become fragile the moment the person who made them is unavailable.
 
-These tests are not grading instruments. They are diagnostic signals—ways to detect whether leadership is producing structural coherence or design-level dependence. A team that navigates all four is building something that will outlast its current configuration. A team that struggles with one or more has identified a gap worth examining before pressure makes it larger.
+These tests are not grading instruments. They are diagnostic signals— ways to detect whether leadership is producing structural coherence or design-level dependence. A team that navigates all four is building something that will outlast its current configuration. A team that struggles with one or more has identified a gap worth examining before pressure makes it larger.
 
 
 ---
@@ -204,15 +204,15 @@ The risk is not sudden collapse. It is quiet misalignment. A system may appear p
 
 Valve Corporation — makers of Steam and Half-Life — famously operates without managers. The employee handbook states: “There is no one telling you what to do.” In theory, this is radical autonomy. In practice, it is a high-stakes bet on shared judgment architecture. When Valve succeeds (Steam became the dominant PC gaming platform), it’s because invisible coherence mechanisms — reputation, peer calibration, project self-selection — substitute for explicit management. When it fails (products canceled, teams dissolved without announcement), it’s because those informal mechanisms cannot replace deliberate boundary design at scale. Valve is the most ambitious attempt at leadership without layers in the tech industry. Its mixed record is the most honest evidence that coherence doesn’t emerge from removing structure. It must be replaced with something equally deliberate.
 
+
 ---
 
 ::: {.takeaways}
 **Key Takeaways**
 
-- In layerless teams, leadership earns credibility through decision clarity, not title. Authority without judgment quality is insufficient—it slows the team rather than guiding it.
+- In layerless teams, leadership earns credibility through decision clarity, not title. Authority without judgment quality is insufficient— it slows the team rather than guiding it.
 - Indecision is a structural risk, not a neutral default. Unresolved decisions accrue interest: they consume team energy, delay downstream work, and accumulate as invisible strategic debt.
 - Psychological safety and standards drift are not the same. Safe teams surface disagreement early. Drifting teams suppress it until the accumulated gaps become too large to ignore.
-- When systems break, repair—fixing the specific structural failure—is almost always preferable to reinvention. Rebuilding from scratch discards working components along with the broken ones.
+- When systems break, repair— fixing the specific structural failure— is almost always preferable to reinvention. Rebuilding from scratch discards working components along with the broken ones.
 - Leadership’s persistent obligation is coherence over time: ensuring that independently made decisions remain consistent with shared intent, even as conditions shift and team memory fades.
 :::
-

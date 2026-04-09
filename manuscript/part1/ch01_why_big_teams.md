@@ -44,14 +44,6 @@ Seen in this light, the dominance of large teams was not a historical mistake. I
 
 Understanding these original constraints is essential, because it clarifies what large teams were actually doing. They were compensating for limits in tools, communication, and individual capacity. They were a solution to real problems, not an expression of excess. Only by recognizing this can we begin to see why those forms became so deeply embedded — and why questioning them now requires more than preference or taste.
 
----
-
-**In Practice: Bell Labs and the Limits of Coordination**
-
-Bell Labs in its 1960s prime employed over 25,000 people and produced groundbreaking research — the transistor, information theory, Unix. But when AT&T was broken up in the 1980s, smaller spin-off Bellcore (fewer than 8,000 engineers) continued producing innovations at a comparable pace. The constraint hadn't been people. It had been the problems themselves. When the organizational overhead lifted, each remaining researcher carried more leverage. The size had been a response to uncertainty, not a cause of capability.
-
----
-
 ### 1.2 Why Scale Became Synonymous with Size
 
 Once large teams proved effective under earlier constraints, their logic began to travel beyond its original context. What started as a practical response to limits in execution and coordination gradually hardened into a general belief about how progress itself worked. Scale stopped being understood as an outcome of conditions and instead became treated as an input — a prerequisite for seriousness, legitimacy, and ambition.
@@ -217,13 +209,21 @@ The chapters that follow build a different operating model — one where constra
 
 *If the environment has changed but the instinct to expand has not, what is the real source of drag in your system — capacity or architecture?*
 
+---
+
+**In Practice: Bell Labs and the Limits of Coordination**
+
+Bell Labs in its 1960s prime employed over 25,000 people and produced groundbreaking research — the transistor, information theory, Unix. But when AT&T was broken up in the 1980s, smaller spin-off Bellcore (fewer than 8,000 engineers) continued producing innovations at a comparable pace. The constraint hadn't been people. It had been the problems themselves. When the organizational overhead lifted, each remaining researcher carried more leverage. The size had been a response to uncertainty, not a cause of capability.
+
+
+---
+
 ::: {.takeaways}
 **Key Takeaways**
 
-- Big teams were a structural response to expensive execution—adding people was the only way to add output. That constraint no longer applies at the same scale.
+- Big teams were a structural response to expensive execution— adding people was the only way to add output. That constraint no longer applies at the same scale.
 - Coordination overhead scales nonlinearly: every new person adds connections, approvals, and translation steps that accumulate faster than they add capacity.
 - The assumption that growth requires headcount is conditional, not universal. It emerged under specific historical constraints that AI-era tooling has largely removed.
 - When systems strain, the instinct to hire is often misdirected. The real constraint is structural clarity, not headcount shortage.
 - Progress is now limited less by how much a team can do, and more by how cleanly effort translates into resolved decisions.
 :::
-

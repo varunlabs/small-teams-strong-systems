@@ -138,6 +138,7 @@ As leverage grows, the cost of unexamined assumptions rises with it. The system 
 
 In 2023, Midjourney — an AI image generation company — was reported to have roughly 11 full-time employees while generating an estimated $200 million in annual revenue. That's over $18 million per person. Compare that to Adobe's roughly $400,000 per employee in the same year. The difference isn't talent density. It's leverage architecture. Midjourney's team made a small number of high-reach judgments — model training choices, API design, community access policies — and amplified them through AI infrastructure. Adobe's larger team managed more decisions with more coordination overhead. Neither model is universally superior. But Midjourney demonstrates what AI leverage actually looks like when structure aligns with amplification rather than working against it.
 
+
 ---
 
 ::: {.takeaways}
@@ -149,4 +150,3 @@ In 2023, Midjourney — an AI image generation company — was reported to have 
 - Leadership in AI-native environments means designing the conditions for good judgment — not supervising every individual decision.
 - The most dangerous AI-era failure mode is not dramatic error but quiet abdication: systems acting competently in directions no one explicitly chose.
 :::
-

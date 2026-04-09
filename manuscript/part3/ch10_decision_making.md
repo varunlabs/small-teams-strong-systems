@@ -187,6 +187,7 @@ High-uncertainty environments reveal architecture. They expose where authority i
 
 Netflix's approach to decision-making under uncertainty centers on what CEO Reed Hastings has described as the "Informed Captain" principle. For each significant decision, one person is designated as captain and makes the final call. Others contribute context and disagreement openly. Then the captain decides. This is not top-down authority; the captain is often a mid-level employee, not an executive. The model fits a fast-changing market where consensus-seeking creates decision latency. The rule separates information flow (wide) from decision authority (concentrated). It also prevents identity entanglement. If the CEO always decides, each revision can be read as top-level weakness. If any informed contributor can captain, revision becomes normal and healthy. The model treats decisions as hypotheses, distributes ownership, and sizes judgment by consequence. Functionally, it is a decision system, not a heroics culture.
 
+
 ---
 
 ::: {.takeaways}
@@ -198,5 +199,3 @@ Netflix's approach to decision-making under uncertainty centers on what CEO Reed
 - Decision weight should match uncertainty: high-certainty decisions can be large and sticky; low-certainty decisions should be kept small, reversible, and cheap to revisit.
 - Decision quality is a system property. It comes from structure — clear ownership, appropriate reversibility thresholds, and explicit uncertainty acknowledgment — not from individual judgment under pressure.
 :::
-
-

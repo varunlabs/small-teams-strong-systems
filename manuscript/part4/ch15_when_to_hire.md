@@ -54,7 +54,7 @@ In practical terms, adding one person does not add one unit of progress. It adds
 
 Every hire creates downstream design commitments: onboarding pathways, authority boundaries, escalation routes, and long-term integration costs. Reversal is possible, but expensive.
 
-Treating hiring as commitment changes behavior. Teams redesign first, test constraints directly, and hire only when architecture—not discomfort—demands it.
+Treating hiring as commitment changes behavior. Teams redesign first, test constraints directly, and hire only when architecture— not discomfort— demands it.
 
 This discipline preserves optionality. It keeps systems coherent long enough to scale by design rather than by reflex.
 
@@ -94,12 +94,6 @@ If constraints remain after this sprint, the hire case becomes stronger because 
 
 ---
 
-**In Practice: Basecamp's Hiring Threshold**
-
-Basecamp has stayed relatively small for years while maintaining meaningful revenue because it treats hiring as a last structural move, not a default response to pressure. Their recurring question has been: can we redesign the product or process so this recurring load disappears? Only when the answer is consistently no does headcount expand. The lesson is not that every company should stay small; it is that the hiring threshold should be architectural, not emotional.
-
----
-
 ### 15.6 The Question This Chapter Leaves You With
 
 Hiring feels like the answer because pressure is immediate and structural diagnosis is slow. The discomfort of an overloaded team is visceral. The cost of a premature hire is diffuse — distributed across onboarding friction, coordination overhead, and the quiet erosion of decision speed that no single metric captures.
@@ -108,6 +102,24 @@ The discipline this chapter describes is not anti-growth. It is anti-default. It
 
 *What would change in your team if you treated hiring as the last structural option rather than the first?*
 
+---
+
+**In Practice: Basecamp's Hiring Threshold**
+
+Basecamp has stayed relatively small for years while maintaining meaningful revenue because it treats hiring as a last structural move, not a default response to pressure. Their recurring question has been: can we redesign the product or process so this recurring load disappears? Only when the answer is consistently no does headcount expand. The lesson is not that every company should stay small; it is that the hiring threshold should be architectural, not emotional.
+
+
+---
+
+::: {.takeaways}
+**Key Takeaways**
+
+- Hiring is a structural decision, not a short-term pressure release.
+- Add headcount only after redesign has failed to remove a persistent, observable constraint.
+- A valid hire case requires clear ownership boundaries, lower coordination burden, and durable failure-mode reduction.
+- Every hire commits the system to future structure: onboarding, interfaces, and authority design.
+- Treat a 30-day redesign sprint as the default gate before opening a role.
+:::
 ---
 
 The next chapter extends this principle: once you preserve hiring discipline, how do you scale capability without losing the decision logic that made the system effective?

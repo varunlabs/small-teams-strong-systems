@@ -81,6 +81,7 @@ OpenAI's early research teams followed a similar pattern: small groups holding t
 
 In each case, the structural advantage was the same: coherence between observation, interpretation, and modification — maintained through deliberate constraint.
 
+
 ---
 
 ::: {.takeaways}
@@ -92,4 +93,3 @@ In each case, the structural advantage was the same: coherence between observati
 - Small teams maintain frontier coherence through compressed learning loops: fewer translation layers between observation and structural modification.
 - At the frontier, organizational design is not a productivity tool — it is a survival requirement. Structure must localize volatility rather than propagate it.
 :::
-
