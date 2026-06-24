@@ -27,7 +27,7 @@ Also includes per-style rendered examples under:
 Use the original backups as source for clean rerender:
 
 ```bash
-/Users/varunsiddaraju/Documents/GitHub/Book/.venv/bin/python scripts/figures/restyle_figure_images.py --source generated_original --style executive_navy
+python3 scripts/figures/restyle_figure_images.py --source generated_original --style executive_navy
 ```
 
 Replace `executive_navy` with your selected style.
@@ -37,17 +37,17 @@ Replace `executive_navy` with your selected style.
 List styles:
 
 ```bash
-/Users/varunsiddaraju/Documents/GitHub/Book/.venv/bin/python scripts/figures/restyle_figure_images.py --list-styles
+python3 scripts/figures/restyle_figure_images.py --list-styles
 ```
 
 Generate style previews again:
 
 ```bash
-/Users/varunsiddaraju/Documents/GitHub/Book/.venv/bin/python scripts/figures/generate_figure_style_options.py
+python3 scripts/figures/generate_figure_style_options.py
 ```
 
 Generate previews for a subset:
 
 ```bash
-/Users/varunsiddaraju/Documents/GitHub/Book/.venv/bin/python scripts/figures/generate_figure_style_options.py --styles executive_navy mono_print
+python3 scripts/figures/generate_figure_style_options.py --styles executive_navy mono_print
 ```
