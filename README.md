@@ -63,7 +63,7 @@ Book.md             # Full manuscript as a single Markdown file
 Available on **Amazon Kindle Direct Publishing**.
 
 The built files are also in this repo:
-- [`output/SmallTeamsStrongSystems.pdf`](output/SmallTeamsStrongSystems.pdf)
+- [`manuscript/output/SmallTeamsStrongSystems.pdf`](manuscript/output/SmallTeamsStrongSystems.pdf)
 - [`output/SmallTeamsStrongSystems.epub`](output/SmallTeamsStrongSystems.epub)
 - [`output/SmallTeamsStrongSystems.docx`](output/SmallTeamsStrongSystems.docx)
 
