@@ -44,7 +44,6 @@ manuscript/
 
 output/             # Built book files (PDF, EPUB, DOCX)
 scripts/            # Figure generation, cover, and review utilities
-Book.md             # Full manuscript as a single Markdown file
 ```
 
 **16 chapters across 4 parts:**
