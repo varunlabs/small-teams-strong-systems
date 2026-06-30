@@ -23,6 +23,7 @@ jobs:
 
       - name: Build EPUB
         run: |
+          grep -v "^cover-image:" manuscript/metadata.yaml > /tmp/epub-metadata.yaml
           pandoc \
             manuscript/00_front_matter.md \
             manuscript/part1/ch01_why_big_teams.md \
@@ -58,8 +59,7 @@ jobs:
             manuscript/part4/ch16_scaling.md \
             manuscript/chapter_gap_all_formats.md \
             manuscript/back_matter.md \
-            --metadata-file=manuscript/metadata.yaml \
-            --metadata=cover-image: \
+            --metadata-file=/tmp/epub-metadata.yaml \
             --css=manuscript/epub.css \
             --resource-path=manuscript \
             --split-level=2 \
