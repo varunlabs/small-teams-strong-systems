@@ -29,6 +29,70 @@ Printed and distributed via Amazon Kindle Direct Publishing.
 
 ```{=latex}
 \clearpage
+```
+
+# Dedication {-}
+
+This book is dedicated to my team—
+the people who chose to believe in a vision before it was clear, before it was proven, and before it had structure.
+
+Together, we built not just projects, but a way of thinking.
+
+We navigated uncertainty, solved problems without playbooks, and learned how to operate with clarity even when chaos was constant. Every challenge we faced, every system we refined, and every decision we debated has shaped the ideas captured in these pages.
+
+What we built was never just about delivering work—it was about understanding how small teams can create meaningful impact when guided by the right principles, discipline, and trust. This book is a reflection of that journey.
+
+To my mentors—
+thank you for your guidance, perspective, and for helping me see beyond immediate problems to long-term thinking.
+
+To my family and friends—
+thank you for your support, patience, and belief, even when the path was uncertain.
+
+And to my wife, Bhoomika—
+thank you for standing by me through every phase, for your strength, your patience, and your unwavering support. This journey would not have been possible without you.
+
+This book carries a part of all of you within it.
+
+```{=latex}
+\clearpage
+```
+
+# Acknowledgements {-}
+
+This book was shaped through execution, iteration, and real-world experience—not in isolation.
+
+My sincere thanks to Lavanya Dharmappa for her thoughtful editing and for bringing clarity, structure, and flow to these ideas.
+
+To my team—this book reflects the systems we built, the challenges we navigated, and the lessons we learned together.
+
+To my mentors, clients, and partners—thank you for the perspective, trust, and opportunities that shaped this thinking.
+
+To my family and friends—thank you for your constant support.
+
+And to my wife, Bhoomika—thank you for your strength, patience, and unwavering support throughout this journey.
+
+This work is built on all of you.
+
+```{=latex}
+\clearpage
+```
+
+# About the Author & Editor {-}
+
+**Author — Varun Kumar Siddaraju**
+
+Varun Kumar Siddaraju is a developer, software architect, product manager, and founder with over a decade of experience building spatial and applied-AI systems across research, enterprise, and startup contexts. His work spans extended reality, context-aware computing, and frontier technology infrastructure. He is the founder of VeeRuby Technologies and the author of *Beginning Windows Mixed Reality Programming* (Apress, 2021).
+
+→ varunsiddaraju.com
+
+---
+
+**Editor — Lavanya Dharmappa**
+
+Lavanya Dharmappa is an Associate XR+AI Product Engineer at VeeRuby Technologies. She provided editorial review, structural clarity, and reader-perspective feedback for this book — ensuring the ideas are as accessible to a first-time reader as they are rigorous for a practitioner.
+
+```{=latex}
+\clearpage
 \csname tableofcontents\endcsname
 \clearpage
 ```

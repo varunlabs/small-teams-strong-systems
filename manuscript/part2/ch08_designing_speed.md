@@ -1,6 +1,6 @@
 ## Chapter 8 — Designing for Speed, Not Comfort
 
-In 2007, Spotify's founding team shipped a working music streaming prototype in two weeks. Not because they worked around the clock — but because their system was designed so that every decision resolved quickly and every error surfaced within hours. A decade later, when the company employed thousands, former engineers recalled that the early team's speed came not from intensity but from architecture: short feedback loops, clear ownership, and the deliberate absence of comfort-preserving process.
+In its earliest phase, Spotify's founding team shipped a working music streaming prototype in a remarkably compressed development cycle — not because they worked around the clock, but because their system was designed so that every decision resolved quickly and every error surfaced within hours. Years later, when the company employed thousands, early team members recalled that the founding team's speed came not from intensity but from architecture: short feedback loops, clear ownership, and the deliberate absence of comfort-preserving process.
 
 Speed is often mistaken for acceleration. Output increases, cycles shorten, and activity intensifies. Yet acceleration alone does not produce structural advantage. A system can move quickly while learning slowly. It can generate volume without improving its frame of interpretation.
 
