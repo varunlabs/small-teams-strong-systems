@@ -1,4 +1,4 @@
-name: Build EPUB
+﻿name: Build EPUB
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
           sudo apt-get install -y pandoc
 
       - name: Create output directory
-        run: mkdir -p published/v2
+        run: mkdir -p builds/v2
 
       - name: Build EPUB
         run: |
@@ -64,11 +64,12 @@ jobs:
             --css=manuscript/epub.css \
             --resource-path=manuscript \
             --split-level=2 \
-            -o published/v2/SmallTeamsStrongSystems-v2.epub
+            -o builds/v2/SmallTeamsStrongSystems-v2.epub
 
       - name: Upload EPUB artifact
         uses: actions/upload-artifact@v4
         with:
           name: SmallTeamsStrongSystems-v2-epub
-          path: published/v2/SmallTeamsStrongSystems-v2.epub
+          path: builds/v2/SmallTeamsStrongSystems-v2.epub
           retention-days: 30
+
