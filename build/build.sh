@@ -1,7 +1,7 @@
 ﻿#!/bin/bash
 cd "$(dirname "$0")/.."
 
-mkdir -p builds/v2
+mkdir -p drafts/v2
 
 pandoc \
   manuscript/front_matter.md \
@@ -44,7 +44,7 @@ pandoc \
   --split-level=2 \
   --toc \
   --toc-depth=2 \
-  -o builds/v2/SmallTeamsStrongSystems-v2.epub
+  -o drafts/v2/SmallTeamsStrongSystems-v2.epub
 
 echo "EPUB exit code: $?"
 
@@ -85,9 +85,10 @@ pandoc \
   manuscript/back_matter.md \
   --metadata-file=manuscript/metadata.yaml \
   --resource-path=manuscript \
-  -o builds/v2/SmallTeamsStrongSystems-v2.docx
+  -o drafts/v2/SmallTeamsStrongSystems-v2.docx
 
 echo "DOCX exit code: $?"
 
-ls -lh builds/v2/
+ls -lh drafts/v2/
+
 

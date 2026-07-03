@@ -3,7 +3,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 BASE="manuscript"
-OUT="builds/v2"
+OUT="drafts/v2"
 
 mkdir -p "$OUT"
 echo "Building PDF..."
@@ -67,4 +67,5 @@ pandoc \
 
 echo "PDF written to: $OUT/SmallTeamsStrongSystems-v2.pdf"
 ls -lh "$OUT/SmallTeamsStrongSystems-v2.pdf"
+
 
