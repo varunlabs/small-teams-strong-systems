@@ -183,9 +183,9 @@ High-uncertainty environments reveal architecture. They expose where authority i
 
 ---
 
-**In Practice: Netflix's "Informed Captain" Model**
+**In Practice: The "Informed Captain" Decision Model**
 
-Netflix's approach to decision-making under uncertainty centers on what CEO Reed Hastings has described as the "Informed Captain" principle. For each significant decision, one person is designated as captain and makes the final call. Others contribute context and disagreement openly. Then the captain decides. This is not top-down authority; the captain is often a mid-level employee, not an executive. The model fits a fast-changing market where consensus-seeking creates decision latency. The rule separates information flow (wide) from decision authority (concentrated). It also prevents identity entanglement. If the CEO always decides, each revision can be read as top-level weakness. If any informed contributor can captain, revision becomes normal and healthy. The model treats decisions as hypotheses, distributes ownership, and sizes judgment by consequence. Functionally, it is a decision system, not a heroics culture.
+A useful model for decision-making under uncertainty — one that reflects the operating philosophy described by Reed Hastings in *No Rules Rules* (2020, co-authored with Erin Meyer) — is what Hastings calls the "Informed Captain" principle. For each significant decision, one person is designated as captain and makes the final call. Others contribute context and disagreement openly. Then the captain decides. This is not top-down authority; the captain is often a mid-level employee, not an executive. The model fits a fast-changing market where consensus-seeking creates decision latency. The rule separates information flow (wide) from decision authority (concentrated). It also prevents identity entanglement. If the CEO always decides, each revision can be read as top-level weakness. If any informed contributor can captain, revision becomes normal and healthy. The model treats decisions as hypotheses, distributes ownership, and sizes judgment by consequence. Functionally, it is a decision system, not a heroics culture.
 
 ---
 

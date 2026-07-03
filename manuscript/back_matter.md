@@ -68,7 +68,7 @@ This book draws on a body of research, case studies, and practitioner literature
 
 **Referenced in text:**
 
-- WhatsApp engineering team size at acquisition: Parmy Olson, "Exclusive: The Rags-To-Riches Tale Of How Jan Koum Built WhatsApp Into Facebook's New $19 Billion Baby," *Forbes*, February 19, 2014. At acquisition, WhatsApp had 55 engineers serving 450 million active users.
+- WhatsApp engineering team size at acquisition: Parmy Olson, "Exclusive: The Rags-To-Riches Tale Of How Jan Koum Built WhatsApp Into Facebook's New $19 Billion Baby," *Forbes*, February 19, 2014. At acquisition, WhatsApp had approximately 35 engineers serving 450 million active users.
 - Amazon's two-pizza team structure: Brad Stone, *The Everything Store: Jeff Bezos and the Age of Amazon* (Little, Brown, 2013). Bezos introduced the two-pizza rule targeting roughly six to eight people per team.
 - Minecraft / Mojang development history: Daniel Goldberg and Linus Larsson, *Minecraft: The Unlikely Tale of Markus "Notch" Persson and the Game that Changed Everything* (Seven Stories Press, 2013). On the constraints and design decisions of a one-to-six person founding team.
 - Color Labs failure case: Alexia Tsotsis, "Color Closes Its Doors, Team Joins Apple," *TechCrunch*, October 17, 2012. On structural failure despite $41 million in funding and experienced personnel.
