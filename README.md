@@ -92,15 +92,6 @@ The manuscript is written in Markdown and built with [Pandoc](https://pandoc.org
 .\build_docx.ps1
 ```
 
-**Regenerate figures:**
-
-```bash
-python3 scripts/figures/restyle_figure_images.py --list-styles
-python3 scripts/figures/restyle_figure_images.py --source generated_original --style executive_navy
-```
-
-See [`FIGURE_STYLE_GUIDE.md`](FIGURE_STYLE_GUIDE.md) for available figure style presets and [`scripts/README.md`](scripts/README.md) for the full scripts reference.
-
 ---
 
 ## About the author
