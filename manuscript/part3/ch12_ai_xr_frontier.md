@@ -73,7 +73,7 @@ The enduring advantage may not belong to those who build the most advanced syste
 
 **In Practice: Three Teams at the Frontier**
 
-Beat Saber was built by Beat Games â€” roughly ten people at launch in 2018. The team faced probabilistic interaction in real 3D space, millisecond-level latency sensitivity, and hardware variability across headset generations. Tight coupling between engine developers, designers, and audio specialists let experiential signals travel without translation. When something felt wrong, the person who noticed it could fix it the next morning.
+Beat Saber was built by Beat Games — a very small team of just a few developers at launch in 2018. The team faced probabilistic interaction in real 3D space, millisecond-level latency sensitivity, and hardware variability across headset generations. Tight coupling between engine developers, designers, and audio specialists let experiential signals travel without translation. When something felt wrong, the person who noticed it could fix it the next morning.
 
 Waymo began with a small, focused technical team â€” an origin that shaped the compressed feedback culture of its earliest development cycles. As the organisation scaled, its most productive learning phases were those where perception engineers, simulation specialists, and safety analysts worked in close proximity, sharing context directly rather than through layered reporting.
 

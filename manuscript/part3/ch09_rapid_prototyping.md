@@ -171,7 +171,7 @@ The implication is direct: invest less in being right the first time, and more i
 
 **In Practice: Instagram's 13-Employee Disposal Mindset**
 
-When Facebook acquired Instagram in April 2012 for approximately $1 billion, Instagram had 13 employees and 30 million users. Its founders, Burbn team members who had pivoted aggressively from a location check-in app to a photo-sharing tool, had made the decision to discard 18 months of prior work within weeks of recognizing that photo-sharing was what users actually wanted. Disposal was the product decision. The final product was not Instagram 2.0. It was the parts of Burbn that survived rapid invalidation. Teams that can't discard are teams that can't prototype. They accumulate instead of learn.
+When Facebook acquired Instagram in April 2012 for approximately $1 billion, Instagram had 13 employees and 30 million users. Its founders, Burbn team members who had pivoted aggressively from a location check-in app to a photo-sharing tool, had made the decision to discard several months of prior work within weeks of recognizing that photo-sharing was what users actually wanted. Disposal was the product decision. The final product was not Instagram 2.0. It was the parts of Burbn that survived rapid invalidation. Teams that can't discard are teams that can't prototype. They accumulate instead of learn.
 
 ---
 
