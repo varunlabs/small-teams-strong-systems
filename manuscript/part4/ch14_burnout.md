@@ -1,6 +1,6 @@
-## Chapter 14 — Burnout as a Systems Failure
+﻿## Chapter 14 â€” Burnout as a Systems Failure
 
-A product team at a mid-stage startup shipped consistently for eighteen months. Reviews were strong. Velocity was high. Then, within a single quarter, three of the six core members requested transfers or resigned. The departures surprised leadership because performance indicators had never flagged a problem. What the metrics missed was that the team had been compensating for structural ambiguity — unclear ownership boundaries, unresolved priority conflicts, and feedback loops that required constant human mediation — through sustained personal overextension. The system looked healthy because the people inside it were absorbing its design failures.
+A product team at a mid-stage startup shipped consistently for eighteen months. Reviews were strong. Velocity was high. Then, within a single quarter, three of the six core members requested transfers or resigned. The departures surprised leadership because performance indicators had never flagged a problem. What the metrics missed was that the team had been compensating for structural ambiguity â€” unclear ownership boundaries, unresolved priority conflicts, and feedback loops that required constant human mediation â€” through sustained personal overextension. The system looked healthy because the people inside it were absorbing its design failures.
 
 Burnout is often interpreted as an individual condition. It is described in terms of motivation, resilience, or personal capacity. Yet in complex systems, persistent exhaustion is rarely isolated. Burnout is a signal. It points to a broken design, not a tired person. When it appears repeatedly across roles or teams, it reflects structural strain rather than personal limitation.
 
@@ -53,9 +53,9 @@ This pattern often arises when structural issues remain unaddressed. Energy is d
 
 Progress that compounds differs qualitatively. Clarified boundaries reduce future coordination. Defined interfaces prevent recurring ambiguity. Decisions reinforce structure. Even demanding periods feel constructive when they produce durable alignment.
 
-> **Figure 14.1 — Effort Without Progress: The Hidden Exhaustion**
+> **Figure 14.1 â€” Effort Without Progress: The Hidden Exhaustion**
 >
-> ![](figures/generated/ch14_burnout_fig_14_1.png)
+> ![](figures/ch14_burnout_fig_14_1.png)
 >
 
 The distinction is subtle but decisive. High effort can coexist with resilience when work strengthens the system. Moderate effort can produce exhaustion when it maintains fragile equilibrium without improvement.
@@ -85,9 +85,9 @@ Ambiguous ownership also distorts incentives. When responsibility is shared but 
 
 Clarifying ownership does not reduce complexity, but it reduces duplication of effort. It ensures that energy is directed toward outcomes rather than toward continuous renegotiation.
 
-> **Figure 14.2 — Diffused vs. Defined Ownership**
+> **Figure 14.2 â€” Diffused vs. Defined Ownership**
 >
-> ![](figures/generated/ch14_burnout_fig_14_2.png)
+> ![](figures/ch14_burnout_fig_14_2.png)
 >
 
 
@@ -131,9 +131,9 @@ As leverage grows, slack often diminishes. Teams operate closer to capacity beca
 
 The result is asymmetry between visible efficiency and invisible vigilance. Individuals monitor amplified processes continuously. They intervene to prevent cascading consequences. The system's scale demands sustained attentiveness even when manual workload declines.
 
-> **Figure 14.3 — Amplification and Hidden Vigilance**
+> **Figure 14.3 â€” Amplification and Hidden Vigilance**
 >
-> ![](figures/generated/ch14_burnout_fig_14_3.png)
+> ![](figures/ch14_burnout_fig_14_3.png)
 >
 
 Burnout in such environments is not driven by repetitive labor. It emerges from sustained responsibility over expansive impact. When correction, interpretation, and anticipation are constant, exhaustion accumulates beneath the appearance of leverage.
@@ -180,9 +180,9 @@ The central question is not whether people are capable of sustained effort. It i
 
 ---
 
-**In Practice: Atari’s Frenetic Growth and the Burnout Pattern**
+**In Practice: Atariâ€™s Frenetic Growth and the Burnout Pattern**
 
-Atari’s collapse in 1983 is usually told as a quality-control story. It was also a structural burnout story. Between 1980 and 1982, Atari grew from roughly 2,000 employees to over 10,000. Decision authority became diffuse. Ownership boundaries blurred. Engineers received conflicting directives from multiple sources. The infamous ET game was developed in five weeks under maximum ambiguity: unclear ownership, expanding scope, and a deadline everyone knew could not produce quality work. Nobody burned out because they cared too little. They burned out because the structure could not contain the consequences of their effort. The resulting inventory — millions of unsold cartridges, including large quantities of ET units, reportedly buried in a New Mexico landfill and later confirmed by a 2014 excavation — was an architectural failure wearing the name of a quality problem.
+Atariâ€™s collapse in 1983 is usually told as a quality-control story. It was also a structural burnout story. Between 1980 and 1982, Atari grew from roughly 2,000 employees to over 10,000. Decision authority became diffuse. Ownership boundaries blurred. Engineers received conflicting directives from multiple sources. The infamous ET game was developed in five weeks under maximum ambiguity: unclear ownership, expanding scope, and a deadline everyone knew could not produce quality work. Nobody burned out because they cared too little. They burned out because the structure could not contain the consequences of their effort. The resulting inventory â€” millions of unsold cartridges, including large quantities of ET units, reportedly buried in a New Mexico landfill and later confirmed by a 2014 excavation â€” was an architectural failure wearing the name of a quality problem.
 
 ---
 
@@ -193,6 +193,7 @@ Atari’s collapse in 1983 is usually told as a quality-control story. It was al
 - Effort without visible progress is the primary burnout driver. The issue is not workload volume alone, but the absence of feedback that confirms the work is directionally sound.
 - Ambiguous ownership is a burnout amplifier. Unresolved accountability creates chronic low-grade stress that compounds gradually into full-system failure.
 - Decision fatigue is a structural cost. Teams making too many small decisions daily degrade their judgment quality before the consequential calls arrive.
-- Constant urgency is a structural failure signal, not evidence of ambition. It indicates the team is chronically reacting to its own system’s disorder rather than directing its own trajectory.
+- Constant urgency is a structural failure signal, not evidence of ambition. It indicates the team is chronically reacting to its own systemâ€™s disorder rather than directing its own trajectory.
 :::
+
 

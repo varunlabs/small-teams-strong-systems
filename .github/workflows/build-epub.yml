@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - lavanya/book-v2-improvements
+      - lavanya/repo-restructure
 
 jobs:
   build:
@@ -19,13 +20,13 @@ jobs:
           sudo apt-get install -y pandoc
 
       - name: Create output directory
-        run: mkdir -p output
+        run: mkdir -p published/v2
 
       - name: Build EPUB
         run: |
           grep -v "^cover-image:" manuscript/metadata.yaml > /tmp/epub-metadata.yaml
           pandoc \
-            manuscript/00_front_matter.md \
+            manuscript/front_matter.md \
             manuscript/part1/ch01_why_big_teams.md \
             manuscript/chapter_gap_all_formats.md \
             manuscript/part1/ch02_end_of_linear_scaling.md \
@@ -63,11 +64,11 @@ jobs:
             --css=manuscript/epub.css \
             --resource-path=manuscript \
             --split-level=2 \
-            -o output/SmallTeamsStrongSystems-v2.epub
+            -o published/v2/SmallTeamsStrongSystems-v2.epub
 
       - name: Upload EPUB artifact
         uses: actions/upload-artifact@v4
         with:
           name: SmallTeamsStrongSystems-v2-epub
-          path: output/SmallTeamsStrongSystems-v2.epub
+          path: published/v2/SmallTeamsStrongSystems-v2.epub
           retention-days: 30
