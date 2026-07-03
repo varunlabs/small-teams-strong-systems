@@ -5,7 +5,7 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";"
 
 $ROOT = "$PSScriptRoot\.."
 $BASE = "$ROOT\manuscript"
-$OUT  = "$ROOT\builds\\v2"
+$OUT  = "$ROOT\drafts\\\\v2"
 
 New-Item -ItemType Directory -Force $OUT | Out-Null
 Write-Host "Building PDF with XeLaTeX..."
@@ -69,4 +69,5 @@ try {
 
 Write-Host "PDF built: $OUT\SmallTeamsStrongSystems-v2.pdf"
 Get-Item "$OUT\SmallTeamsStrongSystems-v2.pdf" | Format-List Length
+
 

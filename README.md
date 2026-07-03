@@ -67,7 +67,7 @@ Available on **Amazon Kindle Direct Publishing**.
 
 Built files are in this repo:
 - [`published/v1/`](published/v1/) â€” Amazon KDP submitted files (EPUB + covers)
-- [`builds/v2/`](builds/v2/) â€” v2 in progress (EPUB, DOCX, PDF)
+- [`drafts/v2/`](drafts/v2/) â€” v2 in progress (EPUB, DOCX, PDF)
 
 ---
 
@@ -120,4 +120,5 @@ Copyright Â© 2026 Varun Kumar Siddaraju. All rights reserved.
 No part of this book may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the author, except for brief quotations used in reviews or scholarly works.
 
 Published via Amazon Kindle Direct Publishing.
+
 
