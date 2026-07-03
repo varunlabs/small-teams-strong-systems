@@ -1,8 +1,10 @@
 #!/bin/bash
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
+
+mkdir -p published/v2
 
 pandoc \
-  manuscript/00_front_matter.md \
+  manuscript/front_matter.md \
   manuscript/part1/ch01_why_big_teams.md \
   manuscript/chapter_gap_all_formats.md \
   manuscript/part1/ch02_end_of_linear_scaling.md \
@@ -36,19 +38,18 @@ pandoc \
   manuscript/part4/ch16_scaling.md \
   manuscript/chapter_gap_all_formats.md \
   manuscript/back_matter.md \
-  manuscript/back_cover_page.md \
   --metadata-file=manuscript/metadata.yaml \
   --css=manuscript/epub.css \
   --resource-path=manuscript \
   --split-level=2 \
   --toc \
   --toc-depth=2 \
-  -o output/SmallTeamsStrongSystems.epub
+  -o published/v2/SmallTeamsStrongSystems-v2.epub
 
 echo "EPUB exit code: $?"
 
 pandoc \
-  manuscript/00_front_matter.md \
+  manuscript/front_matter.md \
   manuscript/part1/ch01_why_big_teams.md \
   manuscript/chapter_gap_all_formats.md \
   manuscript/part1/ch02_end_of_linear_scaling.md \
@@ -82,11 +83,10 @@ pandoc \
   manuscript/part4/ch16_scaling.md \
   manuscript/chapter_gap_all_formats.md \
   manuscript/back_matter.md \
-  manuscript/back_cover_page.md \
   --metadata-file=manuscript/metadata.yaml \
   --resource-path=manuscript \
-  -o output/SmallTeamsStrongSystems.docx
+  -o published/v2/SmallTeamsStrongSystems-v2.docx
 
 echo "DOCX exit code: $?"
 
-ls -lh output/
+ls -lh published/v2/

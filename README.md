@@ -38,12 +38,14 @@ manuscript/
 ├── part2/          # The Six Forces Operating Model (Chapters 4–8)
 ├── part3/          # Building Complex Products with Small Teams (Chapters 9–12)
 ├── part4/          # Leadership, Sustainability, and Scale (Chapters 13–16)
-├── figures/        # Generated chapter figures (PNG)
-├── cover/          # Cover assets
+├── figures/        # Chapter figures (PNG)
+├── cover/          # Published cover images (front + back)
 └── metadata.yaml   # Pandoc build metadata
 
-output/             # Built book files (PDF, EPUB, DOCX)
-scripts/            # Figure generation, cover, and review utilities
+build/              # Build scripts (EPUB, DOCX, PDF — PowerShell + bash)
+published/
+├── v1/             # Amazon-published v1 EPUB
+└── v2/             # v2 builds (EPUB, DOCX, PDF)
 Book.md             # Full manuscript as a single Markdown file
 ```
 
@@ -62,10 +64,9 @@ Book.md             # Full manuscript as a single Markdown file
 
 Available on **Amazon Kindle Direct Publishing**.
 
-The built files are also in this repo:
-- [`manuscript/output/SmallTeamsStrongSystems.pdf`](manuscript/output/SmallTeamsStrongSystems.pdf)
-- [`output/SmallTeamsStrongSystems.epub`](output/SmallTeamsStrongSystems.epub)
-- [`output/SmallTeamsStrongSystems.docx`](output/SmallTeamsStrongSystems.docx)
+Built files are in this repo:
+- [`published/v1/`](published/v1/) — Amazon-published v1 EPUB
+- [`published/v2/`](published/v2/) — v2 builds (EPUB, DOCX, PDF)
 
 ---
 
@@ -79,17 +80,24 @@ The manuscript is written in Markdown and built with [Pandoc](https://pandoc.org
 - Fonts: Georgia, Arial, Courier New (system fonts on macOS/Windows)
 - Python 3.9+ — for figure generation scripts
 
-**Build commands (PowerShell):**
+**Build commands (PowerShell, run from repo root):**
 
 ```powershell
-# PDF (A5, print-ready interior + full with covers)
-.\build_pdf.ps1
-
 # EPUB
-.\build_epub.ps1
+.\build\build_epub.ps1
 
 # DOCX
-.\build_docx.ps1
+.\build\build_docx.ps1
+
+# PDF (A5, XeLaTeX required)
+.\build\build_pdf.ps1
+```
+
+**Build commands (bash/Linux/macOS):**
+
+```bash
+./build/build.sh        # EPUB + DOCX
+./build/build_pdf.sh    # PDF
 ```
 
 ---
