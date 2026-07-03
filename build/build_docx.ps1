@@ -2,7 +2,7 @@
 $ErrorActionPreference = "Stop"
 
 $ROOT = "$PSScriptRoot\.."
-$OUT  = "$ROOT\builds\\v2"
+$OUT  = "$ROOT\drafts\\\\v2"
 
 New-Item -ItemType Directory -Force $OUT | Out-Null
 Write-Host "Building DOCX..."
@@ -57,4 +57,5 @@ if ($exitCode -eq 0) {
   Write-Host "DOCX build failed (exit $exitCode)"
   exit $exitCode
 }
+
 

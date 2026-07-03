@@ -4,7 +4,7 @@ $ErrorActionPreference = "Stop"
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
 $ROOT = "$PSScriptRoot\.."
-$OUT  = "$ROOT\builds\\v2"
+$OUT  = "$ROOT\drafts\\\\v2"
 
 New-Item -ItemType Directory -Force $OUT | Out-Null
 Write-Host "Building EPUB..."
@@ -61,4 +61,5 @@ if ($exitCode -eq 0) {
   Write-Host "EPUB build failed (exit $exitCode)"
   exit $exitCode
 }
+
 
