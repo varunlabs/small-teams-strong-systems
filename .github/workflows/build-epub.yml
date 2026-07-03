@@ -5,6 +5,7 @@ on:
     branches:
       - lavanya/book-v2-improvements
       - lavanya/repo-restructure
+      - lavanya/build-v2-epub
 
 jobs:
   build:
