@@ -75,9 +75,9 @@ The enduring advantage may not belong to those who build the most advanced syste
 
 Beat Saber was built by Beat Games — roughly ten people at launch in 2018. The team faced probabilistic interaction in real 3D space, millisecond-level latency sensitivity, and hardware variability across headset generations. Tight coupling between engine developers, designers, and audio specialists let experiential signals travel without translation. When something felt wrong, the person who noticed it could fix it the next morning.
 
-Waymo's autonomous vehicle teams, by contrast, have operated at scale — but their most effective learning loops remain concentrated in small, cross-functional cells where perception engineers, simulation specialists, and safety analysts share context directly rather than through layered reporting.
+Waymo began with a small, focused technical team — an origin that shaped the compressed feedback culture of its earliest development cycles. As the organisation scaled, its most productive learning phases were those where perception engineers, simulation specialists, and safety analysts worked in close proximity, sharing context directly rather than through layered reporting.
 
-OpenAI's early research teams followed a similar pattern: small groups holding the full problem surface, iterating on model behavior with compressed feedback between training runs and evaluation.
+OpenAI's early research efforts — including documented small teams like Superalignment and Preparedness — followed a similar pattern: bounded groups holding a focused problem surface, iterating on model behaviour with compressed feedback between training runs and evaluation.
 
 In each case, the structural advantage was the same: coherence between observation, interpretation, and modification — maintained through deliberate constraint.
 

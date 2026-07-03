@@ -18,11 +18,11 @@ This chapter grounds what the rest of the book builds on: the **Six Forces Frame
 
 ---
 
-**In Practice: Amazon's Two-Pizza Rule and WhatsApp's 55 Engineers**
+**In Practice: Amazon's Two-Pizza Rule and WhatsApp's Small Engineering Team**
 
 Jeff Bezos introduced Amazon's "two-pizza rule" in the early 2000s: if a team can't be fed by two pizzas, it's too large. His target was roughly six to eight people per team. The resulting structure — hundreds of small, autonomous teams — underpinned Amazon's speed advantages for two decades.
 
-WhatsApp took this further. At acquisition by Facebook in 2014, WhatsApp had 55 engineers serving 450 million active users. That's roughly eight million users per engineer. The small-team architecture didn't limit scale. It enabled it. When Facebook paid $19 billion, it was partly paying for a structural insight: fewer people, designed well, produce leverage that headcount alone cannot replicate.
+WhatsApp took this further. At acquisition by Facebook in 2014, WhatsApp had approximately 35 engineers serving 450 million active users. That's roughly 13 million users per engineer. The small-team architecture didn't limit scale. It enabled it. When Facebook paid $19 billion, it was partly paying for a structural insight: fewer people, designed well, produce leverage that headcount alone cannot replicate.
 
 ---
 
