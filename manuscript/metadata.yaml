@@ -9,7 +9,6 @@ rights: "Copyright © 2026 Varun Kumar Siddaraju. All rights reserved."
 publisher: "Amazon Kindle Direct Publishing"
 
 # EPUB styling
-cover-image: manuscript/cover/cover_front.png
 
 # Pandoc settings
 documentclass: book
