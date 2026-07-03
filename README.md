@@ -1,5 +1,5 @@
 # Small Teams, Strong Systems
-### Designing High-Leverage Work in the AI Era
+### Designing High-Leverage Work for Scaling Teams
 
 *by Varun Kumar Siddaraju*
 
