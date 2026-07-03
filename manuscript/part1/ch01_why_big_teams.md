@@ -48,7 +48,7 @@ Understanding these original constraints is essential, because it clarifies what
 
 **In Practice: Bell Labs and the Limits of Coordination**
 
-Bell Labs in its 1960s prime employed over 25,000 people and produced groundbreaking research â€” the transistor, information theory, Unix. But when AT&T was broken up in the 1980s, smaller spin-off Bellcore (fewer than 8,000 engineers) continued producing innovations at a comparable pace. The constraint hadn't been people. It had been the problems themselves. When the organizational overhead lifted, each remaining researcher carried more leverage. The size had been a response to uncertainty, not a cause of capability.
+Bell Labs produced some of the most consequential innovations of the twentieth century — the transistor, information theory, Unix — across decades of work, employing over 25,000 people at its peak. When AT&T was broken up in 1984, the research arm that became Bellcore carried on with a substantially smaller staff. The constraint hadn't been people. It had been the problems themselves. The constraint hadn't been people. It had been the problems themselves. When the organizational overhead lifted, each remaining researcher carried more leverage. The size had been a response to uncertainty, not a cause of capability.
 
 ---
 

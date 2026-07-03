@@ -17,7 +17,7 @@ But when leverage increases, proportionality weakens. One assumption quietly bre
 
 **In Practice: WhatsApp's Systemic Leverage**
 
-When Facebook acquired WhatsApp in 2014 for $19 billion, WhatsApp had approximately 35 engineers. At the time, Facebook itself had over 6,000 engineers. WhatsApp served 450 million users â€” roughly 13 million users per engineer. This wasn't individual heroics. It was systemic design: each role had a narrow, explicit scope; decisions multiplied through automated infrastructure; feedback loops were tight. The team didn't have leverage despite being small. It had leverage because it was structured for it. Every choice about what not to build â€” and what not to own â€” was as important as what it built.
+When Facebook acquired WhatsApp in 2014 for $19 billion, WhatsApp had approximately 35 engineers. At the time, Facebook itself had over 6,000 employees total. WhatsApp served 450 million users â€” roughly 13 million users per engineer. This wasn't individual heroics. It was systemic design: each role had a narrow, explicit scope; decisions multiplied through automated infrastructure; feedback loops were tight. The team didn't have leverage despite being small. It had leverage because it was structured for it. Every choice about what not to build â€” and what not to own â€” was as important as what it built.
 
 ---
 

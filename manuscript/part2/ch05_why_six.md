@@ -1,6 +1,6 @@
 ﻿## Chapter 5 â€” Why Six? Constraints, Focus, and Ownership
 
-In 2009, Minecraft was built by one person. By the time Mojang sold to Microsoft for $2.5 billion in 2014, the core development team had grown to roughly a dozen â€” but the foundational design decisions that defined the product were made when the team numbered fewer than six. The game's coherence, its tight feedback loops, and its capacity for emergent complexity were not the result of headcount. They were the consequence of structural constraint applied at the right moment.
+In 2009, Minecraft was built by one person. By the time Mojang sold to Microsoft for $2.5 billion in 2014, the company had grown to roughly 40 employees — but the foundational design decisions that defined the product were made when the team numbered fewer than six. The game's coherence, its tight feedback loops, and its capacity for emergent complexity were not the result of headcount. They were the consequence of structural constraint applied at the right moment.
 
 At some point, every small team confronts the same uncertainty: how many people does it actually take to build something real? Not a prototype. Not a pitch deck. Not a short-lived demo that looks impressive for a moment. But a product or system that can survive contact with reality, adapt under pressure, and grow without collapsing under its own weight.
 
@@ -28,7 +28,7 @@ WhatsApp took this further. At acquisition by Facebook in 2014, WhatsApp had app
 
 **When Small Is Not Enough: The Color Labs Counterexample**
 
-Size alone does not guarantee leverage. Color Labs launched in 2012 with a team of roughly 40 engineers â€” not excessively large â€” and $41 million in funding before shipping a product. The team included experienced engineers from Apple and LinkedIn. By conventional measures, it was well-resourced and well-staffed.
+Size alone does not guarantee leverage. Color Labs launched its app in March 2011 with a team of roughly 40 people and $41 million in funding — an unusually large pre-launch investment. The team included experienced engineers from Apple and LinkedIn. By conventional measures, it was well-resourced and well-staffed.
 
 Yet Color collapsed within two years. The failure was not one of talent or even scale. It was structural. The team lacked clear role differentiation. Decision authority was diffuse. Product direction changed repeatedly because no structural force anchored intent. Feedback from early users was absorbed unevenly â€” some signals were amplified, others ignored â€” because no grounding function filtered them systematically. Technical choices compounded without integrity checks, producing a codebase that resisted iteration.
 

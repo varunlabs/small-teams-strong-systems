@@ -173,7 +173,7 @@ The design-level advantage available to small teams is not inherent to their siz
 
 **In Practice: Instagram vs. the World in 2012**
 
-In April 2012, Facebook acquired Instagram for approximately $1 billion. Instagram had 13 employees and 30 million users. Facebook had roughly 3,500 engineers â€” 270 times as many people. Instagram did not out-engineer Facebook. It outperformed on structural clarity per capita. The 13-person team shared context implicitly; product direction, infrastructure, and experience judgments were made in the same room. Complexity lived in the product itself â€” image processing, filtering, sharing â€” not in coordination overhead. When Instagram integrated into Facebook, the founders' first major challenge wasn't technical. It was preserving the simplicity of their decision loops inside a much larger machine.
+In April 2012, Facebook acquired Instagram for approximately $1 billion. Instagram had 13 employees and 30 million users. Facebook had roughly 3,500 employees total — 270 times as many people. Instagram did not out-engineer Facebook. It outperformed on structural clarity per capita. The 13-person team shared context implicitly; product direction, infrastructure, and experience judgments were made in the same room. Complexity lived in the product itself â€” image processing, filtering, sharing â€” not in coordination overhead. When Instagram integrated into Facebook, the founders' first major challenge wasn't technical. It was preserving the simplicity of their decision loops inside a much larger machine.
 
 ---
 
