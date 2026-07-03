@@ -1,11 +1,11 @@
-# Build PDF for "Small Teams, Strong Systems"
+﻿# Build PDF for "Small Teams, Strong Systems"
 $ErrorActionPreference = "Stop"
 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User") + ";$env:USERPROFILE\AppData\Roaming\Python\Python314\Scripts"
 
 $ROOT = "$PSScriptRoot\.."
 $BASE = "$ROOT\manuscript"
-$OUT  = "$ROOT\published\v2"
+$OUT  = "$ROOT\builds\\v2"
 
 New-Item -ItemType Directory -Force $OUT | Out-Null
 Write-Host "Building PDF with XeLaTeX..."
@@ -69,3 +69,4 @@ try {
 
 Write-Host "PDF built: $OUT\SmallTeamsStrongSystems-v2.pdf"
 Get-Item "$OUT\SmallTeamsStrongSystems-v2.pdf" | Format-List Length
+
