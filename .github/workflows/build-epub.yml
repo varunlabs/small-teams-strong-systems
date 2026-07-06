@@ -73,6 +73,9 @@ jobs:
           cd manuscript
           pandoc \
             --metadata-file=metadata.yaml \
+            --variable mainfont="TeX Gyre Pagella" \
+            --variable sansfont="TeX Gyre Heros" \
+            --variable monofont="TeX Gyre Cursor" \
             front_matter.md \
             part1/ch01_why_big_teams.md \
             chapter_gap.md \
