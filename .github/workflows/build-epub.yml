@@ -1,4 +1,4 @@
-﻿name: Build EPUB
+name: Build EPUB and PDF
 
 on:
   workflow_dispatch:
@@ -14,13 +14,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install pandoc
+      - name: Install pandoc and XeLaTeX
         run: |
           sudo apt-get update -q
-          sudo apt-get install -y pandoc
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra
 
-      - name: Create output directory
-        run: mkdir -p drafts/v2
+      - name: Create output directories
+        run: |
+          mkdir -p drafts/v2
+          mkdir -p published/v1
 
       - name: Build EPUB
         run: |
@@ -66,6 +68,54 @@ jobs:
             --split-level=2 \
             -o drafts/v2/SmallTeamsStrongSystems-v2.epub
 
+      - name: Build PDF
+        run: |
+          cd manuscript
+          pandoc \
+            --metadata-file=metadata.yaml \
+            front_matter.md \
+            part1/ch01_why_big_teams.md \
+            chapter_gap.md \
+            part1/ch02_end_of_linear_scaling.md \
+            chapter_gap.md \
+            part1/ch03_what_ai_changes.md \
+            chapter_gap.md \
+            part2/ch04_headcount_to_leverage.md \
+            chapter_gap.md \
+            part2/ch05_why_six.md \
+            chapter_gap.md \
+            part2/ch06_six_core_roles.md \
+            chapter_gap.md \
+            part2/ch07_human_judgment.md \
+            chapter_gap.md \
+            part2/ch08_designing_speed.md \
+            chapter_gap.md \
+            part3/ch09_rapid_prototyping.md \
+            chapter_gap.md \
+            part3/ch10_decision_making.md \
+            chapter_gap.md \
+            part3/ch11_small_teams.md \
+            chapter_gap.md \
+            part3/ch12_ai_xr_frontier.md \
+            chapter_gap.md \
+            part4/ch13_leadership.md \
+            chapter_gap.md \
+            part4/ch14_burnout.md \
+            chapter_gap.md \
+            part4/ch15_when_to_hire.md \
+            chapter_gap.md \
+            part4/ch16_scaling.md \
+            chapter_gap.md \
+            back_matter.md \
+            --to pdf \
+            --pdf-engine xelatex \
+            --variable geometry:a5paper \
+            --variable geometry:top=25mm \
+            --variable geometry:bottom=25mm \
+            --variable geometry:left=22mm \
+            --variable geometry:right=22mm \
+            -o ../published/v1/SmallTeamsStrongSystems-v1-published.pdf
+
       - name: Upload EPUB artifact
         uses: actions/upload-artifact@v4
         with:
@@ -73,4 +123,9 @@ jobs:
           path: drafts/v2/SmallTeamsStrongSystems-v2.epub
           retention-days: 30
 
-
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SmallTeamsStrongSystems-v1-pdf
+          path: published/v1/SmallTeamsStrongSystems-v1-published.pdf
+          retention-days: 30
