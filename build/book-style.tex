@@ -1,0 +1,16 @@
+%% =================================================================
+%%  Small Teams, Strong Systems — PDF Build Helpers
+%%  Applied via --include-in-header; zero content changes required.
+%% =================================================================
+
+%% Better typography
+\usepackage{microtype}
+
+%% Widow and orphan control
+\widowpenalty=10000
+\clubpenalty=10000
+
+%% Force every ## heading (\section in book class) to start on a fresh page,
+%% matching the chapter page-break behaviour of the published reference PDF.
+\usepackage{etoolbox}
+\pretocmd{\section}{\clearpage}{}{}
