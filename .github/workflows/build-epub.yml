@@ -71,17 +71,13 @@ jobs:
 
       - name: Build PDF interior
         run: |
-          # Strip title/subtitle/author/toc fields so pandoc does NOT auto-generate
-          # a title page or TOC — front_matter.md handles all of that manually.
+          # Strip title/subtitle/author/toc fields — front_matter.md handles these manually.
           grep -Ev "^title:|^subtitle:|^author:|^toc" manuscript/metadata.yaml > /tmp/pdf-metadata.yaml
 
           cd manuscript
           pandoc \
             --metadata-file=/tmp/pdf-metadata.yaml \
             --include-in-header=../build/book-style.tex \
-            --variable mainfont="TeX Gyre Pagella" \
-            --variable sansfont="TeX Gyre Heros" \
-            --variable monofont="TeX Gyre Cursor" \
             --variable classoption=openany \
             front_matter.md \
             part1/ch01_why_big_teams.md \
@@ -103,18 +99,18 @@ jobs:
             back_matter.md \
             --to pdf \
             --pdf-engine xelatex \
-            --variable geometry:a5paper \
-            --variable geometry:top=20mm \
-            --variable geometry:bottom=25mm \
-            --variable geometry:left=22mm \
-            --variable geometry:right=18mm \
+            --variable geometry:letterpaper \
+            --variable geometry:top=25.4mm \
+            --variable geometry:bottom=25.4mm \
+            --variable geometry:left=31.75mm \
+            --variable geometry:right=25.4mm \
             -o /tmp/interior.pdf
 
       - name: Merge covers with interior
         run: |
-          # Convert cover images to single-page A5 PDFs (no LaTeX tricks needed)
-          img2pdf published/v1/cover_front.jpg --pagesize A5 -o /tmp/cover_front.pdf
-          img2pdf published/v1/cover_back.png  --pagesize A5 -o /tmp/cover_back.pdf
+          # Convert cover images to US Letter PDFs to match interior page size
+          img2pdf published/v1/cover_front.jpg --pagesize Letter -o /tmp/cover_front.pdf
+          img2pdf published/v1/cover_back.png  --pagesize Letter -o /tmp/cover_back.pdf
 
           # Merge: front cover + interior content + back cover
           pdfunite \
