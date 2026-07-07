@@ -70,6 +70,8 @@ jobs:
 
       - name: Build PDF
         run: |
+          cp published/v1/cover_front.jpg manuscript/cover_front.jpg
+          cp published/v1/cover_back.png manuscript/cover_back.png
           cd manuscript
           pandoc \
             --metadata-file=metadata.yaml \
@@ -77,6 +79,7 @@ jobs:
             --variable sansfont="TeX Gyre Heros" \
             --variable monofont="TeX Gyre Cursor" \
             --variable classoption=openany \
+            pdf_cover_front.md \
             front_matter.md \
             part1/ch01_why_big_teams.md \
             part1/ch02_end_of_linear_scaling.md \
@@ -95,6 +98,7 @@ jobs:
             part4/ch15_when_to_hire.md \
             part4/ch16_scaling.md \
             back_matter.md \
+            pdf_cover_back.md \
             --to pdf \
             --pdf-engine xelatex \
             --variable geometry:a5paper \
@@ -103,6 +107,7 @@ jobs:
             --variable geometry:left=22mm \
             --variable geometry:right=22mm \
             -o ../published/v1/SmallTeamsStrongSystems-v1-published.pdf
+          rm -f cover_front.jpg cover_back.png
 
       - name: Upload EPUB artifact
         uses: actions/upload-artifact@v4
