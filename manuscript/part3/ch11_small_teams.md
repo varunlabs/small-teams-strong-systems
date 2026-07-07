@@ -1,4 +1,4 @@
-﻿## Chapter 11 â€” Why Small Teams Build Better Systems
+﻿## Chapter 11 "” Why Small Teams Build Better Systems
 
 When Instagram was acquired by Facebook in 2012 for $1 billion, it had thirteen employees and thirty million users. The engineers who built and scaled the product could fit around a single conference table. They had no dedicated program managers, no separate QA department, and no coordination layer between design and deployment. What they had was a system that made every decision visible and every feedback loop short. The architecture of the team was the architecture of the product.
 
@@ -32,12 +32,12 @@ Error correction also behaves differently. In small teams, a flawed assumption c
 
 The difference lies in where complexity accumulates. Large systems often trade external complexity for internal structure. Small systems concentrate internal simplicity to preserve responsiveness.
 
-> **Figure 11.1 â€” Complexity Redistribution: Problem Space vs. Coordination**
+> **Figure 11.1 "” Complexity Redistribution: Problem Space vs. Coordination**
 >
 > ![](figures/ch11_small_teams_fig_11_1.png)
 >
 
-*If complexity cannot be removed but only relocated, where is it currently accumulating in your organization â€” in the problem space, or in the coordination structure itself?*
+*If complexity cannot be removed but only relocated, where is it currently accumulating in your organization "” in the problem space, or in the coordination structure itself?*
 
 ---
 
@@ -55,7 +55,7 @@ By contrast, larger systems can temporarily absorb architectural inefficiency. R
 
 Simplicity therefore functions as a foundational equilibrium. Under constraint, systems gravitate toward configurations that minimize coordination overhead relative to output. This does not eliminate complexity in the problem domain. It reallocates attention from internal reconciliation to external engagement.
 
-> **Figure 11.2 â€” Clarity Pressure: How Constraint Enforces Simplicity**
+> **Figure 11.2 "” Clarity Pressure: How Constraint Enforces Simplicity**
 >
 > ![](figures/ch11_small_teams_fig_11_2.png)
 >
@@ -77,7 +77,7 @@ This alignment acts as a multiplier. Communication compresses. A brief statement
 
 In larger systems, divergence is more likely. Specialization creates different vantage points. Information is filtered through roles. As shared models weaken, the organization compensates with explicit coordination structures. Documentation grows to preserve alignment that proximity no longer guarantees.
 
-> **Figure 11.3 â€” Shared Models vs. Process Compensation**
+> **Figure 11.3 "” Shared Models vs. Process Compensation**
 >
 > ![](figures/ch11_small_teams_fig_11_3.png)
 >
@@ -107,7 +107,7 @@ Large teams can compensate through formal structure, but the coordination cost r
 
 The implication is not that amplification favors smallness inherently. It favors coherence. Systems designed with built-in clarity convert amplification into leverage. Systems designed with latent ambiguity convert amplification into volatility.
 
-> **Figure 11.4 â€” Amplification: Coherence vs. Fragmentation**
+> **Figure 11.4 "” Amplification: Coherence vs. Fragmentation**
 >
 > ![](figures/ch11_small_teams_fig_11_4.png)
 >
@@ -161,27 +161,27 @@ Growth is often treated as expansion. More people, more roles, more parallel ini
 
 Small configurations operate under visible constraint. Trade-offs are immediate. Misalignment surfaces quickly because there are fewer layers to absorb it. As teams expand, those same misalignments may persist longer, diffused across structure. Coordination mechanisms compensate, but they also consume attention.
 
-The question is not whether larger systems are necessary. Many problems demand scale. The question is whether scaling assumptions are examined with the same rigor as product or market assumptions. When headcount increases, what is being optimized â€” capacity or coherence?
+The question is not whether larger systems are necessary. Many problems demand scale. The question is whether scaling assumptions are examined with the same rigor as product or market assumptions. When headcount increases, what is being optimized "” capacity or coherence?
 
 Internal complexity grows quietly. Additional communication pathways, overlapping interpretations, and expanded approval surfaces become normalized. Over time, the organization may appear more capable while becoming less synchronized. Speed may decline even as resources increase.
 
 Small teams do not outperform by virtue of size alone. They outperform when their structural clarity directs energy outward rather than inward. When scale shifts the balance of complexity toward coordination, advantage changes location.
 
-The design-level advantage available to small teams is not inherent to their size. It is inherent to the clarity that constraint enablesâ€”and to the compounding quality of tradeoffs that emerge from it. Teams that preserve this advantage as they grow donâ€™t do so by accident. They build setups that amplify decisions rather than dilute them.
+The design-level advantage available to small teams is not inherent to their size. It is inherent to the clarity that constraint enables"”and to the compounding quality of tradeoffs that emerge from it. Teams that preserve this advantage as they grow don't do so by accident. They build setups that amplify decisions rather than dilute them.
 
 ---
 
 **In Practice: Instagram vs. the World in 2012**
 
-In April 2012, Facebook acquired Instagram for approximately $1 billion. Instagram had 13 employees and 30 million users. Facebook had roughly 3,500 employees total — 270 times as many people. Instagram did not out-engineer Facebook. It outperformed on structural clarity per capita. The 13-person team shared context implicitly; product direction, infrastructure, and experience judgments were made in the same room. Complexity lived in the product itself â€” image processing, filtering, sharing â€” not in coordination overhead. When Instagram integrated into Facebook, the founders' first major challenge wasn't technical. It was preserving the simplicity of their decision loops inside a much larger machine.
+In April 2012, Facebook acquired Instagram for approximately $1 billion. Instagram had 13 employees and 30 million users. Facebook had roughly 3,500 employees total — 270 times as many people. Instagram did not out-engineer Facebook. It outperformed on structural clarity per capita. The 13-person team shared context implicitly; product direction, infrastructure, and experience judgments were made in the same room. Complexity lived in the product itself "” image processing, filtering, sharing "” not in coordination overhead. When Instagram integrated into Facebook, the founders' first major challenge wasn't technical. It was preserving the simplicity of their decision loops inside a much larger machine.
 
 ---
 
 **In Practice: Toyota Georgetown and the Architecture of Small Cells**
 
-When Toyota opened its Georgetown, Kentucky plant in 1988, American automotive manufacturers were organized around large functional departments: stamping, welding, assembly, quality control. Workers in each zone performed narrow repetitive tasks with little cross-domain understanding or decision authority. Toyota did something structurally different. It organized the factory floor into small, stable work cells â€” typically four to eight people â€” each responsible for an end-to-end slice of production quality. Every worker was cross-trained across the cell's tasks. More consequentially, any worker could pull the "andon cord" to stop the entire production line the moment a defect was detected. The decision right did not belong to a supervisor or a quality manager. It belonged to whoever was closest to the problem.
+When Toyota opened its Georgetown, Kentucky plant in 1988, American automotive manufacturers were organized around large functional departments: stamping, welding, assembly, quality control. Workers in each zone performed narrow repetitive tasks with little cross-domain understanding or decision authority. Toyota did something structurally different. It organized the factory floor into small, stable work cells "” typically four to eight people "” each responsible for an end-to-end slice of production quality. Every worker was cross-trained across the cell's tasks. More consequentially, any worker could pull the "andon cord" to stop the entire production line the moment a defect was detected. The decision right did not belong to a supervisor or a quality manager. It belonged to whoever was closest to the problem.
 
-The structural result: defects were caught in seconds rather than hours, while they were still cheap to fix rather than after they had been built into hundreds of subsequent units. Georgetown's defect rates were consistently among the lowest of any North American automotive plant. The advantage was not automation â€” Toyota's Georgetown plant used roughly the same machinery as its American competitors. The advantage was ownership architecture. Small cells with clear scope, explicit decision rights, and compressed feedback loops outperformed large departments with diffuse accountability â€” in a sector with no software, no algorithms, and no AI. The principles transferred without the technology.
+The structural result: defects were caught in seconds rather than hours, while they were still cheap to fix rather than after they had been built into hundreds of subsequent units. Georgetown's defect rates were consistently among the lowest of any North American automotive plant. The advantage was not automation "” Toyota's Georgetown plant used roughly the same machinery as its American competitors. The advantage was ownership architecture. Small cells with clear scope, explicit decision rights, and compressed feedback loops outperformed large departments with diffuse accountability "” in a sector with no software, no algorithms, and no AI. The principles transferred without the technology.
 
 ---
 
@@ -189,7 +189,7 @@ The structural result: defects were caught in seconds rather than hours, while t
 **Key Takeaways**
 
 - Large teams accumulate complexity invisibly. Every additional coordination interface is a hidden tax on execution speed that rarely appears on any dashboard.
-- Simplicity is not a cultural valueâ€”it is a structural outcome. It results from fewer required translations between people, roles, and systems. Culture cannot manufacture it.
+- Simplicity is not a cultural value"”it is a structural outcome. It results from fewer required translations between people, roles, and systems. Culture cannot manufacture it.
 - Shared mental models in small teams reduce the need for formal process. Alignment is maintained through shared context, which is cheaper than documentation and faster than meetings.
 - AI amplifies architectural decisions in both directions. Good structural design at small scale remains manageable as work grows. Poor design at small scale becomes a critical failure at scale.
 - Constraint is generative. It forces conscious decisions about what matters before growth obscures the answer. Use it deliberately rather than working around it.

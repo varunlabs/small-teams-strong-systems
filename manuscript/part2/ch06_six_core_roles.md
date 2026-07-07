@@ -1,4 +1,4 @@
-﻿## Chapter 6 â€” The Six Core Roles in an AI-Native Team
+﻿## Chapter 6 "” The Six Core Roles in an AI-Native Team
 
 ### Why Roles Matter More Than People
 
@@ -6,9 +6,9 @@ Teams often attribute performance to talent. When outcomes are strong, individua
 
 A role is not a title or a person. It is a structural position in a system of decisions. It defines what kinds of judgments are made, what tensions must be balanced, and where consequences accumulate. When roles are clear, choices align even under pressure. When roles are blurred, even capable individuals pull the system in conflicting directions.
 
-This chapter maps the six roles of the **Six Forces Framework** â€” the complete operating model for AI-era teams introduced in Chapter 5. Each role is defined not by a job description but by the architectural force it applies. Remove any one force, and a predictable failure mode emerges. Keep all six in balance, and the team functions as a self-amplifying unit: a coherent cell that compounds effort rather than diffusing it.
+This chapter maps the six roles of the **Six Forces Framework** "” the complete operating model for AI-era teams introduced in Chapter 5. Each role is defined not by a job description but by the architectural force it applies. Remove any one force, and a predictable failure mode emerges. Keep all six in balance, and the team functions as a self-amplifying unit: a coherent cell that compounds effort rather than diffusing it.
 
-Unclear roles generate friction long before visible failure appears. Decisions are revisited because authority is ambiguous. Responsibilities overlap without coordination. Critical tensions â€” between speed and stability, exploration and focus, autonomy and coherence â€” remain unresolved because no foundational position is accountable for holding them. The result is not incompetence, but drift.
+Unclear roles generate friction long before visible failure appears. Decisions are revisited because authority is ambiguous. Responsibilities overlap without coordination. Critical tensions "” between speed and stability, exploration and focus, autonomy and coherence "” remain unresolved because no foundational position is accountable for holding them. The result is not incompetence, but drift.
 
 Highly talented teams are particularly vulnerable to this drift. Skill can compensate temporarily for structural weakness. Strong individuals step into gaps, absorb ambiguity, and reconcile conflicts informally. Performance may appear resilient, yet it depends on constant correction. When pressure increases, these informal adjustments fail to scale.
 
@@ -33,7 +33,7 @@ Before examining each role in detail, the complete framework is presented here. 
 | 5 | **Learning and Feedback Acceleration** | Compresses the loop between decision and consequence; detects misalignment early | Errors embed themselves; assumptions harden beyond their validity | The Sensor |
 | 6 | **External Connection** | Regulates the boundary between system and environment; curates outside signals | Isolation distorts judgment; internal models become self-reinforcing | The Bridge |
 
-**Health Check â€” Observable Signals That a Force Is Weak:**
+**Health Check "” Observable Signals That a Force Is Weak:**
 
 | Role | Signs of Weakness |
 |------|-------------------|
@@ -44,7 +44,7 @@ Before examining each role in detail, the complete framework is presented here. 
 | Learning and Feedback | The team ships frequently but rarely changes course. Retrospectives produce observations but not structural adjustments. Mistakes repeat across cycles. |
 | External Connection | The product roadmap has not changed in response to external signals in the last quarter. Competitive moves or user behavior shifts are noticed late. |
 
-These roles do not require six distinct individuals. In small configurations, one person may hold several. What matters is not who fills them, but that every force is actively present. When a force goes unrepresented, the system does not compensate automatically â€” it distorts.
+These roles do not require six distinct individuals. In small configurations, one person may hold several. What matters is not who fills them, but that every force is actively present. When a force goes unrepresented, the system does not compensate automatically "” it distorts.
 
 The sections that follow examine each role in depth: the force it applies, the failure mode it prevents, and the tensions it must hold.
 
@@ -60,7 +60,7 @@ Tradeoffs reveal whether direction is real. When speed conflicts with quality, o
 
 Coherence operates as an ongoing corrective force. It monitors divergence and reconciles inconsistencies before they compound. As new information emerges and constraints shift, coherence reinterprets direction without abandoning it. Without coherence, even well-defined intent fragments. Different parts of the system optimize locally. Assumptions diverge. Terminology drifts.
 
-> **Figure 6.1 â€” Roles as Structural Forces**
+> **Figure 6.1 "” Roles as Structural Forces**
 >
 >
 > ![](figures/ch06_six_core_roles_fig_6_1.png)
@@ -84,7 +84,7 @@ Systems fail gradually under delayed feedback. Early inconsistencies appear smal
 
 Filtered feedback produces a different pathology. Information moves upward selectively, emphasizing coherence over contradiction. Over time, internal models grow increasingly confident while becoming less accurate. The system mistakes agreement for validation.
 
-> **Figure 6.2 â€” Grounding and Feedback Integrity**
+> **Figure 6.2 "” Grounding and Feedback Integrity**
 >
 >
 > ![](figures/ch06_six_core_roles_fig_6_2.png)
@@ -108,7 +108,7 @@ Technical integrity does not mean perfection. It means preserving internal consi
 
 Time is the variable that exposes integrity. In the short term, degraded structure can appear efficient. Delivery accelerates because constraints are relaxed. In the long term, the cost reappears as rigidity, instability, or unexpected interactions.
 
-> **Figure 6.3 â€” Technical Integrity Over Time**
+> **Figure 6.3 "” Technical Integrity Over Time**
 >
 >
 > ![](figures/ch06_six_core_roles_fig_6_3.png)
@@ -132,7 +132,7 @@ Automation is frequently conflated with leverage. Automation executes predefined
 
 Designing for leverage begins with identifying points of influence. Not every task warrants amplification. Some actions are inherently contextual and should remain bounded. Others, if clarified once, can shape many outcomes consistently. The role responsible for leverage distinguishes between these categories and designs accordingly.
 
-> **Figure 6.4 â€” Designing for Leverage**
+> **Figure 6.4 "” Designing for Leverage**
 >
 >
 > ![](figures/ch06_six_core_roles_fig_6_4.png)
@@ -159,7 +159,7 @@ Learning acceleration is therefore design-level, not procedural. It depends on w
 
 Acceleration does not imply haste. It implies reduced latency between cause and effect. When feedback is timely, adjustments are smaller and less disruptive. When feedback is slow, correction requires abrupt change, increasing instability.
 
-> **Figure 6.5 â€” Feedback Loop Compression**
+> **Figure 6.5 "” Feedback Loop Compression**
 >
 >
 > ![](figures/ch06_six_core_roles_fig_6_5.png)
@@ -181,7 +181,7 @@ External interfaces interrupt this cycle. They expose assumptions to conditions 
 
 However, external signals cannot be absorbed indiscriminately. The environment generates more information than any system can process without fragmentation. If every signal is treated as equally relevant, coherence erodes. Decision authority becomes reactive rather than intentional. Noise overwhelms structure.
 
-> **Figure 6.6 â€” System Boundary and Signal Curation**
+> **Figure 6.6 "” System Boundary and Signal Curation**
 >
 >
 > ![](figures/ch06_six_core_roles_fig_6_6.png)
@@ -201,7 +201,7 @@ Each role described in this chapter operates on a different axis of stability. D
 
 Tension between them is not a flaw; it is built-in necessity. Direction can drift into abstraction without grounding. Grounding can overwhelm coherence without curated boundaries. Leverage can destabilize integrity if amplification outpaces structural soundness. Learning can generate volatility if not anchored to intent. Stability emerges not from eliminating these tensions, but from sustaining them productively.
 
-> **Figure 6.7 â€” Interlocking Roles Under Tension**
+> **Figure 6.7 "” Interlocking Roles Under Tension**
 >
 >
 > ![](figures/ch06_six_core_roles_fig_6_7.png)
@@ -219,7 +219,7 @@ The architecture described here is not an organizational chart. It is a set of i
 
 ### 6.8 The Question This Chapter Leaves You With
 
-Every system carries all of these roles, whether named or not. Direction exists in the tradeoffs that persist. Grounding exists in the signals that are heard â€” or ignored. Integrity reveals itself over time. Leverage shapes what compounds. Learning determines how quickly drift is corrected. External interfaces define what enters and what is kept out.
+Every system carries all of these roles, whether named or not. Direction exists in the tradeoffs that persist. Grounding exists in the signals that are heard "” or ignored. Integrity reveals itself over time. Leverage shapes what compounds. Learning determines how quickly drift is corrected. External interfaces define what enters and what is kept out.
 
 The discomfort arises when a function is present but unowned. Decisions are made, yet no one holds the tension they create. Signals arrive, yet no one is accountable for interpreting them. Structural decay accumulates, yet it is treated as incidental. The system continues to operate, but its balance depends on informal correction.
 
@@ -231,7 +231,7 @@ The question is not whether the roles exist. It is whether each one has a clear 
 
 **In Practice: Spotify's Squad Model and the Six Forces**
 
-Spotify's renowned "squad" structure â€” introduced around 2012 â€” functioned as an early, intuitive approximation of the Six Forces Framework. Each squad (~six to eight people) was self-sufficient: a product owner held direction, an engineer maintained technical integrity, designers grounded choices in user evidence, and data roles accelerated feedback loops. Squads owned full delivery of their domain. Spotify called this "autonomy with alignment." It worked because each squad contained most of the structural forces. When squads later grew or merged without preserving role clarity, the model lost its compounding quality. The size hadn't changed the outcome. The role architecture had.
+Spotify's renowned "squad" structure "” introduced around 2012 "” functioned as an early, intuitive approximation of the Six Forces Framework. Each squad (~six to eight people) was self-sufficient: a product owner held direction, an engineer maintained technical integrity, designers grounded choices in user evidence, and data roles accelerated feedback loops. Squads owned full delivery of their domain. Spotify called this "autonomy with alignment." It worked because each squad contained most of the structural forces. When squads later grew or merged without preserving role clarity, the model lost its compounding quality. The size hadn't changed the outcome. The role architecture had.
 
 ---
 
