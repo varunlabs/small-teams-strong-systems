@@ -1,4 +1,4 @@
-﻿## Chapter 10 â€” Decision-Making in High-Uncertainty Environments
+﻿## Chapter 10 "” Decision-Making in High-Uncertainty Environments
 
 Uncertainty is not an anomaly. It is the background condition of modern systems. Markets shift without warning, technologies compound in nonlinear ways, and external constraints evolve faster than organizational memory can stabilize around them. Treating uncertainty as an occasional disruption obscures its structural role. It is not a deviation from normal operation. It is the terrain itself.
 
@@ -42,7 +42,7 @@ Under persistent uncertainty, this framing becomes fragile. When premises evolve
 
 Reframing decisions as hypotheses alters this dynamic. A hypothesis is not a guess. It is a structured claim about how the world is expected to respond. It links action to anticipated consequence while acknowledging that the link remains provisional.
 
-> **Figure 10.1 â€” Decisions as Hypotheses vs. Commitments**
+> **Figure 10.1 "” Decisions as Hypotheses vs. Commitments**
 >
 > ![](figures/ch10_decision_making_fig_10_1.png)
 >
@@ -78,7 +78,7 @@ Under high uncertainty, hesitation often disguises itself as prudence. Yet much 
 
 Clear ownership does not guarantee correctness. It guarantees motion. And in volatile environments, motion combined with feedback produces refinement. Stagnation produces drift.
 
-> **Figure 10.2 â€” Latency Cost Under Uncertainty**
+> **Figure 10.2 "” Latency Cost Under Uncertainty**
 >
 > ![](figures/ch10_decision_making_fig_10_2.png)
 >
@@ -177,7 +177,7 @@ Over time, patterns emerge. Analysis expands in proportion to volatility. Owners
 
 The question is not whether tradeoffs are being made. It is how they are being made under shifting conditions. When ambiguity increases, does deliberation scale proportionally, or does every choice expand to fill available attention? When information multiplies, does clarity improve, or does latency increase? When assumptions prove incomplete, does correction flow through defined pathways, or does it stall at points of personal attachment?
 
-High-uncertainty environments reveal architecture. They expose where authority is unclear, where impact is mis-sized, where identity fuses with judgment, and where analysis substitutes for commitment. They also reveal resilience â€” where ownership is explicit, revision is expected, and speed emerges from structure rather than urgency.
+High-uncertainty environments reveal architecture. They expose where authority is unclear, where impact is mis-sized, where identity fuses with judgment, and where analysis substitutes for commitment. They also reveal resilience "” where ownership is explicit, revision is expected, and speed emerges from structure rather than urgency.
 
 *If uncertainty is not an interruption but a permanent feature of your operating landscape, what does your current decision system assume about stability?*
 
@@ -185,18 +185,18 @@ High-uncertainty environments reveal architecture. They expose where authority i
 
 **In Practice: The "Informed Captain" Decision Model**
 
-A useful model for decision-making under uncertainty â€” one that reflects the operating philosophy described by Reed Hastings in *No Rules Rules* (2020, co-authored with Erin Meyer) â€” is what Hastings calls the "Informed Captain" principle. For each significant decision, one person is designated as captain and makes the final call. Others contribute context and disagreement openly. Then the captain decides. This is not top-down authority; the captain is often a mid-level employee, not an executive. The model fits a fast-changing market where consensus-seeking creates decision latency. The rule separates information flow (wide) from decision authority (concentrated). It also prevents identity entanglement. If the CEO always decides, each revision can be read as top-level weakness. If any informed contributor can captain, revision becomes normal and healthy. The model treats decisions as hypotheses, distributes ownership, and sizes judgment by consequence. Functionally, it is a decision system, not a heroics culture.
+A useful model for decision-making under uncertainty "” one that reflects the operating philosophy described by Reed Hastings in *No Rules Rules* (2020, co-authored with Erin Meyer) "” is what Hastings calls the "Informed Captain" principle. For each significant decision, one person is designated as captain and makes the final call. Others contribute context and disagreement openly. Then the captain decides. This is not top-down authority; the captain is often a mid-level employee, not an executive. The model fits a fast-changing market where consensus-seeking creates decision latency. The rule separates information flow (wide) from decision authority (concentrated). It also prevents identity entanglement. If the CEO always decides, each revision can be read as top-level weakness. If any informed contributor can captain, revision becomes normal and healthy. The model treats decisions as hypotheses, distributes ownership, and sizes judgment by consequence. Functionally, it is a decision system, not a heroics culture.
 
 ---
 
 ::: {.takeaways}
 **Key Takeaways**
 
-- Traditional decision models â€” optimize fully, then commit â€” break down when information is still incomplete at decision time. That describes most meaningful work.
+- Traditional decision models "” optimize fully, then commit "” break down when information is still incomplete at decision time. That describes most meaningful work.
 - Treating decisions as hypotheses (small, revisable, observable) preserves optionality without sacrificing momentum. The goal is not to eliminate commitment but to right-size it.
 - Ambiguous ownership is the primary source of decision latency. Clarity of responsibility accelerates commitment even when the decision itself remains difficult.
 - Decision weight should match uncertainty: high-certainty decisions can be large and sticky; low-certainty decisions should be kept small, reversible, and cheap to revisit.
-- Decision quality is a system property. It comes from structure â€” clear ownership, appropriate reversibility thresholds, and explicit uncertainty acknowledgment â€” not from individual judgment under pressure.
+- Decision quality is a system property. It comes from structure "” clear ownership, appropriate reversibility thresholds, and explicit uncertainty acknowledgment "” not from individual judgment under pressure.
 :::
 
 

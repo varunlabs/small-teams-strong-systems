@@ -1,12 +1,12 @@
-﻿# Part III â€” Building Complex Products with Small Teams {-}
+﻿# Part III "” Building Complex Products with Small Teams {-}
 
 *How small, focused teams navigate real-world complexity without losing coherence*
 
 ---
 
-## Chapter 9 â€” Rapid Prototyping as a Competitive Advantage
+## Chapter 9 "” Rapid Prototyping as a Competitive Advantage
 
-*A note from the author: early in building a spatial computing product, my team spent three months refining assumptions in documents before building anything. When we finally tested with users, the first session invalidated our two most fundamental premises. Three months, gone. The next prototype took two weeks. It invalidated something in week one. That was not a failure â€” it was the whole point. I have yet to find a faster way to learn than making something disposable and watching someone struggle with it.*
+*A note from the author: early in building a spatial computing product, my team spent three months refining assumptions in documents before building anything. When we finally tested with users, the first session invalidated our two most fundamental premises. Three months, gone. The next prototype took two weeks. It invalidated something in week one. That was not a failure "” it was the whole point. I have yet to find a faster way to learn than making something disposable and watching someone struggle with it.*
 
 ---
 
@@ -40,7 +40,7 @@ Prototype velocity should instead be assessed by how rapidly it alters judgment.
 
 The architectural advantage emerges when learning speed precedes delivery speed. By compressing the interval between hypothesis and insight early, the system reduces the risk embedded in scaled production.
 
-> **Figure 9.1 â€” Learning vs. Delivery Speed**
+> **Figure 9.1 "” Learning vs. Delivery Speed**
 >
 >
 > ![](figures/ch09_rapid_prototyping_fig_9_1.png)
@@ -65,7 +65,7 @@ Seen this way, a prototype is a structured question. It asks whether the system'
 
 The quality of a prototype is measured by its diagnostic power. Does it isolate the assumption under scrutiny? Does it generate feedback that alters interpretation? If it merely demonstrates feasibility without challenging premises, it functions as validation theater rather than a decision tool.
 
-> **Figure 9.2 â€” Prototype as Judgment Filter**
+> **Figure 9.2 "” Prototype as Judgment Filter**
 >
 >
 > ![](figures/ch09_rapid_prototyping_fig_9_2.png)
@@ -85,7 +85,7 @@ The structural problem is that cognition operates on abstraction. Without contac
 
 Prototyping interrupts this loop. It converts abstract reasoning into concrete exposure. Instead of refining assumptions indefinitely, it externalizes them in a form that can encounter constraint.
 
-> **Figure 9.3 â€” Defense Against Overthinking**
+> **Figure 9.3 "” Defense Against Overthinking**
 >
 >
 > ![](figures/ch09_rapid_prototyping_fig_9_3.png)
@@ -114,7 +114,7 @@ Psychological safety, in this context, is not about comfort or affirmation. It i
 
 Non-disposable work produces the opposite effect. When early artifacts are treated as permanent investments, they acquire symbolic importance. Critiquing them feels like challenging competence rather than refining interpretation. Feedback softens. Interpretive error persists because it is embedded in identity and capital.
 
-> **Figure 9.4 â€” Disposable vs. Permanent Early Work**
+> **Figure 9.4 "” Disposable vs. Permanent Early Work**
 >
 >
 > ![](figures/ch09_rapid_prototyping_fig_9_4.png)
@@ -138,7 +138,7 @@ In a low-feedback system, failure accumulates invisibly. Assumptions travel furt
 
 The strategic difference lies in latency. When feedback cycles are short, interpretive error cannot persist long enough to compound. Competitive asymmetry emerges from this difference in correction speed.
 
-> **Figure 9.5 â€” Feedback Latency Divergence**
+> **Figure 9.5 "” Feedback Latency Divergence**
 >
 >
 > ![](figures/ch09_rapid_prototyping_fig_9_5.png)
@@ -165,7 +165,7 @@ The relevant measure is not how many artifacts are produced, but how often judgm
 
 Over time, small differences in learning velocity compound. Assumptions that linger untested create hidden exposure. Assumptions confronted early reduce drift. The trajectory of a system is shaped less by initial intelligence than by the speed at which it corrects itself.
 
-The implication is direct: invest less in being right the first time, and more in the infrastructure that makes being wrong faster and cheaper to process. Learning velocity is not a performance metric. It is the compound interest of competitive position â€” and it begins with learning to throw things away.
+The implication is direct: invest less in being right the first time, and more in the infrastructure that makes being wrong faster and cheaper to process. Learning velocity is not a performance metric. It is the compound interest of competitive position "” and it begins with learning to throw things away.
 
 ---
 
@@ -179,9 +179,9 @@ When Facebook acquired Instagram in April 2012 for approximately $1 billion, Ins
 **Key Takeaways**
 
 - A prototype is a decision tool, not a deliverable. Its purpose is to eliminate assumptions, not to demonstrate capability or progress.
-- Willingness to discard work is the primary signal of a healthy prototyping culture. If sunk-cost thinking prevents disposal, the team is not prototyping â€” it is incrementally committing.
+- Willingness to discard work is the primary signal of a healthy prototyping culture. If sunk-cost thinking prevents disposal, the team is not prototyping "” it is incrementally committing.
 - Prototyping interrupts over-analysis before assumptions calcify into irreversible architectural choices. Earlier surface contact means cheaper correction.
-- The competitive unit is learning cycle speed, not output volume. Teams that iterate faster improve faster â€” and over time, that difference compounds.
+- The competitive unit is learning cycle speed, not output volume. Teams that iterate faster improve faster "” and over time, that difference compounds.
 - AI lowers the cost of building prototypes dramatically. Teams that benefit most use that cost reduction to increase learning velocity, not just to produce more artifacts.
 :::
 
