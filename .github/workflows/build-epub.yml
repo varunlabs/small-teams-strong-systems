@@ -78,6 +78,9 @@ jobs:
           pandoc \
             --metadata-file=/tmp/pdf-metadata.yaml \
             --include-in-header=../build/book-style.tex \
+            --variable mainfont="TeX Gyre Pagella" \
+            --variable sansfont="TeX Gyre Heros" \
+            --variable monofont="TeX Gyre Cursor" \
             --variable classoption=openany \
             front_matter.md \
             part1/ch01_why_big_teams.md \
