@@ -1,4 +1,4 @@
-﻿## Chapter 7 "” Human Judgment vs. Machine Execution
+﻿## Chapter 7 — Human Judgment vs. Machine Execution
 
 Modern systems operate at a scale and speed that make execution increasingly inexpensive. Procedures can be replicated, distributed, and repeated with minimal marginal cost. Instructions, once clarified, propagate reliably. As a result, the act of doing is no longer the primary constraint in many environments.
 
@@ -26,7 +26,7 @@ Confusion begins when systems assume that clearer procedures can replace interpr
 
 Judgment and execution also differ in their relationship to consequence. Execution produces results within a predefined frame; if the frame is correct, the output is predictable. Judgment shapes the frame itself. It defines the objectives that execution serves and the constraints it must respect. When judgment fails, execution can amplify that failure at scale.
 
-> **Figure 7.1 "” Interpretation vs. Procedure**
+> **Figure 7.1 — Interpretation vs. Procedure**
 >
 >
 > ![](figures/ch07_human_judgment_fig_7_1.png)
@@ -45,7 +45,7 @@ One common failure is over-centralizing judgment. When interpretive authority is
 
 The opposite failure is proceduralizing unstable domains. Decisions that require context are reduced to rules because rules scale more easily. What appears efficient initially becomes fragile. Execution continues confidently while environmental conditions shift.
 
-> **Figure 7.2 "” Misallocated Judgment**
+> **Figure 7.2 — Misallocated Judgment**
 >
 >
 > ![](figures/ch07_human_judgment_fig_7_2.png)
@@ -58,7 +58,7 @@ Teams also misallocate by embedding judgment inside execution layers. Operationa
 
 In each of these cases, the problem is not individual capability. It is boundary confusion. When judgment and execution are not clearly separated, responsibility diffuses, feedback weakens, and drift accelerates.
 
-*If drift, overload, or inconsistency appear in your system, are they symptoms of effort "” or of a boundary that was never deliberately defined?*
+*If drift, overload, or inconsistency appear in your system, are they symptoms of effort — or of a boundary that was never deliberately defined?*
 
 ---
 
@@ -76,7 +76,7 @@ Deliberate design also requires deciding what must remain fluid and what must be
 
 Feedback loops also depend on this boundary. Signals generated through execution must reach the interpretive layer when assumptions no longer hold. If feedback circulates only within procedures, adaptation is delayed.
 
-> **Figure 7.3 "” Small System Sensitivity**
+> **Figure 7.3 — Small System Sensitivity**
 >
 >
 > ![](figures/ch07_human_judgment_fig_7_3.png)
@@ -115,7 +115,7 @@ In systems where execution is increasingly procedural, leadership shifts toward 
 
 A judgment-heavy system does not mean constant decision-making. It means that the few decisions requiring contextual evaluation are recognized as structurally significant. Leadership defines which assumptions are stable enough to proceduralize and which remain contingent.
 
-Stewardship of judgment also involves managing escalation. If every uncertainty rises to the top, the system becomes brittle. If none do, drift accumulates invisibly. Effective leadership defines thresholds "” conditions under which reinterpretation must occur and conditions under which execution continues uninterrupted.
+Stewardship of judgment also involves managing escalation. If every uncertainty rises to the top, the system becomes brittle. If none do, drift accumulates invisibly. Effective leadership defines thresholds — conditions under which reinterpretation must occur and conditions under which execution continues uninterrupted.
 
 Another responsibility is protecting judgment from operational noise. As execution scales, the volume of signals increases. Without filtration, leaders become absorbed in procedural detail, mistaking activity for significance.
 
@@ -123,7 +123,7 @@ Leadership must also ensure that judgment is accountable. When interpretive auth
 
 Importantly, leadership does not monopolize judgment. It designs where judgment resides. The function of leadership is to maintain coherence across these allocations so that boundaries remain explicit rather than implicit.
 
-> **Figure 7.4 "” Leadership in a Judgment-Heavy System**
+> **Figure 7.4 — Leadership in a Judgment-Heavy System**
 >
 >
 > ![](figures/ch07_human_judgment_fig_7_4.png)
@@ -138,7 +138,7 @@ As systems become more capable of automated execution, the relative weight of ju
 
 ### 7.6 The Question This Chapter Leaves You With
 
-As execution becomes easier to scale, scarcity shifts toward interpretation "” the act of defining intent under uncertainty. The stability of the system depends on knowing where judgment ends and execution begins, yet those boundaries are rarely explicit.
+As execution becomes easier to scale, scarcity shifts toward interpretation — the act of defining intent under uncertainty. The stability of the system depends on knowing where judgment ends and execution begins, yet those boundaries are rarely explicit.
 
 *Where does judgment currently reside in your system, and is that placement deliberate?*
 
@@ -148,35 +148,35 @@ As execution becomes easier to scale, scarcity shifts toward interpretation "”
 
 For each question, answer Yes or No. A "No" indicates a boundary that may need redesign.
 
-1. Can every team member name the three most consequential decisions made in the last cycle "” and who owned them?
+1. Can every team member name the three most consequential decisions made in the last cycle — and who owned them?
 2. Are there recurring decisions that get escalated to leadership even though they follow a predictable pattern?
 3. Are there automated or proceduralized processes that occasionally produce outcomes no one reviews?
 4. When an AI-generated output is used in a deliverable, is there an explicit human checkpoint before it ships?
 5. Do team members know which decisions they can make without approval and which require consultation?
-6. When a decision turns out poorly, can you trace it to a specific judgment call "” or does responsibility diffuse?
+6. When a decision turns out poorly, can you trace it to a specific judgment call — or does responsibility diffuse?
 7. Are there areas where the team defers to process when the situation actually requires contextual interpretation?
 8. Is interpretive authority distributed across the team, or concentrated in one or two people?
 9. When new information contradicts a prior assumption, does the system have a defined mechanism for revisiting the frame?
-10. Are your most experienced people spending their time on interpretation "” or on routine execution that could be delegated?
+10. Are your most experienced people spending their time on interpretation — or on routine execution that could be delegated?
 
-**Scoring:** Count your "No" answers. 0"“2: boundaries are well-maintained. 3"“5: boundary drift is likely "” examine where judgment has quietly migrated to execution or vice versa. 6+: the judgment-execution boundary needs deliberate redesign before execution scales further.
+**Scoring:** Count your "No" answers. 0"“2: boundaries are well-maintained. 3"“5: boundary drift is likely — examine where judgment has quietly migrated to execution or vice versa. 6+: the judgment-execution boundary needs deliberate redesign before execution scales further.
 
 ---
 
-**In Practice: Boeing 737 MAX "” Execution Without Judgment**
+**In Practice: Boeing 737 MAX — Execution Without Judgment**
 
-The Boeing 737 MAX crashes of 2018 and 2019 are a case study in judgment-execution boundary failure. The MCAS safety system "” designed to correct for aerodynamic instability "” was treated as an execution problem (automated control) when it required judgment (pilot-visible, pilot-overridable decision authority). Certification processes, designed for earlier aircraft generations, proceduralized an assumption that stall scenarios would be rare edge cases. They were not. When MCAS activated incorrectly, pilots lacked the contextual information to override it "” not because they weren't capable, but because the boundary between automated execution and human judgment had been deliberately obscured to avoid costly retraining. 346 people died. The planes were grounded for 20 months. The cost exceeded $20 billion. The engineering was sophisticated. The frame around it was not.
+The Boeing 737 MAX crashes of 2018 and 2019 are a case study in judgment-execution boundary failure. The MCAS safety system — designed to correct for aerodynamic instability — was treated as an execution problem (automated control) when it required judgment (pilot-visible, pilot-overridable decision authority). Certification processes, designed for earlier aircraft generations, proceduralized an assumption that stall scenarios would be rare edge cases. They were not. When MCAS activated incorrectly, pilots lacked the contextual information to override it — not because they weren't capable, but because the boundary between automated execution and human judgment had been deliberately obscured to avoid costly retraining. 346 people died. The planes were grounded for 20 months. The cost exceeded $20 billion. The engineering was sophisticated. The frame around it was not.
 
 ---
 
 ::: {.takeaways}
 **Key Takeaways**
 
-- Judgment "” interpreting meaning, resolving ambiguity, owning uncertainty "” cannot be automated. It can only be abdicated, which is a different and more dangerous outcome.
+- Judgment — interpreting meaning, resolving ambiguity, owning uncertainty — cannot be automated. It can only be abdicated, which is a different and more dangerous outcome.
 - The core failure mode is not AI replacing humans. It is teams assigning judgment responsibilities to machine execution and only noticing when consequences arrive.
-- The boundary between judgment and execution must be designed deliberately. Left undesigned, it drifts toward whatever produces the fastest output "” not the best choice.
+- The boundary between judgment and execution must be designed deliberately. Left undesigned, it drifts toward whatever produces the fastest output — not the best choice.
 - Highly capable execution systems make poor judgment placement more consequential, not less. Speed amplifies direction.
-- Leaders are accountable for where judgment resides in the team "” not just for the quality of their own decisions, but for the conditions under which all decisions are made.
+- Leaders are accountable for where judgment resides in the team — not just for the quality of their own decisions, but for the conditions under which all decisions are made.
 :::
 
 
