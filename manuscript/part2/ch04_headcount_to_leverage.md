@@ -1,9 +1,9 @@
-﻿# Part II "” The Six Forces Operating Model {-}
+﻿# Part II — The Six Forces Operating Model {-}
 *Rethinking how capability is structured, not just staffed*
 
 ---
 
-## Chapter 4 "” From Headcount to Leverage
+## Chapter 4 — From Headcount to Leverage
 
 For decades, growth was measured by expansion. Headcount became the visible signal of progress. Hiring suggested momentum, and increasing team size implied rising capacity. This logic held when output was tightly bound to human labor, where more contributors meant more operational bandwidth.
 
@@ -11,19 +11,19 @@ But when leverage increases, proportionality weakens. One assumption quietly bre
 
 ---
 
-*A note from the author: running a small team taught me something that years of studying large organizations had obscured "” the team's structure mattered more than its size. The most productive period I observed wasn't when we had the most people. It was when each person's decisions had the clearest reach. That observation is what this part of the book is about.*
+*A note from the author: running a small team taught me something that years of studying large organizations had obscured — the team's structure mattered more than its size. The most productive period I observed wasn't when we had the most people. It was when each person's decisions had the clearest reach. That observation is what this part of the book is about.*
 
 ---
 
 **In Practice: WhatsApp's Systemic Leverage**
 
-When Facebook acquired WhatsApp in 2014 for $19 billion, WhatsApp had approximately 35 engineers. At the time, Facebook itself had over 6,000 employees total. WhatsApp served 450 million users "” roughly 13 million users per engineer. This wasn't individual heroics. It was systemic design: each role had a narrow, explicit scope; decisions multiplied through automated infrastructure; feedback loops were tight. The team didn't have leverage despite being small. It had leverage because it was structured for it. Every choice about what not to build "” and what not to own "” was as important as what it built.
+When Facebook acquired WhatsApp in 2014 for $19 billion, WhatsApp had approximately 35 engineers. At the time, Facebook itself had over 6,000 employees total. WhatsApp served 450 million users — roughly 13 million users per engineer. This wasn't individual heroics. It was systemic design: each role had a narrow, explicit scope; decisions multiplied through automated infrastructure; feedback loops were tight. The team didn't have leverage despite being small. It had leverage because it was structured for it. Every choice about what not to build — and what not to own — was as important as what it built.
 
 ---
 
 ### 4.1 Leverage as a System Property
 
-Leverage is often misattributed to individuals. Certain people appear unusually effective. Their choices shape outcomes disproportionately. Their output seems to exceed visible input. While individual capability matters, leverage looks like a personal trait. It is not. It lives in the system "” in how decisions are structured, not who makes them.
+Leverage is often misattributed to individuals. Certain people appear unusually effective. Their choices shape outcomes disproportionately. Their output seems to exceed visible input. While individual capability matters, leverage looks like a personal trait. It is not. It lives in the system — in how decisions are structured, not who makes them.
 
 When leverage is treated as individual brilliance, organizations attempt to scale it by hiring exceptional contributors or concentrating authority. This approach can produce temporary gains, but it does not make leverage durable. As complexity increases, personal capacity becomes a bottleneck. Influence depends on proximity, presence, or constant intervention. The system remains dependent on the individual rather than structured to amplify judgment consistently.
 
@@ -37,7 +37,7 @@ Designing for systemic leverage therefore begins with recognizing where influenc
 
 Coherence allows small adjustments to cascade constructively. Without it, small adjustments produce noise. The difference lies in whether the system's components reinforce one another. When reinforcement dominates, effort compounds. When interference dominates, effort cancels itself out. Leverage is simply the observable outcome of this deeper architectural property.
 
-> **Figure 4.1 "” Individual Leverage vs. Systemic Leverage**
+> **Figure 4.1 — Individual Leverage vs. Systemic Leverage**
 >
 >
 > ![](figures/ch04_headcount_to_leverage_fig_4_1.png)
@@ -52,7 +52,7 @@ Coherence allows small adjustments to cascade constructively. Without it, small 
 
 Leverage is often described in terms of what it enables: faster execution, broader reach, greater output. Less attention is given to what it eliminates. Yet understanding what disappears under leverage is essential to understanding its foundational effect. Leverage does not simply add capacity. It subtracts friction.
 
-> **Figure 4.2 "” What Leverage Removes**
+> **Figure 4.2 — What Leverage Removes**
 >
 >
 > ![](figures/ch04_headcount_to_leverage_fig_4_2.png)
@@ -84,7 +84,7 @@ In such environments, clarity of mandate becomes more important than breadth of 
 
 This shift also alters how specialization functions. Traditional specialization divides work into discrete functions to increase efficiency. Under high leverage, specialization must also account for coupling. A role that optimizes locally but ignores system-wide implications can degrade overall performance.
 
-> **Figure 4.3 "” Roles as Decision Nodes**
+> **Figure 4.3 — Roles as Decision Nodes**
 >
 >
 > ![](figures/ch04_headcount_to_leverage_fig_4_3.png)
@@ -103,7 +103,7 @@ Importantly, redefining roles in this way does not imply that roles become rigid
 
 As leverage increases, the economics of failure change. The same property that allows small actions to produce disproportionate gains also allows small errors to generate disproportionate loss. Risk does not simply scale with effort; it scales with amplification.
 
-> **Figure 4.4 "” Amplification and Failure Impact**
+> **Figure 4.4 — Amplification and Failure Impact**
 >
 >
 > ![](figures/ch04_headcount_to_leverage_fig_4_4.png)
@@ -138,17 +138,17 @@ The minimum viable size is also not fixed. It shifts as leverage changes. A team
 
 This makes periodic design-level reassessment a practical necessity, not a theoretical exercise. As leverage increases, the cost of misalignment between team configuration and amplification potential rises. Teams that avoid this reassessment may find that performance degrades not because of individual underperformance, but because the architecture supporting it was designed for a different level of consequence.
 
-The path forward is not a formula but a discipline: regularly asking whether the current configuration can sustain the level of leverage available, whether structural clarity is sufficient for the amplification now in play, and whether coherence is being maintained as a first-order property "” not assumed as a byproduct of effort.
+The path forward is not a formula but a discipline: regularly asking whether the current configuration can sustain the level of leverage available, whether structural clarity is sufficient for the amplification now in play, and whether coherence is being maintained as a first-order property — not assumed as a byproduct of effort.
 
-The next chapter addresses where that threshold most commonly lands "” and why six is not a preference but a built-in answer to a structural question.
+The next chapter addresses where that threshold most commonly lands — and why six is not a preference but a built-in answer to a structural question.
 
 ---
 
 ### 4.6 The Question This Chapter Leaves You With
 
-When leverage is high, each addition to the team alters the geometry of the system "” its coordination paths, decision latency, and coherence under pressure. Most teams never pause to ask whether they are in a regime where more people compounds effect or dilutes it.
+When leverage is high, each addition to the team alters the geometry of the system — its coordination paths, decision latency, and coherence under pressure. Most teams never pause to ask whether they are in a regime where more people compounds effect or dilutes it.
 
-*If leverage is a system property rather than an individual trait, is the most important investment your next hire "” or your next redesign?*
+*If leverage is a system property rather than an individual trait, is the most important investment your next hire — or your next redesign?*
 
 ---
 
@@ -167,11 +167,11 @@ Before your next hiring conversation or capacity review, answer these five quest
 ::: {.takeaways}
 **Key Takeaways**
 
-- Leverage is a system property, not an individual trait. The most effective teams embed amplification into their decision architecture "” it doesn't depend on any single person being exceptional.
+- Leverage is a system property, not an individual trait. The most effective teams embed amplification into their decision architecture — it doesn't depend on any single person being exceptional.
 - What leverage removes matters as much as what it enables: repetition without learning, translation overhead, corrective coordination, and dependency latency all diminish in well-leveraged setups.
 - In high-leverage environments, roles are defined by the downstream decisions they influence, not by the tasks they perform.
 - Risk scales with amplification. Small errors at high leverage travel farther and cost more than large errors at low leverage.
-- Minimum viable size is a structural threshold "” the smallest configuration that sustains amplification without collapsing under overload or fragmenting under complexity.
+- Minimum viable size is a structural threshold — the smallest configuration that sustains amplification without collapsing under overload or fragmenting under complexity.
 :::
 
 

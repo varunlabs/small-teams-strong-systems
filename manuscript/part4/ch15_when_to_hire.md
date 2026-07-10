@@ -1,4 +1,4 @@
-﻿## Chapter 15 "” When to Hire "” and When Not To
+﻿## Chapter 15 — When to Hire — and When Not To
 
 Hiring feels like relief because pressure is visible while structural causes are not. Work expands, timelines tighten, and the intuitive response is to add people. But hiring is not a temporary pressure valve. It is a geometry change: new interfaces, new coordination paths, and new decision dependencies.
 
@@ -43,7 +43,7 @@ One useful stress test is to separate throughput pain from decision-system pain:
 
 In practical terms, adding one person does not add one unit of progress. It adds new communication paths, handoff surfaces, and judgment interfaces. In small systems, those interface costs are often the hidden tax that erodes the expected gain.
 
-> **Figure 15.1 "” Hiring as Geometric Expansion, Not Additive Growth**
+> **Figure 15.1 — Hiring as Geometric Expansion, Not Additive Growth**
 >
 > ![](figures/ch15_when_to_hire_fig_15_1.png)
 >
@@ -54,7 +54,7 @@ In practical terms, adding one person does not add one unit of progress. It adds
 
 Every hire creates downstream design commitments: onboarding pathways, authority boundaries, escalation routes, and long-term integration costs. Reversal is possible, but expensive.
 
-Treating hiring as commitment changes behavior. Teams redesign first, test constraints directly, and hire only when architecture"”not discomfort"”demands it.
+Treating hiring as commitment changes behavior. Teams redesign first, test constraints directly, and hire only when architecture—not discomfort—demands it.
 
 This discipline preserves optionality. It keeps systems coherent long enough to scale by design rather than by reflex.
 
@@ -87,7 +87,7 @@ When a team feels underpowered, run a short redesign sprint before committing to
 
 If constraints remain after this sprint, the hire case becomes stronger because the system has already paid down obvious design debt.
 
-> **Figure 15.2 "” Redesign Priorities Before Hiring**
+> **Figure 15.2 — Redesign Priorities Before Hiring**
 >
 > ![](figures/ch15_when_to_hire_fig_15_2.png)
 >
@@ -102,9 +102,9 @@ Basecamp has stayed relatively small for years while maintaining meaningful reve
 
 ### 15.6 The Question This Chapter Leaves You With
 
-Hiring feels like the answer because pressure is immediate and structural diagnosis is slow. The discomfort of an overloaded team is visceral. The cost of a premature hire is diffuse "” distributed across onboarding friction, coordination overhead, and the quiet erosion of decision speed that no single metric captures.
+Hiring feels like the answer because pressure is immediate and structural diagnosis is slow. The discomfort of an overloaded team is visceral. The cost of a premature hire is diffuse — distributed across onboarding friction, coordination overhead, and the quiet erosion of decision speed that no single metric captures.
 
-The discipline this chapter describes is not anti-growth. It is anti-default. It asks whether the system has earned the right to expand "” whether the current architecture can absorb another node without degrading the coherence that makes the team effective in the first place.
+The discipline this chapter describes is not anti-growth. It is anti-default. It asks whether the system has earned the right to expand — whether the current architecture can absorb another node without degrading the coherence that makes the team effective in the first place.
 
 *What would change in your team if you treated hiring as the last structural option rather than the first?*
 
