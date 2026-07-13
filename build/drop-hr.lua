@@ -8,7 +8,15 @@ function HorizontalRule(_)
   return {}
 end
 
--- 2. Keep each figure (caption + diagram) together on one page.
+-- 2. Scale figure diagrams down. Without a width constraint the images render
+--    up to the full text width, which is too large for these simple diagrams.
+--    Cap them at 65% of the text width (centred by the minipage below).
+function Image(el)
+  el.attributes.width = '65%'
+  return el
+end
+
+-- 3. Keep each figure (caption + diagram) together on one page.
 --    Figures are authored as a blockquote holding a bold "Figure X" caption
 --    followed by the image. A LaTeX quote can break across a page boundary,
 --    stranding the caption on one page and the diagram on the next. Wrapping
