@@ -77,6 +77,7 @@ jobs:
           pandoc \
             --metadata-file=/tmp/pdf-metadata.yaml \
             --include-in-header=../build/book-style.tex \
+            --lua-filter=../build/drop-hr.lua \
             --variable mainfont="TeX Gyre Pagella" \
             --variable sansfont="TeX Gyre Heros" \
             --variable monofont="TeX Gyre Cursor" \
