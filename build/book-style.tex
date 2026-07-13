@@ -6,6 +6,12 @@
 %% Better typography
 \usepackage{microtype}
 
+%% Suppress automatic part/chapter numbering. Every heading already carries its
+%% own label in the text ("Part I — ...", "Chapter 1 — ..."), so LaTeX's auto
+%% "Chapter 1" line above the title would be a redundant duplicate. (No effect on
+%% the v2 build, whose headings are already unnumbered.)
+\setcounter{secnumdepth}{-2}
+
 %% Widow and orphan control
 \widowpenalty=10000
 \clubpenalty=10000
