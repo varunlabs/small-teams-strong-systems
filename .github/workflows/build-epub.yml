@@ -123,21 +123,17 @@ jobs:
       - name: Build v1 PDF (original content, from the v1 EPUB)
         run: |
           # The v1 PDF must reflect the ORIGINAL first-published book, so it is
-          # generated from the v1 EPUB, not the (improved) manuscript. Same book
-          # style, fonts, geometry and figure filters as v2 for a consistent look.
-          # EPUB heading levels: h1 = front matter / Part dividers, h2 = chapters,
-          # h3 = sections -> map with --top-level-division=part.
+          # generated from the v1 EPUB, not the (improved) manuscript. It is
+          # rendered as a CONTINUOUS FLOW that mirrors how the EPUB reads: no
+          # book-class chapter/part page breaks and no part-divider pages, so the
+          # content flows without imposed gaps. Only the page furniture (clean
+          # headers/footers), figure handling and covers are shared with v2.
           pandoc \
             published/v1/SmallTeamsStrongSystems-v1-published.epub \
             --include-in-header=build/book-style.tex \
             --lua-filter=build/drop-hr.lua \
             --lua-filter=build/epub-meta.lua \
-            --top-level-division=part \
             --toc --toc-depth=2 \
-            --variable documentclass=book \
-            --variable classoption=openany \
-            --variable numbersections=false \
-            --variable secnumdepth=0 \
             --variable mainfont="TeX Gyre Pagella" \
             --variable sansfont="TeX Gyre Heros" \
             --variable monofont="TeX Gyre Cursor" \
