@@ -68,7 +68,13 @@ jobs:
             --split-level=2 \
             -o drafts/v2/SmallTeamsStrongSystems-v2.epub
 
-      - name: Build PDF interior
+      - name: Prepare cover PDFs (shared by v1 and v2)
+        run: |
+          # Convert cover images to US Letter PDFs to match interior page size
+          img2pdf published/v1/cover_front.jpg --pagesize Letter -o /tmp/cover_front.pdf
+          img2pdf published/v1/cover_back.png  --pagesize Letter -o /tmp/cover_back.pdf
+
+      - name: Build v2 PDF (improved content, from the manuscript)
         run: |
           # Strip EPUB-only and front-matter fields — front_matter.md handles title/author manually.
           grep -Ev "^title:|^subtitle:|^author:|^toc|^cover-image:" manuscript/metadata.yaml > /tmp/pdf-metadata.yaml
@@ -107,19 +113,44 @@ jobs:
             --variable geometry:bottom=25.4mm \
             --variable geometry:left=31.75mm \
             --variable geometry:right=25.4mm \
-            -o /tmp/interior.pdf
-
-      - name: Merge covers with interior
-        run: |
-          # Convert cover images to US Letter PDFs to match interior page size
-          img2pdf published/v1/cover_front.jpg --pagesize Letter -o /tmp/cover_front.pdf
-          img2pdf published/v1/cover_back.png  --pagesize Letter -o /tmp/cover_back.pdf
+            -o /tmp/v2-interior.pdf
 
           # Merge: front cover + interior content + back cover
-          pdfunite \
-            /tmp/cover_front.pdf \
-            /tmp/interior.pdf \
-            /tmp/cover_back.pdf \
+          pdfunite /tmp/cover_front.pdf /tmp/v2-interior.pdf /tmp/cover_back.pdf \
+            drafts/v2/SmallTeamsStrongSystems-v2.pdf
+
+      - name: Build v1 PDF (original content, from the v1 EPUB)
+        run: |
+          # The v1 PDF must reflect the ORIGINAL first-published book, so it is
+          # generated from the v1 EPUB, not the (improved) manuscript. Same book
+          # style, fonts, geometry and figure filters as v2 for a consistent look.
+          # EPUB heading levels: h1 = front matter / Part dividers, h2 = chapters,
+          # h3 = sections -> map with --top-level-division=part.
+          pandoc \
+            published/v1/SmallTeamsStrongSystems-v1-published.epub \
+            --include-in-header=build/book-style.tex \
+            --lua-filter=build/drop-hr.lua \
+            --lua-filter=build/epub-meta.lua \
+            --top-level-division=part \
+            --toc --toc-depth=2 \
+            --variable documentclass=book \
+            --variable classoption=openany \
+            --variable numbersections=false \
+            --variable secnumdepth=0 \
+            --variable mainfont="TeX Gyre Pagella" \
+            --variable sansfont="TeX Gyre Heros" \
+            --variable monofont="TeX Gyre Cursor" \
+            --variable geometry:letterpaper \
+            --variable geometry:top=25.4mm \
+            --variable geometry:bottom=25.4mm \
+            --variable geometry:left=31.75mm \
+            --variable geometry:right=25.4mm \
+            --to pdf \
+            --pdf-engine xelatex \
+            -o /tmp/v1-interior.pdf
+
+          # Merge: front cover + interior content + back cover
+          pdfunite /tmp/cover_front.pdf /tmp/v1-interior.pdf /tmp/cover_back.pdf \
             published/v1/SmallTeamsStrongSystems-v1-published.pdf
 
       - name: Upload EPUB artifact
@@ -129,7 +160,14 @@ jobs:
           path: drafts/v2/SmallTeamsStrongSystems-v2.epub
           retention-days: 30
 
-      - name: Upload PDF artifact
+      - name: Upload v2 PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SmallTeamsStrongSystems-v2-pdf
+          path: drafts/v2/SmallTeamsStrongSystems-v2.pdf
+          retention-days: 30
+
+      - name: Upload v1 PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: SmallTeamsStrongSystems-v1-pdf
