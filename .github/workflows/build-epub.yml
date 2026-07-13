@@ -147,7 +147,13 @@ jobs:
             --variable geometry:right=25.4mm \
             --to pdf \
             --pdf-engine xelatex \
-            -o /tmp/v1-interior.pdf
+            -o /tmp/v1-interior-raw.pdf
+
+          # Drop the empty verso the book class leaves between the table of
+          # contents and the first content page, so v1 has zero interior blanks
+          # like v2.
+          pip3 install --quiet pypdf
+          python3 build/strip-blank-pages.py /tmp/v1-interior-raw.pdf /tmp/v1-interior.pdf
 
           # Merge: front cover + interior content + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v1-interior.pdf /tmp/cover_back.pdf \
