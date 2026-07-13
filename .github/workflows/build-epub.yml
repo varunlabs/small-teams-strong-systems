@@ -115,7 +115,8 @@ jobs:
             --variable geometry:right=25.4mm \
             -o /tmp/v2-interior.pdf
 
-          # Merge: front cover + interior content + back cover
+          # Merge: front cover + interior content + back cover (from repo root)
+          cd "$GITHUB_WORKSPACE"
           pdfunite /tmp/cover_front.pdf /tmp/v2-interior.pdf /tmp/cover_back.pdf \
             drafts/v2/SmallTeamsStrongSystems-v2.pdf
 
