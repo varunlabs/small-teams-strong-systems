@@ -10,7 +10,8 @@
 \widowpenalty=10000
 \clubpenalty=10000
 
-%% Force every ## heading (\section in book class) to start on a fresh page,
-%% matching the chapter page-break behaviour of the published reference PDF.
-\usepackage{etoolbox}
-\pretocmd{\section}{\clearpage}{}{}
+%% Sections (## headings) flow naturally within a chapter, matching the
+%% published reference PDF. Chapters (# headings) still open a fresh page
+%% via the book class's native \chapter, so structure is preserved without
+%% forcing every sub-section onto its own page (which left large white gaps).
+\raggedbottom
