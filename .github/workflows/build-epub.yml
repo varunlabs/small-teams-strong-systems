@@ -120,40 +120,29 @@ jobs:
           pdfunite /tmp/cover_front.pdf /tmp/v2-interior.pdf /tmp/cover_back.pdf \
             drafts/v2/SmallTeamsStrongSystems-v2.pdf
 
-      - name: Build v1 PDF (original content, from the v1 EPUB)
+      - name: Build v1 PDF (exact conversion of the v1 EPUB + covers)
         run: |
-          # The v1 PDF reflects the ORIGINAL first-published book, generated from
-          # the v1 EPUB. It uses the SAME layout as the v2 PDF so the two match:
-          # the v1 EPUB's heading hierarchy (h1 = front matter / Part dividers,
-          # h2 = chapters, h3 = sections) maps under the default book division to
-          # \chapter / \section / \subsection — exactly like the v2 manuscript
-          # (# Part -> chapter, ## Chapter -> section, ### -> subsection). Parts
-          # open a fresh page; chapters and sections flow, matching v2.
+          # The v1 PDF is a faithful 1:1 conversion of the v1 EPUB: the same
+          # content in the same order, with NOTHING added — no generated table of
+          # contents, no heading restructuring, no part/chapter page breaks, no
+          # image resizing. epub-meta.lua only suppresses pandoc's duplicate auto
+          # title page (the EPUB already contains its own). Front and back covers
+          # are added around the converted content.
           pandoc \
             published/v1/SmallTeamsStrongSystems-v1-published.epub \
             --include-in-header=build/book-style.tex \
-            --lua-filter=build/drop-hr.lua \
             --lua-filter=build/epub-meta.lua \
-            --toc --toc-depth=2 \
-            --variable documentclass=book \
-            --variable classoption=openany \
             --variable mainfont="TeX Gyre Pagella" \
             --variable sansfont="TeX Gyre Heros" \
             --variable monofont="TeX Gyre Cursor" \
             --variable geometry:letterpaper \
             --variable geometry:top=25.4mm \
             --variable geometry:bottom=25.4mm \
-            --variable geometry:left=31.75mm \
+            --variable geometry:left=25.4mm \
             --variable geometry:right=25.4mm \
             --to pdf \
             --pdf-engine xelatex \
-            -o /tmp/v1-interior-raw.pdf
-
-          # Drop the empty verso the book class leaves between the table of
-          # contents and the first content page, so v1 has zero interior blanks
-          # like v2.
-          pip3 install --quiet pypdf
-          python3 build/strip-blank-pages.py /tmp/v1-interior-raw.pdf /tmp/v1-interior.pdf
+            -o /tmp/v1-interior.pdf
 
           # Merge: front cover + interior content + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v1-interior.pdf /tmp/cover_back.pdf \
