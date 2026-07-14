@@ -1,30 +1,12 @@
-/* Print refinements layered on top of the EPUB's own stylesheet for the PDF
-   render. Goal: keep the EPUB's design character (headers, figure boxes,
-   serif body, hierarchy) but avoid an excessively long book and remove the
-   large gaps left when a tall diagram jumps to the next page. Nothing is
-   stretched or cropped — aspect ratio is always preserved. */
+/* Print refinement layered on top of the EPUB's own stylesheet for the PDF
+   render. Single, targeted change: figures are authored as <blockquote>
+   elements containing the caption and an <img> (plain quote/epigraph
+   blockquotes have no image). Cap the diagram height so a tall figure fits at
+   the foot of a page instead of jumping to the next page and leaving a large
+   gap. The figure is never split from its caption, and aspect ratio is
+   preserved (max-height + max-width), so nothing is stretched or cropped. */
 
-/* The EPUB uses a loose 1.6 line-height that roughly doubles the page count in
-   print. Tighten to a comfortable print value. */
-body {
-  line-height: 1.42 !important;
-}
-
-/* The EPUB's very large heading top-margins leave ~1 inch of blank space at the
-   top of every chapter/part page. Chapters and parts already start on a fresh
-   page, so trim that space. */
-h1 {
-  margin: 1.6em 0 0.5em 0 !important;
-}
-h2 {
-  margin: 2em 0 0.8em 0 !important;
-}
-
-/* Figures are authored as <blockquote> elements containing the caption and an
-   <img> (plain quote/epigraph blockquotes have no image). Cap the diagram height
-   so a whole figure fits at the foot of a page instead of jumping and leaving a
-   gap; the figure is never split from its caption. */
 blockquote img {
-  max-height: 3in !important;
+  max-height: 3.2in !important;
   max-width: 100% !important;
 }
