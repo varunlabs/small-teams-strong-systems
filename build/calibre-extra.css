@@ -1,0 +1,20 @@
+/* Print refinements layered on top of the EPUB's own stylesheet for the PDF
+   render. Purpose: keep every figure intact (caption + image never split) while
+   making the figure block compact enough to fit at the foot of a page more
+   often — this removes the large empty gaps left when a whole figure is pushed
+   to the next page. Aspect ratio is always preserved (max-height + max-width),
+   so nothing is stretched or cropped. */
+
+figure, .figure {
+  margin: 0.6em 0 !important;
+  padding: 0.4em 0.8em !important;
+}
+
+figure p, .figure p {
+  margin: 0.15em 0 !important;
+}
+
+figure img, .figure img {
+  max-height: 3in !important;
+  max-width: 100% !important;
+}
