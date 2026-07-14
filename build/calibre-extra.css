@@ -1,24 +1,30 @@
 /* Print refinements layered on top of the EPUB's own stylesheet for the PDF
-   render. In this EPUB, figures are authored as <blockquote> elements that
-   contain the caption and an <img> (plain quote/epigraph blockquotes have no
-   image). Purpose: keep every figure intact (caption + image never split) while
-   making the figure block compact enough to fit at the foot of a page more
-   often — this removes the large empty gaps left when a whole figure is pushed
-   to the next page. Aspect ratio is preserved (max-height + max-width), so
-   nothing is stretched or cropped. */
+   render. Goal: keep the EPUB's design character (headers, figure boxes,
+   serif body, hierarchy) but avoid an excessively long book and remove the
+   large gaps left when a tall diagram jumps to the next page. Nothing is
+   stretched or cropped — aspect ratio is always preserved. */
 
-blockquote {
-  margin: 0.8em 1.2em !important;
-  padding: 0.2em 1em !important;
+/* The EPUB uses a loose 1.6 line-height that roughly doubles the page count in
+   print. Tighten to a comfortable print value. */
+body {
+  line-height: 1.42 !important;
 }
 
-blockquote p {
-  margin: 0.1em 0 !important;
+/* The EPUB's very large heading top-margins leave ~1 inch of blank space at the
+   top of every chapter/part page. Chapters and parts already start on a fresh
+   page, so trim that space. */
+h1 {
+  margin: 1.6em 0 0.5em 0 !important;
+}
+h2 {
+  margin: 2em 0 0.8em 0 !important;
 }
 
-/* Only figure blockquotes contain an image — cap the diagram height so tall
-   diagrams shrink enough to sit at the bottom of a page instead of jumping. */
+/* Figures are authored as <blockquote> elements containing the caption and an
+   <img> (plain quote/epigraph blockquotes have no image). Cap the diagram height
+   so a whole figure fits at the foot of a page instead of jumping and leaving a
+   gap; the figure is never split from its caption. */
 blockquote img {
-  max-height: 2.8in !important;
+  max-height: 3in !important;
   max-width: 100% !important;
 }
