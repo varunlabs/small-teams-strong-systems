@@ -17,7 +17,7 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update -q
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra poppler-utils
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra poppler-utils calibre fonts-liberation
           pip3 install img2pdf
 
       - name: Create output directories
@@ -120,43 +120,32 @@ jobs:
           pdfunite /tmp/cover_front.pdf /tmp/v2-interior.pdf /tmp/cover_back.pdf \
             drafts/v2/SmallTeamsStrongSystems-v2.pdf
 
-      - name: Build v1 PDF (v1 EPUB as a proper book + covers)
+      - name: Build v1 PDF (RENDER the v1 EPUB's own layout via Calibre)
         run: |
-          # The v1 PDF keeps the ORIGINAL v1 content but PRESENTS it the way the
-          # EPUB renders in a reader — which a plain "raw" conversion loses, since
-          # pandoc discards the EPUB's own stylesheet. So we reproduce that book
-          # presentation: parts and chapters open on a fresh page, diagrams are
-          # sized down and kept with their captions (drop-hr.lua), a table of
-          # contents is included, and front/back covers wrap the content.
-          # Heading mapping via --top-level-division=part: h1 -> \part (real Part
-          # dividers) / demoted to \chapter for front matter, h2 -> \chapter
-          # (each chapter starts fresh), h3 -> \section (flows). See epub-meta.lua.
-          pandoc \
+          # The v1 PDF must reproduce the EPUB's actual VISUAL DESIGN, not a
+          # re-typeset reconstruction. Pandoc discards the EPUB stylesheet, so we
+          # render the EPUB through Calibre's browser engine, which honours the
+          # EPUB's own CSS (part-header styling, chapter labels, figure boxes,
+          # page-break rules, spacing, hierarchy). Fonts fall back to Liberation
+          # Serif/Sans (Georgia / Helvetica Neue are not on the runner).
+          # QT_QPA_PLATFORM=offscreen lets the Qt/Chromium engine run headless.
+          export QT_QPA_PLATFORM=offscreen
+          ebook-convert \
             published/v1/SmallTeamsStrongSystems-v1-published.epub \
-            --include-in-header=build/book-style.tex \
-            --lua-filter=build/drop-hr.lua \
-            --lua-filter=build/epub-meta.lua \
-            --top-level-division=part \
-            --variable documentclass=book \
-            --variable classoption=openany \
-            --variable mainfont="TeX Gyre Pagella" \
-            --variable sansfont="TeX Gyre Heros" \
-            --variable monofont="TeX Gyre Cursor" \
-            --variable geometry:letterpaper \
-            --variable geometry:top=25.4mm \
-            --variable geometry:bottom=25.4mm \
-            --variable geometry:left=31.75mm \
-            --variable geometry:right=25.4mm \
-            --to pdf \
-            --pdf-engine xelatex \
-            -o /tmp/v1-interior-raw.pdf
+            /tmp/v1-interior.pdf \
+            --paper-size letter \
+            --pdf-page-margin-top 54 \
+            --pdf-page-margin-bottom 54 \
+            --pdf-page-margin-left 72 \
+            --pdf-page-margin-right 54 \
+            --pdf-page-numbers \
+            --pdf-serif-family "Liberation Serif" \
+            --pdf-sans-family "Liberation Sans" \
+            --pdf-mono-family "Liberation Mono" \
+            --preserve-cover-aspect-ratio \
+            --disable-font-rescaling
 
-          # Drop the empty verso the book class can leave in the front matter so
-          # the v1 PDF has no stray blank pages.
-          pip3 install --quiet pypdf
-          python3 build/strip-blank-pages.py /tmp/v1-interior-raw.pdf /tmp/v1-interior.pdf
-
-          # Merge: front cover + interior content + back cover
+          # Merge: front cover + rendered interior + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v1-interior.pdf /tmp/cover_back.pdf \
             published/v1/SmallTeamsStrongSystems-v1-published.pdf
 
