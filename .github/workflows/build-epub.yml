@@ -136,7 +136,6 @@ jobs:
             --include-in-header=build/book-style.tex \
             --lua-filter=build/drop-hr.lua \
             --lua-filter=build/epub-meta.lua \
-            --toc --toc-depth=2 \
             --top-level-division=part \
             --variable documentclass=book \
             --variable classoption=openany \
