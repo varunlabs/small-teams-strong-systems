@@ -34,12 +34,24 @@ end
 --    "Who This Book Is For" and immediately before the Introduction — NOT forced
 --    to the first page. (Pandoc's own --toc can only sit at the very front, so we
 --    insert it here instead and omit --toc.)
+--    The EPUB's <section> wrappers become Divs, so the Introduction heading is
+--    nested one level down; detect it via the block's leading heading text.
+local function is_introduction(block)
+  local first = block
+  if block.t == "Div" and block.content and block.content[1] then
+    first = block.content[1]
+  end
+  if first and first.t == "Header" then
+    return pandoc.utils.stringify(first):match("^Introduction") ~= nil
+  end
+  return false
+end
+
 function Pandoc(doc)
   local blocks = {}
   local inserted = false
   for _, b in ipairs(doc.blocks) do
-    if (not inserted) and b.t == "Header"
-        and pandoc.utils.stringify(b):match("^Introduction") then
+    if (not inserted) and is_introduction(b) then
       table.insert(blocks, pandoc.RawBlock("latex",
         "\\cleardoublepage\\setcounter{tocdepth}{2}\\tableofcontents\\clearpage"))
       inserted = true
