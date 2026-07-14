@@ -1,20 +1,24 @@
 /* Print refinements layered on top of the EPUB's own stylesheet for the PDF
-   render. Purpose: keep every figure intact (caption + image never split) while
+   render. In this EPUB, figures are authored as <blockquote> elements that
+   contain the caption and an <img> (plain quote/epigraph blockquotes have no
+   image). Purpose: keep every figure intact (caption + image never split) while
    making the figure block compact enough to fit at the foot of a page more
    often — this removes the large empty gaps left when a whole figure is pushed
-   to the next page. Aspect ratio is always preserved (max-height + max-width),
-   so nothing is stretched or cropped. */
+   to the next page. Aspect ratio is preserved (max-height + max-width), so
+   nothing is stretched or cropped. */
 
-figure, .figure {
-  margin: 0.6em 0 !important;
-  padding: 0.4em 0.8em !important;
+blockquote {
+  margin: 0.8em 1.2em !important;
+  padding: 0.2em 1em !important;
 }
 
-figure p, .figure p {
-  margin: 0.15em 0 !important;
+blockquote p {
+  margin: 0.1em 0 !important;
 }
 
-figure img, .figure img {
-  max-height: 3in !important;
+/* Only figure blockquotes contain an image — cap the diagram height so tall
+   diagrams shrink enough to sit at the bottom of a page instead of jumping. */
+blockquote img {
+  max-height: 2.8in !important;
   max-width: 100% !important;
 }
