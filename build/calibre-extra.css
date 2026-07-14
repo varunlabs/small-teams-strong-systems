@@ -1,12 +1,15 @@
 /* Print refinement layered on top of the EPUB's own stylesheet for the PDF
-   render. Single, targeted change: figures are authored as <blockquote>
-   elements containing the caption and an <img> (plain quote/epigraph
-   blockquotes have no image). Cap the diagram height so a tall figure fits at
-   the foot of a page instead of jumping to the next page and leaving a large
-   gap. The figure is never split from its caption, and aspect ratio is
-   preserved (max-height + max-width), so nothing is stretched or cropped. */
+   render. Figures are authored as <blockquote> elements containing the caption
+   and an <img> (plain quote/epigraph blockquotes have no image). Render each
+   diagram at a uniform, slightly smaller width (centred), so the whole figure
+   block is short enough to sit at the foot of a page instead of jumping to the
+   next page and leaving a large gap — and so the book is not padded out by
+   oversized diagrams. Height is auto, so aspect ratio is preserved; nothing is
+   stretched or cropped, and the caption is never split from its image. */
 
 blockquote img {
-  max-height: 3.2in !important;
-  max-width: 100% !important;
+  width: 72% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0.4em auto !important;
 }
