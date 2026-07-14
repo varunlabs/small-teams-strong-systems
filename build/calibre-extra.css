@@ -1,12 +1,28 @@
-/* Print refinement layered on top of the EPUB's own stylesheet for the PDF
-   render. Figures are authored as <blockquote> elements containing the caption
-   and an <img> (plain quote/epigraph blockquotes have no image). Render each
-   diagram at a uniform, slightly smaller width (centred), so the whole figure
-   block is short enough to sit at the foot of a page instead of jumping to the
-   next page and leaving a large gap — and so the book is not padded out by
-   oversized diagrams. Height is auto, so aspect ratio is preserved; nothing is
-   stretched or cropped, and the caption is never split from its image. */
+/* Print refinements layered on top of the EPUB's own stylesheet for the PDF
+   render. The EPUB is styled for reflowable screens (loose 1.6 line-height,
+   large heading margins, full-width diagrams), which on fixed Letter pages
+   makes an over-long book and leaves big gaps when a tall diagram jumps to the
+   next page. These rules keep the EPUB's design character but tune it for print:
+   a comfortable print line-height, trimmed heading top-margins, and diagrams at
+   a uniform smaller width so each figure sits at the foot of a page instead of
+   jumping. Aspect ratio is preserved and captions are never split from images. */
 
+body {
+  line-height: 1.4 !important;
+}
+
+/* Chapters and parts already start on a fresh page, so trim the EPUB's ~1 inch
+   heading top-margins. */
+h1 {
+  margin: 1.5em 0 0.5em 0 !important;
+}
+h2 {
+  margin: 1.8em 0 0.8em 0 !important;
+}
+
+/* Figures are <blockquote> elements containing the caption and an <img>. Render
+   each diagram at a uniform smaller width (centred) so the whole figure fits on
+   the page instead of leaving a gap. */
 blockquote img {
   width: 72% !important;
   height: auto !important;
