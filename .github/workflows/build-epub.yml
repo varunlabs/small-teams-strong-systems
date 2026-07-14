@@ -74,49 +74,33 @@ jobs:
           img2pdf published/v1/cover_front.jpg --pagesize Letter -o /tmp/cover_front.pdf
           img2pdf published/v1/cover_back.png  --pagesize Letter -o /tmp/cover_back.pdf
 
-      - name: Build v2 PDF (improved content, from the manuscript)
+      - name: Build v2 PDF (RENDER the v2 EPUB's own layout via Calibre)
         run: |
-          # Strip EPUB-only and front-matter fields — front_matter.md handles title/author manually.
-          grep -Ev "^title:|^subtitle:|^author:|^toc|^cover-image:" manuscript/metadata.yaml > /tmp/pdf-metadata.yaml
+          # Same treatment as v1: render the v2 EPUB's actual HTML+CSS through
+          # Calibre's browser engine so the PDF reproduces the EPUB's designed
+          # pages, rather than re-typesetting from extracted text. The v2 EPUB
+          # embeds a cover, so strip it from a temp copy first and add the
+          # front/back covers ourselves (identical cover handling to v1).
+          python3 build/strip-epub-cover.py \
+            drafts/v2/SmallTeamsStrongSystems-v2.epub /tmp/v2-nocover.epub
 
-          cd manuscript
-          pandoc \
-            --metadata-file=/tmp/pdf-metadata.yaml \
-            --include-in-header=../build/book-style.tex \
-            --lua-filter=../build/drop-hr.lua \
-            --variable mainfont="TeX Gyre Pagella" \
-            --variable sansfont="TeX Gyre Heros" \
-            --variable monofont="TeX Gyre Cursor" \
-            --variable classoption=openany \
-            front_matter.md \
-            part1/ch01_why_big_teams.md \
-            part1/ch02_end_of_linear_scaling.md \
-            part1/ch03_what_ai_changes.md \
-            part2/ch04_headcount_to_leverage.md \
-            part2/ch05_why_six.md \
-            part2/ch06_six_core_roles.md \
-            part2/ch07_human_judgment.md \
-            part2/ch08_designing_speed.md \
-            part3/ch09_rapid_prototyping.md \
-            part3/ch10_decision_making.md \
-            part3/ch11_small_teams.md \
-            part3/ch12_ai_xr_frontier.md \
-            part4/ch13_leadership.md \
-            part4/ch14_burnout.md \
-            part4/ch15_when_to_hire.md \
-            part4/ch16_scaling.md \
-            back_matter.md \
-            --to pdf \
-            --pdf-engine xelatex \
-            --variable geometry:letterpaper \
-            --variable geometry:top=25.4mm \
-            --variable geometry:bottom=25.4mm \
-            --variable geometry:left=31.75mm \
-            --variable geometry:right=25.4mm \
-            -o /tmp/v2-interior.pdf
+          export QT_QPA_PLATFORM=offscreen
+          ebook-convert \
+            /tmp/v2-nocover.epub \
+            /tmp/v2-interior.pdf \
+            --paper-size letter \
+            --pdf-page-margin-top 54 \
+            --pdf-page-margin-bottom 54 \
+            --pdf-page-margin-left 72 \
+            --pdf-page-margin-right 54 \
+            --pdf-page-numbers \
+            --pdf-serif-family "Liberation Serif" \
+            --pdf-sans-family "Liberation Sans" \
+            --pdf-mono-family "Liberation Mono" \
+            --preserve-cover-aspect-ratio \
+            --disable-font-rescaling
 
-          # Merge: front cover + interior content + back cover (from repo root)
-          cd "$GITHUB_WORKSPACE"
+          # Merge: front cover + rendered interior + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v2-interior.pdf /tmp/cover_back.pdf \
             drafts/v2/SmallTeamsStrongSystems-v2.pdf
 
