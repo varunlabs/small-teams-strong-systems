@@ -107,6 +107,7 @@ jobs:
             --pdf-serif-family "Gelasio" \
             --pdf-sans-family "Liberation Sans" \
             --pdf-mono-family "Liberation Mono" \
+            --page-breaks-before "/" \
             --preserve-cover-aspect-ratio \
             --disable-font-rescaling \
             --extra-css build/calibre-extra.css
@@ -137,6 +138,7 @@ jobs:
             --pdf-serif-family "Gelasio" \
             --pdf-sans-family "Liberation Sans" \
             --pdf-mono-family "Liberation Mono" \
+            --page-breaks-before "/" \
             --preserve-cover-aspect-ratio \
             --disable-font-rescaling \
             --extra-css build/calibre-extra.css

@@ -6,10 +6,15 @@
    Aspect ratio is preserved and captions are never split from images. */
 
 /* Comfortable print line-height and a slightly tighter body size, instead of
-   the EPUB's screen-oriented 1.6 spacing. Keeps the book from running long. */
+   the EPUB's screen-oriented 1.6 spacing. Keeps the book from running long.
+   The EPUB asks for Georgia, which is not on the build runner; its own fallback
+   chain reaches "Times New Roman" (mapped to Tinos) before the generic serif, so
+   name the vendored Gelasio — a metric-compatible Georgia — explicitly. Headings
+   keep their own sans stack (Helvetica Neue -> Arimo/Arial-metric). */
 body {
   line-height: 1.35 !important;
   font-size: 0.95em !important;
+  font-family: Gelasio, Georgia, serif !important;
 }
 
 /* Chapters and parts already start on a fresh page, so trim the EPUB's ~1 inch
