@@ -30,10 +30,6 @@ jobs:
           fc-cache -f >/dev/null
           echo "Gelasio available:"; fc-list | grep -i gelasio | head -3
 
-          echo "=== DEBUG: ebook-convert PDF-output TOC options ==="
-          ebook-convert --version
-          ebook-convert dummy.epub dummy.pdf -h 2>&1 | grep -i -B1 -A3 "toc" || echo "no toc options found"
-
       - name: Create output directories
         run: |
           mkdir -p drafts/v2
@@ -115,6 +111,7 @@ jobs:
             --preserve-cover-aspect-ratio \
             --disable-font-rescaling \
             --extra-css build/calibre-extra.css \
+            --pdf-add-toc \
             --toc-title "Contents" \
             --level1-toc "//h:h1" \
             --level2-toc "//h:h2" \
@@ -150,6 +147,7 @@ jobs:
             --preserve-cover-aspect-ratio \
             --disable-font-rescaling \
             --extra-css build/calibre-extra.css \
+            --pdf-add-toc \
             --toc-title "Contents" \
             --level1-toc "//h:h1" \
             --level2-toc "//h:h2" \
