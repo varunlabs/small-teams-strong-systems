@@ -110,7 +110,11 @@ jobs:
             --page-breaks-before "/" \
             --preserve-cover-aspect-ratio \
             --disable-font-rescaling \
-            --extra-css build/calibre-extra.css
+            --extra-css build/calibre-extra.css \
+            --toc-title "Contents" \
+            --level1-toc "//h:h1" \
+            --level2-toc "//h:h2" \
+            --duplicate-links-in-toc
 
           # Merge: front cover + rendered interior + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v2-interior.pdf /tmp/cover_back.pdf \
@@ -141,7 +145,11 @@ jobs:
             --page-breaks-before "/" \
             --preserve-cover-aspect-ratio \
             --disable-font-rescaling \
-            --extra-css build/calibre-extra.css
+            --extra-css build/calibre-extra.css \
+            --toc-title "Contents" \
+            --level1-toc "//h:h1" \
+            --level2-toc "//h:h2" \
+            --duplicate-links-in-toc
 
           # Merge: front cover + rendered interior + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v1-interior.pdf /tmp/cover_back.pdf \
