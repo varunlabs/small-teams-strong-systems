@@ -30,6 +30,10 @@ jobs:
           fc-cache -f >/dev/null
           echo "Gelasio available:"; fc-list | grep -i gelasio | head -3
 
+          echo "=== DEBUG: ebook-convert PDF-output TOC options ==="
+          ebook-convert --version
+          ebook-convert dummy.epub dummy.pdf -h 2>&1 | grep -i -B1 -A3 "toc" || echo "no toc options found"
+
       - name: Create output directories
         run: |
           mkdir -p drafts/v2
