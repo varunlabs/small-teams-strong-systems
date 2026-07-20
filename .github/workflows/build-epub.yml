@@ -18,7 +18,7 @@ jobs:
         run: |
           sudo apt-get update -q
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra poppler-utils calibre fonts-liberation fontconfig
-          pip3 install img2pdf
+          pip3 install img2pdf pypdf pymupdf
 
           # The EPUB's body font is Georgia, which is not on the runner. Install the
           # vendored Gelasio (an OFL, metric-compatible Georgia substitute) so the
@@ -119,7 +119,17 @@ jobs:
 
           # Merge: front cover + rendered interior + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v2-interior.pdf /tmp/cover_back.pdf \
-            drafts/v2/SmallTeamsStrongSystems-v2.pdf
+            /tmp/v2-with-toc-at-end.pdf
+
+          # Calibre's --pdf-add-toc always appends the TOC at the end and bakes
+          # every page number as static text at generation time. Move the TOC to
+          # its proper spot (after "Who This Book Is For", before the
+          # Introduction) and correct every footer/TOC number that move
+          # invalidates. See build/reposition-toc.py for details.
+          python3 build/reposition-toc.py \
+            /tmp/v2-with-toc-at-end.pdf \
+            drafts/v2/SmallTeamsStrongSystems-v2.pdf \
+            build/fonts/Gelasio-Regular.ttf
 
       - name: Build v1 PDF (RENDER the v1 EPUB's own layout via Calibre)
         run: |
@@ -155,7 +165,14 @@ jobs:
 
           # Merge: front cover + rendered interior + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v1-interior.pdf /tmp/cover_back.pdf \
-            published/v1/SmallTeamsStrongSystems-v1-published.pdf
+            /tmp/v1-with-toc-at-end.pdf
+
+          # Reposition the TOC and correct page numbers (see the v2 step above
+          # for why this is needed).
+          python3 build/reposition-toc.py \
+            /tmp/v1-with-toc-at-end.pdf \
+            published/v1/SmallTeamsStrongSystems-v1-published.pdf \
+            build/fonts/Gelasio-Regular.ttf
 
       - name: Upload EPUB artifact
         uses: actions/upload-artifact@v4
