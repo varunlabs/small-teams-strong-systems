@@ -1,4 +1,4 @@
-name: Build EPUB and PDF
+﻿name: Build EPUB and PDF
 
 on:
   workflow_dispatch:
@@ -17,8 +17,18 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update -q
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra poppler-utils calibre fonts-liberation
-          pip3 install img2pdf
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra poppler-utils calibre fonts-liberation fontconfig
+          pip3 install img2pdf pypdf pymupdf
+
+          # The EPUB's body font is Georgia, which is not on the runner. Install the
+          # vendored Gelasio (an OFL, metric-compatible Georgia substitute) so the
+          # rendered PDF matches the EPUB's typography instead of falling back to a
+          # Times-like face. Helvetica Neue -> Liberation Sans (Arial-metric) is
+          # already a close match and comes from fonts-liberation.
+          mkdir -p ~/.fonts
+          cp build/fonts/*.ttf ~/.fonts/
+          fc-cache -f >/dev/null
+          echo "Gelasio available:"; fc-list | grep -i gelasio | head -3
 
       - name: Create output directories
         run: |
@@ -94,16 +104,32 @@ jobs:
             --pdf-page-margin-left 72 \
             --pdf-page-margin-right 54 \
             --pdf-page-numbers \
-            --pdf-serif-family "Liberation Serif" \
+            --pdf-serif-family "Gelasio" \
             --pdf-sans-family "Liberation Sans" \
             --pdf-mono-family "Liberation Mono" \
+            --page-breaks-before "/" \
             --preserve-cover-aspect-ratio \
             --disable-font-rescaling \
-            --extra-css build/calibre-extra.css
+            --extra-css build/calibre-extra.css \
+            --pdf-add-toc \
+            --toc-title "Contents" \
+            --level1-toc "//h:h1" \
+            --level2-toc "//h:h2" \
+            --duplicate-links-in-toc
 
           # Merge: front cover + rendered interior + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v2-interior.pdf /tmp/cover_back.pdf \
-            drafts/v2/SmallTeamsStrongSystems-v2.pdf
+            /tmp/v2-with-toc-at-end.pdf
+
+          # Calibre's --pdf-add-toc always appends the TOC at the end and bakes
+          # every page number as static text at generation time. Move the TOC to
+          # its proper spot (after "Who This Book Is For", before the
+          # Introduction) and correct every footer/TOC number that move
+          # invalidates. See build/reposition-toc.py for details.
+          python3 build/reposition-toc.py \
+            /tmp/v2-with-toc-at-end.pdf \
+            drafts/v2/SmallTeamsStrongSystems-v2.pdf \
+            build/fonts/Gelasio-Regular.ttf
 
       - name: Build v1 PDF (RENDER the v1 EPUB's own layout via Calibre)
         run: |
@@ -111,8 +137,8 @@ jobs:
           # re-typeset reconstruction. Pandoc discards the EPUB stylesheet, so we
           # render the EPUB through Calibre's browser engine, which honours the
           # EPUB's own CSS (part-header styling, chapter labels, figure boxes,
-          # page-break rules, spacing, hierarchy). Fonts fall back to Liberation
-          # Serif/Sans (Georgia / Helvetica Neue are not on the runner).
+          # page-break rules, spacing, hierarchy). Georgia -> Gelasio (vendored,
+          # metric-compatible) and Helvetica Neue -> Liberation Sans (Arial-metric).
           # QT_QPA_PLATFORM=offscreen lets the Qt/Chromium engine run headless.
           export QT_QPA_PLATFORM=offscreen
           ebook-convert \
@@ -124,16 +150,29 @@ jobs:
             --pdf-page-margin-left 72 \
             --pdf-page-margin-right 54 \
             --pdf-page-numbers \
-            --pdf-serif-family "Liberation Serif" \
+            --pdf-serif-family "Gelasio" \
             --pdf-sans-family "Liberation Sans" \
             --pdf-mono-family "Liberation Mono" \
+            --page-breaks-before "/" \
             --preserve-cover-aspect-ratio \
             --disable-font-rescaling \
-            --extra-css build/calibre-extra.css
+            --extra-css build/calibre-extra.css \
+            --pdf-add-toc \
+            --toc-title "Contents" \
+            --level1-toc "//h:h1" \
+            --level2-toc "//h:h2" \
+            --duplicate-links-in-toc
 
           # Merge: front cover + rendered interior + back cover
           pdfunite /tmp/cover_front.pdf /tmp/v1-interior.pdf /tmp/cover_back.pdf \
-            published/v1/SmallTeamsStrongSystems-v1-published.pdf
+            /tmp/v1-with-toc-at-end.pdf
+
+          # Reposition the TOC and correct page numbers (see the v2 step above
+          # for why this is needed).
+          python3 build/reposition-toc.py \
+            /tmp/v1-with-toc-at-end.pdf \
+            published/v1/SmallTeamsStrongSystems-v1-published.pdf \
+            build/fonts/Gelasio-Regular.ttf
 
       - name: Upload EPUB artifact
         uses: actions/upload-artifact@v4

@@ -33,9 +33,9 @@ Systems rarely move from coherence to breakdown in a single step. Deviation begi
 
 Drift becomes possible when feedback weakens. In tightly integrated systems, misalignment generates friction quickly. Decisions produce visible consequences. Tension between components signals that something is misconfigured. When feedback loops are strong, deviation is uncomfortable and therefore short-lived.
 
-> **Figure 13.2 — Drift Without Detection**
+> **Figure 13.1 — Drift Without Detection**
 >
-> ![](figures/ch13_leadership_fig_13_2.png)
+> ![](figures/ch13_leadership_fig_13_1.png)
 >
 
 Over time, however, feedback can soften. Interfaces become more tolerant. Dependencies are abstracted behind layers of process. Communication compensates for unclear ownership. The system continues to function, but signals that once indicated misalignment lose intensity.
@@ -69,9 +69,9 @@ This decay affects tempo. Work that once proceeded through defined pathways now 
 
 Structural entropy also changes how risk is absorbed. When responsibilities are diffuse, issues are discovered later. Corrective action requires broader consultation. Adjustments ripple unpredictably because dependencies are no longer fully visible.
 
-> **Figure 13.3 — Structural Entropy: Clarity Erosion Over Time**
+> **Figure 13.2 — Structural Entropy: Clarity Erosion Over Time**
 >
-> ![](figures/ch13_leadership_fig_13_3.png)
+> ![](figures/ch13_leadership_fig_13_2.png)
 >
 
 Importantly, entropy does not imply disorder in appearance. The system may look organized. Processes may exist. Meetings may occur regularly. Yet beneath visible activity, clarity may be eroding.
@@ -103,9 +103,9 @@ Fragmentation often arises from responsible action. Teams respond to pressure, s
 
 As divergence increases, the system's identity becomes diffuse. Participants interpret goals differently. Since all parties believe they are optimizing well, integration becomes a negotiation about which version of "right" to follow.
 
-> **Figure 13.4 — Local Optimization vs. System Coherence**
+> **Figure 13.3 — Local Optimization vs. System Coherence**
 >
-> ![](figures/ch13_leadership_fig_13_4.png)
+> ![](figures/ch13_leadership_fig_13_3.png)
 >
 
 *If each part of the system becomes more efficient while the whole becomes harder to reason about, what has truly improved?*
@@ -132,9 +132,9 @@ Reinvention can provide temporary relief. It introduces novelty and resets expec
 
 Structural repair interrupts this cycle by focusing on coherence rather than configuration. It asks where definitions have softened, where interfaces have become negotiable, and where ownership has diffused.
 
-> **Figure 13.5 — Repair vs. Reactive Reinvention**
+> **Figure 13.4 — Repair vs. Reactive Reinvention**
 >
-> ![](figures/ch13_leadership_fig_13_5.png)
+> ![](figures/ch13_leadership_fig_13_4.png)
 >
 
 
@@ -177,9 +177,9 @@ Four tests are particularly useful in layerless environments.
 
 These tests are not grading instruments. They are diagnostic signals—ways to detect whether leadership is producing structural coherence or design-level dependence. A team that navigates all four is building something that will outlast its current configuration. A team that struggles with one or more has identified a gap worth examining before pressure makes it larger.
 
-> **Figure 13.1 — Coherence Diagnostics for Layerless Teams**
+> **Figure 13.5 — Coherence Diagnostics for Layerless Teams**
 >
-> ![](figures/ch13_leadership_fig_13_1.png)
+> ![](figures/ch13_leadership_fig_13_5.png)
 >
 
 ---
