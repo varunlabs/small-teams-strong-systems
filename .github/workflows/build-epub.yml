@@ -30,9 +30,6 @@ jobs:
           fc-cache -f >/dev/null
           echo "Gelasio available:"; fc-list | grep -i gelasio | head -3
 
-          echo "=== DEBUG: custom-size / unit flags ==="
-          ebook-convert dummy.epub dummy.pdf -h 2>&1 | grep -i -B1 -A3 "custom-size\|--unit" || echo "not found"
-
       - name: Create output directories
         run: |
           mkdir -p drafts/v2
@@ -167,8 +164,15 @@ jobs:
             --level2-toc "//h:h2" \
             --duplicate-links-in-toc
 
-          python3 build/reposition-toc.py \
+          # At 6x9in trim, the pagination lands differently than at US Letter,
+          # which surfaces a couple of orphan blank pages (page-number-only,
+          # no content) between sections. Drop them before renumbering.
+          python3 build/strip-blank-pages.py \
             /tmp/v2-kdp-interior-raw.pdf \
+            /tmp/v2-kdp-interior-noblanks.pdf
+
+          python3 build/reposition-toc.py \
+            /tmp/v2-kdp-interior-noblanks.pdf \
             drafts/v2/SmallTeamsStrongSystems-v2-KDP-manuscript-6x9.pdf \
             build/fonts/Gelasio-Regular.ttf \
             --no-covers
