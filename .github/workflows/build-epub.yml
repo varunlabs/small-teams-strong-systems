@@ -30,6 +30,9 @@ jobs:
           fc-cache -f >/dev/null
           echo "Gelasio available:"; fc-list | grep -i gelasio | head -3
 
+          echo "=== DEBUG: custom-size / unit flags ==="
+          ebook-convert dummy.epub dummy.pdf -h 2>&1 | grep -i -B1 -A3 "custom-size\|--unit" || echo "not found"
+
       - name: Create output directories
         run: |
           mkdir -p drafts/v2
@@ -131,6 +134,45 @@ jobs:
             drafts/v2/SmallTeamsStrongSystems-v2.pdf \
             build/fonts/Gelasio-Regular.ttf
 
+      - name: Build v2 KDP print manuscript (6x9in interior, no cover)
+        run: |
+          # KDP's paperback/hardcover "manuscript" upload must be the interior
+          # ONLY — no cover pages merged in, since the cover is uploaded as a
+          # separate file later. Same content/rendering as the v2 PDF above,
+          # just at 6x9in trim size with KDP-compliant margins instead of US
+          # Letter. Margins: 0.75in on every side, which satisfies KDP's inside
+          # (gutter) margin requirement for any page count up to 700 (see
+          # https://kdp.amazon.com print requirements) — safely above what this
+          # book needs.
+          export QT_QPA_PLATFORM=offscreen
+          ebook-convert \
+            /tmp/v2-nocover.epub \
+            /tmp/v2-kdp-interior-raw.pdf \
+            --pdf-page-numbers \
+            --custom-size "6x9" \
+            --unit inch \
+            --pdf-page-margin-top 54 \
+            --pdf-page-margin-bottom 54 \
+            --pdf-page-margin-left 54 \
+            --pdf-page-margin-right 54 \
+            --pdf-serif-family "Gelasio" \
+            --pdf-sans-family "Liberation Sans" \
+            --pdf-mono-family "Liberation Mono" \
+            --page-breaks-before "/" \
+            --disable-font-rescaling \
+            --extra-css build/calibre-extra.css \
+            --pdf-add-toc \
+            --toc-title "Contents" \
+            --level1-toc "//h:h1" \
+            --level2-toc "//h:h2" \
+            --duplicate-links-in-toc
+
+          python3 build/reposition-toc.py \
+            /tmp/v2-kdp-interior-raw.pdf \
+            drafts/v2/SmallTeamsStrongSystems-v2-KDP-manuscript-6x9.pdf \
+            build/fonts/Gelasio-Regular.ttf \
+            --no-covers
+
       - name: Build v1 PDF (RENDER the v1 EPUB's own layout via Calibre)
         run: |
           # The v1 PDF must reproduce the EPUB's actual VISUAL DESIGN, not a
@@ -193,4 +235,11 @@ jobs:
         with:
           name: SmallTeamsStrongSystems-v1-pdf
           path: published/v1/SmallTeamsStrongSystems-v1-published.pdf
+          retention-days: 30
+
+      - name: Upload v2 KDP manuscript artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SmallTeamsStrongSystems-v2-KDP-manuscript-6x9
+          path: drafts/v2/SmallTeamsStrongSystems-v2-KDP-manuscript-6x9.pdf
           retention-days: 30
