@@ -177,7 +177,7 @@ jobs:
             build/fonts/Gelasio-Regular.ttf \
             --no-covers
 
-      - name: Build v2 KDP paperback cover (full wrap: back + spine + front)
+      - name: Build v2 KDP paperback cover (full wrap - back, spine, front)
         run: |
           # Spine width depends on the manuscript's final page count, so derive
           # it from the manuscript we just built rather than hardcoding it --
