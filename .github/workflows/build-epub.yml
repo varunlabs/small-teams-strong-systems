@@ -18,7 +18,7 @@ jobs:
         run: |
           sudo apt-get update -q
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra poppler-utils calibre fonts-liberation fontconfig
-          pip3 install img2pdf pypdf pymupdf
+          pip3 install img2pdf pypdf pymupdf pillow
 
           # The EPUB's body font is Georgia, which is not on the runner. Install the
           # vendored Gelasio (an OFL, metric-compatible Georgia substitute) so the
@@ -177,6 +177,24 @@ jobs:
             build/fonts/Gelasio-Regular.ttf \
             --no-covers
 
+      - name: Build v2 KDP paperback cover (full wrap: back + spine + front)
+        run: |
+          # Spine width depends on the manuscript's final page count, so derive
+          # it from the manuscript we just built rather than hardcoding it --
+          # this stays correct automatically if content changes later.
+          PAGE_COUNT=$(python3 -c "
+          import fitz
+          print(len(fitz.open('drafts/v2/SmallTeamsStrongSystems-v2-KDP-manuscript-6x9.pdf')))
+          ")
+          echo "Manuscript page count: $PAGE_COUNT"
+
+          python3 build/make-kdp-cover.py \
+            "$PAGE_COUNT" \
+            published/v1/cover_front.jpg \
+            published/v1/cover_back.png \
+            build/fonts/Gelasio-Bold.ttf \
+            drafts/v2/SmallTeamsStrongSystems-v2-KDP-cover-paperback.pdf
+
       - name: Build v1 PDF (RENDER the v1 EPUB's own layout via Calibre)
         run: |
           # The v1 PDF must reproduce the EPUB's actual VISUAL DESIGN, not a
@@ -246,4 +264,11 @@ jobs:
         with:
           name: SmallTeamsStrongSystems-v2-KDP-manuscript-6x9
           path: drafts/v2/SmallTeamsStrongSystems-v2-KDP-manuscript-6x9.pdf
+          retention-days: 30
+
+      - name: Upload v2 KDP cover artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SmallTeamsStrongSystems-v2-KDP-cover-paperback
+          path: drafts/v2/SmallTeamsStrongSystems-v2-KDP-cover-paperback.pdf
           retention-days: 30
