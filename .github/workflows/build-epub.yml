@@ -183,8 +183,8 @@ jobs:
           # it from the manuscript we just built rather than hardcoding it --
           # this stays correct automatically if content changes later.
           PAGE_COUNT=$(python3 -c "
-          import fitz
-          print(len(fitz.open('drafts/v2/SmallTeamsStrongSystems-v2-KDP-manuscript-6x9.pdf')))
+          import pymupdf
+          print(len(pymupdf.open('drafts/v2/SmallTeamsStrongSystems-v2-KDP-manuscript-6x9.pdf')))
           ")
           echo "Manuscript page count: $PAGE_COUNT"
 
