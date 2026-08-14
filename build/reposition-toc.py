@@ -15,13 +15,18 @@ TOC's own page count, so those baked-in numbers go stale. This script:
   3. Re-stamps every footer number to match its new physical position.
   4. Re-stamps every TOC entry's listed number by the same page offset.
 
-Usage: reposition-toc.py <input.pdf> <output.pdf> <gelasio-regular.ttf>
+Usage: reposition-toc.py <input.pdf> <output.pdf> <gelasio-regular.ttf> [--no-covers]
+
+Pass --no-covers when the input has no merged front/back cover pages (e.g. a
+KDP interior-only manuscript upload) so every page, including the first and
+last, gets stamped/renumbered.
 """
 import sys
 import fitz
 from pypdf import PdfReader, PdfWriter
 
 src, dst, font_path = sys.argv[1:4]
+has_covers = "--no-covers" not in sys.argv[4:]
 
 fd = fitz.open(src)
 n = len(fd)
@@ -39,7 +44,8 @@ if toc_start is None:
     raise SystemExit("reposition-toc: could not locate the TOC block (no 'Contents' page found)")
 
 toc_end = toc_start
-for i in range(toc_start, n - 1):  # never let the TOC swallow the back cover
+toc_scan_limit = (n - 1) if has_covers else n  # never let the TOC swallow the back cover, if present
+for i in range(toc_start, toc_scan_limit):
     txt = fd[i].get_text()
     lines = [l for l in txt.split("\n") if l.strip()]
     digit_ratio = sum(1 for l in lines if l.strip()[-1:].isdigit()) / max(len(lines), 1)
@@ -60,7 +66,7 @@ for i in range(toc_start):
 if intro_page is None:
     raise SystemExit("reposition-toc: could not locate the Introduction heading")
 
-threshold = intro_page  # footer number == fitz index in Calibre's original (unshifted) output
+threshold = intro_page if has_covers else intro_page + 1  # footer number in Calibre's original (unshifted) output
 print(f"reposition-toc: TOC pages {toc_start}-{toc_end} ({shift} pages); "
       f"Introduction at page {intro_page}")
 fd.close()
@@ -86,7 +92,9 @@ d = fitz.open(reordered_path)
 n2 = len(d)
 new_toc_start, new_toc_end = intro_page, intro_page + shift - 1
 
-for i in range(1, n2 - 1):  # skip front cover (0) and back cover (last)
+stamp_start = 1 if has_covers else 0
+stamp_end = (n2 - 1) if has_covers else n2  # skip front/back cover pages, if present
+for i in range(stamp_start, stamp_end):
     page = d[i]
     h = page.rect.height
     page.insert_font(fontname=FONT_ALIAS, fontfile=font_path)
@@ -99,7 +107,7 @@ for i in range(1, n2 - 1):  # skip front cover (0) and back cover (last)
                     if footer_span is None or s["bbox"][3] > footer_span["bbox"][3]:
                         footer_span = s
     if footer_span:
-        correct = i
+        correct = i if has_covers else i + 1  # no cover consuming index 0, so page 0 -> footer "1"
         if footer_span["text"].strip() != str(correct):
             bbox = footer_span["bbox"]
             cx = (bbox[0] + bbox[2]) / 2
